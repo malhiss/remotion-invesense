@@ -1,8 +1,8 @@
 {
   "name": "invesense-workspace-agent",
   "display_name": "Invesense Workspace Agent",
-  "description": "Review-only creative-director workflow for Invesense finance reels with consolidated skills, styleframe gates, Lottie planning, and blocked Codex handoff validation.",
-  "version": "0.2.0",
+  "description": "Legacy metadata for the hardened creative-director workflow. Canonical Codex import uses .codex-plugin/plugin.json.",
+  "version": "0.6.0",
   "type": "agent",
   "entrypoint": "instructions.md"
 }
