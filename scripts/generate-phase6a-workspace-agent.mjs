@@ -233,13 +233,14 @@ const skillDefinitions = {
       "Lottie motion need, source URL, license note, and native fallback if known.",
     ],
     outputs: [
-      "Asset board: hero asset, proof object, logo/icon actors, residue object, source charts.",
-      "Lottie search/acquisition packet with usage role, license/source, human approval, and fallback.",
+      "Asset board: hero asset, proof object, logo/icon actors, residue object, source charts, and asset-led event role.",
+      "Lottie search/acquisition packet with candidate URL, search query, scene placement, why it improves the metaphor, license/source, human approval, and fallback.",
       "Forbidden asset roles and clutter risks.",
       "Codex ingestion requirements for local/direct JSON only.",
     ],
     process: [
       "Separate hero metaphor assets from support accents.",
+      "Avoid animated chart-only reel plans by requiring a hero asset event in addition to source chart proof.",
       "Search or request Lottie by motion role, not generic finance words.",
       "Require human approval, source URL, license note, approved usage, and native fallback.",
       "Use Lottie for route pulses, highlight sweeps, proof bursts, chart accents, or CTA pulses only.",
@@ -533,6 +534,8 @@ Family B/C is primary. Use light editorial backgrounds, source charts, direct la
 
 Family A is secondary. Borrow asset energy, pacing, event clarity, and animation confidence only when it supports Family B/C. Do not turn the house style into dark cinematic spectacle.
 
+Family B/C is not an animated chart-only reel format. Source charts provide proof, but a benchmark-aligned reel still needs an asset-led event: a rail hits a threshold, a gate unlocks, a logo actor travels, a stamp lands, a route pulses, or a proof object changes state.
+
 Required benchmark behavior:
 
 - Chart proof is terrain, not wallpaper.
@@ -608,9 +611,15 @@ Residue patterns:
 
 Lottie cannot become the hero metaphor. Lottie can support route pulses, highlight sweeps, chart accents, proof bursts, checkmarks, warning marks, loaders, and CTA pulses only.
 
+The asset board must prevent animated chart-only drift. If the chart carries source truth, another asset or chart-derived object should still create the memorable event: threshold latch, lock/unlock, rail pulse, proof burst, route endpoint, stamp, gate, or CTA residue.
+
 Every Lottie candidate needs:
 
+- candidate URL when available
+- search query used
 - motion role
+- scene placement
+- why it improves the metaphor
 - source URL or local path
 - license note
 - approved usage
@@ -695,7 +704,9 @@ const knowledge = {
 
 Family B/C is primary. This is the house benchmark for Invesense reels: light editorial backgrounds, source charts, clean labels, logo/icon actors, mobile-readable typography, and proof born from visible motion. Family A is secondary motion-energy only. Borrow its pacing, asset confidence, and impact timing only when those qualities strengthen the Family B/C reel without turning it into a dark cinematic abstraction.
 
-The reel should feel like a creator-grade finance story, not a slide deck. The viewer should understand the mechanism before reading every label. Charts, logos, icons, and proof marks should behave as objects in the world of the reel. A chart line can become terrain. A benchmark can become a barrier. A logo can become an actor. A proof label can lock only after the chart or object event creates it.
+The reel should feel like a creator-grade finance story, not a slide deck and not an animated chart-only reel. The viewer should understand the mechanism before reading every label. Charts, logos, icons, and proof marks should behave as objects in the world of the reel. A chart line can become terrain. A benchmark can become a barrier. A logo can become an actor. A proof label can lock only after the chart or object event creates it.
+
+Family B/C source charts provide proof, but the memorable benchmark behavior is asset-led: a rail hits a threshold, a gate unlocks, a route pulse travels, a logo actor moves through a system, a proof object latches, or a CTA residue object remains. The Workspace Agent must plan that asset-led event instead of returning chart animation alone.
 
 Family B/C defaults:
 
@@ -776,6 +787,8 @@ Use this knowledge when the market insight supplies an SVG, chart screenshot, ta
 
 Lottie is an asset source and motion layer. Lottie is not the hero metaphor. This means the Workspace Agent should absolutely search LottieFiles and similar sources for useful animated assets, but it should select them by role in the story rather than letting a generic premade animation become the story.
 
+The default split is: Workspace Agent searches and plans Lottie candidates; Codex ingests only human-approved local JSON or direct JSON assets later. The Workspace Agent should not wait for Codex to invent the asset plan. It should provide candidate URL when available, search query used, intended role, scene placement, why it improves the metaphor, license note requirement, approved usage requirement, and native Remotion fallback.
+
 Good Lottie roles:
 
 - Route pulse through a payment, data, or settlement rail.
@@ -796,7 +809,7 @@ Every Lottie candidate needs a motion role, source URL or local path, license no
 
 Workspace Agent owns Lottie discovery, role fit, license/source notes, and approval. Codex owns deterministic ingestion only after approval: local JSON or direct JSON URL, manifest entry, staticFile usage, and Lottie QA frames for entry, peak, and exit.
 
-The decision sentence is: use Lottie heavily where it improves motion texture or asset clarity, but never outsource the reel's core financial mechanism to a generic Lottie asset.
+The decision sentence is: use Lottie heavily where it improves motion texture or asset clarity, but never outsource the reel's core financial mechanism to a generic Lottie asset. Lottie should help prevent boring chart-only output by adding supporting asset motion around the proof event, not by replacing the source-proof chart.
 `,
   "mechanism-analogy-wow-atlas.md": `# Mechanism Analogy Wow Atlas
 
@@ -841,12 +854,12 @@ The old failure was asking Codex to invent premium visual taste from prose. Phas
 
 Asset board requirements:
 
-- Hero asset: the object or chart element that carries the mechanism.
+- Hero asset: the object or chart element that carries the mechanism and keeps the reel from becoming animated chart-only.
 - Proof object: the marker, label, bracket, endpoint, stamp, line, or bar that proves the claim.
 - Residue object: what remains in the CTA close.
 - Logo/icon actors: companies, institutions, products, or mechanisms that behave rather than decorate.
 - Source charts: SVGs, screenshots, or data tables with proof role.
-- Lottie candidates: support accents with role, license, approval, and fallback.
+- Lottie candidates: support accents with candidate URL, search query, role, scene placement, why it improves the metaphor, license, approval, and fallback.
 - Negative references: dashboard/card drift, abstract diagrams, weak old outputs, or copy-risk examples.
 
 Styleframe requirements:
@@ -1334,11 +1347,16 @@ const templates = {
     type: "asset-lottie-board",
     fields: [
       "heroAsset",
+      "assetLedEvent",
       "proofObject",
       "residueObject",
       "logoActors",
       "sourceCharts",
       "lottieCandidates",
+      "lottieCandidateUrls",
+      "lottieSearchQueries",
+      "lottieScenePlacements",
+      "lottieMetaphorRationale",
       "licenseNotes",
       "nativeFallbacks",
       "humanAssetApproval",
@@ -1395,6 +1413,12 @@ const templates = {
       "selectedRoute",
       "sourceLocks",
       "frameRanges",
+      "assetList",
+      "chartSpecs",
+      "lottieSpecs",
+      "lottieCandidateUrls",
+      "lottieSearchQueries",
+      "lottieScenePlacementAndMetaphorRationale",
       "allowedPackages",
       "forbiddenPatterns",
       "filesAllowedToModify",
@@ -1757,6 +1781,9 @@ const ensureDir = (dirPath) => fs.mkdirSync(dirPath, { recursive: true });
 const writeText = (relativePath, content) => {
   const fullPath = path.join(projectRoot, relativePath);
   ensureDir(path.dirname(fullPath));
+  if (fs.existsSync(fullPath) && fs.readFileSync(fullPath, "utf8") === content) {
+    return;
+  }
   fs.writeFileSync(fullPath, content);
 };
 

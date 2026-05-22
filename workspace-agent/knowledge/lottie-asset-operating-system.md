@@ -2,6 +2,8 @@
 
 Lottie is an asset source and motion layer. Lottie is not the hero metaphor. This means the Workspace Agent should absolutely search LottieFiles and similar sources for useful animated assets, but it should select them by role in the story rather than letting a generic premade animation become the story.
 
+The default split is: Workspace Agent searches and plans Lottie candidates; Codex ingests only human-approved local JSON or direct JSON assets later. The Workspace Agent should not wait for Codex to invent the asset plan. It should provide candidate URL when available, search query used, intended role, scene placement, why it improves the metaphor, license note requirement, approved usage requirement, and native Remotion fallback.
+
 Good Lottie roles:
 
 - Route pulse through a payment, data, or settlement rail.
@@ -22,4 +24,4 @@ Every Lottie candidate needs a motion role, source URL or local path, license no
 
 Workspace Agent owns Lottie discovery, role fit, license/source notes, and approval. Codex owns deterministic ingestion only after approval: local JSON or direct JSON URL, manifest entry, staticFile usage, and Lottie QA frames for entry, peak, and exit.
 
-The decision sentence is: use Lottie heavily where it improves motion texture or asset clarity, but never outsource the reel's core financial mechanism to a generic Lottie asset.
+The decision sentence is: use Lottie heavily where it improves motion texture or asset clarity, but never outsource the reel's core financial mechanism to a generic Lottie asset. Lottie should help prevent boring chart-only output by adding supporting asset motion around the proof event, not by replacing the source-proof chart.

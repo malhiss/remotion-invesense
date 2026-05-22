@@ -4,12 +4,12 @@ The old failure was asking Codex to invent premium visual taste from prose. Phas
 
 Asset board requirements:
 
-- Hero asset: the object or chart element that carries the mechanism.
+- Hero asset: the object or chart element that carries the mechanism and keeps the reel from becoming animated chart-only.
 - Proof object: the marker, label, bracket, endpoint, stamp, line, or bar that proves the claim.
 - Residue object: what remains in the CTA close.
 - Logo/icon actors: companies, institutions, products, or mechanisms that behave rather than decorate.
 - Source charts: SVGs, screenshots, or data tables with proof role.
-- Lottie candidates: support accents with role, license, approval, and fallback.
+- Lottie candidates: support accents with candidate URL, search query, role, scene placement, why it improves the metaphor, license, approval, and fallback.
 - Negative references: dashboard/card drift, abstract diagrams, weak old outputs, or copy-risk examples.
 
 Styleframe requirements:

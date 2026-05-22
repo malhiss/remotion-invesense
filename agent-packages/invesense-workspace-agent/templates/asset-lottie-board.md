@@ -9,11 +9,16 @@ Create a decision-ready Workspace Agent packet for Family B/C-first Remotion ree
 ## Output fields
 
 - `heroAsset`
+- `assetLedEvent`
 - `proofObject`
 - `residueObject`
 - `logoActors`
 - `sourceCharts`
 - `lottieCandidates`
+- `lottieCandidateUrls`
+- `lottieSearchQueries`
+- `lottieScenePlacements`
+- `lottieMetaphorRationale`
 - `licenseNotes`
 - `nativeFallbacks`
 - `humanAssetApproval`

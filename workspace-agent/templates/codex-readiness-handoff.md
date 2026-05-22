@@ -14,6 +14,12 @@ Create a decision-ready Workspace Agent packet for Family B/C-first Remotion ree
 - `selectedRoute`
 - `sourceLocks`
 - `frameRanges`
+- `assetList`
+- `chartSpecs`
+- `lottieSpecs`
+- `lottieCandidateUrls`
+- `lottieSearchQueries`
+- `lottieScenePlacementAndMetaphorRationale`
 - `allowedPackages`
 - `forbiddenPatterns`
 - `filesAllowedToModify`

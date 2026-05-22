@@ -38,6 +38,8 @@ const phase6a2KnowledgeFiles = [
 const requiredDepthTopics = [
   /moment card/i,
   /no-label/i,
+  /asset-led/i,
+  /animated chart-only/i,
   /continuous motion/i,
   /object permanence/i,
   /analogy scoring/i,
@@ -55,6 +57,8 @@ const requiredDepthTopics = [
   /visual causality/i,
   /prompt failure/i,
   /legacy component inventory/i,
+  /Workspace Agent searches/i,
+  /Codex ingests/i,
 ];
 
 const phase6a2FixtureFiles = [
@@ -152,6 +156,43 @@ test("Phase 6A.2 adds blocked forward-test fixtures for likely pilot prompts", (
         false,
         `${fixturePath} should not start production`,
       );
+    }
+  }
+});
+
+test("Phase 6A.2 captures asset-led Lottie clarification for future agent runs", () => {
+  for (const root of roots) {
+    const lottieKnowledge = read(`${root}/knowledge/lottie-asset-operating-system.md`);
+    const assetKnowledge = read(`${root}/knowledge/styleframe-and-asset-board-rules.md`);
+    const familyKnowledge = read(`${root}/knowledge/family-bc-benchmark-grammar.md`);
+    const assetSkill = read(`${root}/skills/asset-lottie-planner/SKILL.md`);
+    const handoffSkill = read(`${root}/skills/codex-readiness-handoff-gatekeeper/SKILL.md`);
+    const assetTemplate = read(`${root}/templates/asset-lottie-board.md`);
+    const handoffTemplate = read(`${root}/templates/codex-readiness-handoff.md`);
+
+    const combined = [
+      lottieKnowledge,
+      assetKnowledge,
+      familyKnowledge,
+      assetSkill,
+      handoffSkill,
+      assetTemplate,
+      handoffTemplate,
+    ].join("\n");
+
+    for (const requiredPhrase of [
+      "not an animated chart-only reel",
+      "asset-led event",
+      "Workspace Agent searches",
+      "Codex ingests",
+      "candidate URL",
+      "search query",
+      "scene placement",
+      "why it improves the metaphor",
+      "license note",
+      "native Remotion fallback",
+    ]) {
+      assert.match(combined, new RegExp(requiredPhrase, "i"), `${root} missing ${requiredPhrase}`);
     }
   }
 });
