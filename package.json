@@ -58,7 +58,9 @@
     "svg:chart-audit": "node scripts/svg-chart-audit.mjs",
     "svg:chart-ingest": "node scripts/svg-chart-ingest.mjs",
     "phase4:svg-review": "node scripts/run-phase4-svg-review.mjs",
-    "phase4:validate": "node scripts/phase4-validate.mjs"
+    "phase4:validate": "node scripts/phase4-validate.mjs",
+    "phase5:review": "node scripts/run-phase5-review.mjs",
+    "phase5:validate": "node scripts/phase5-validate.mjs"
   },
   "sideEffects": [
     "*.css"

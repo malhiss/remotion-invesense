@@ -136,8 +136,35 @@ Closure criteria:
 - The four supplied chart families audit successfully.
 - No production reel implementation has started.
 
-## Phase 5: First Approved Pilot Handoff
+## Phase 5: Review + QA Tooling
+
+Status: closed.
+
+Purpose:
+
+- Turn the review seed into enforceable still/contact-sheet QA tooling.
+- Add benchmark comparison metadata from the Workspace Agent benchmark atlas.
+- Add source-chart comparison metadata for audited SVG chart reconstructions.
+- Add mobile safe-zone QA for 1080x1920 Family B/C reels.
+- Add Lottie QA frames and review questions for approved accent assets.
+- Keep final MP4 rendering blocked until a future approved pilot passes review.
+
+Implemented in Phase 5:
+
+- `scripts/review-reel.mjs` emits marked JSON, supports named frame sets, keeps dry-run as default, supports vertical contact sheets, and blocks final MP4 rendering without approval.
+- `src/contracts/phase5-review-qa-contract.ts` defines review frame roles, benchmark comparison, source-chart comparison, safe-zone QA, Lottie QA, and render gates.
+- `npm run phase5:review` produces a Phase 5 QA manifest with hook, chart, event, proof, Lottie, and CTA residue frames.
+- `npm run phase5:validate` verifies the Phase 5 review tooling, ledger state, no-production boundary, and final-render block.
+- `docs/family-bc-system/phase5-review-qa-tooling.md` documents review artifacts and stop conditions.
+
+Closure criteria:
+
+- Verification passes with `npm test`, `npm run lint`, `npm run build`, `npm run phase4:validate`, `npm run phase5:review`, and `npm run phase5:validate`.
+- No production reel implementation has started.
+- Phase 6 is explicitly marked as next.
+
+## Phase 6: First Approved Pilot Handoff
 
 Status: next.
 
-Phase 5 should start only after a Workspace Agent packet stack selects a real Family B/C pilot route, locks source claims, approves visual/styleframe targets, approves any Lottie or local assets, approves any SVG chart intake packet, and produces a Codex-ready handoff. Phase 5 is the first stage where a pilot reel may be implemented, but it should still begin with stills/contact sheets before any draft MP4.
+Phase 6 should start only after a Workspace Agent packet stack selects a real Family B/C pilot route, locks source claims, approves visual/styleframe targets, approves any Lottie or local assets, approves any SVG chart intake packet, and produces a Codex-ready handoff. Phase 6 is the first stage where a pilot reel may be implemented, but it should still begin with stills/contact sheets before any draft MP4.
