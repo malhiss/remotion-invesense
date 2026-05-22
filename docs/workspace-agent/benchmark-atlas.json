@@ -1,0 +1,1979 @@
+{
+  "version": 1,
+  "generatedFrom": [
+    "benchmarks/batch-01/manifest.json",
+    "benchmarks/batch-02/manifest.json"
+  ],
+  "totalVideos": 32,
+  "entries": [
+    {
+      "id": "batch-01-whatsapp-video-2026-04-30-at-3-42-34-pm-1-93332d51",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM (1).mp4",
+      "fileName": "WhatsApp Video 2026-04-30 at 3.42.34 PM (1).mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/transcript.txt",
+      "durationSeconds": 60.933333,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-04-30 at 3.42.34 PM (1)",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-04-30-at-3-42-34-pm-2-a68ab2a7",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM (2).mp4",
+      "fileName": "WhatsApp Video 2026-04-30 at 3.42.34 PM (2).mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-2-90099b35/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-2-90099b35/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-2-90099b35/transcript.txt",
+      "durationSeconds": 83.433333,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-04-30 at 3.42.34 PM (2)",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-04-30-at-3-42-34-pm-3-084d8d54",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM (3).mp4",
+      "fileName": "WhatsApp Video 2026-04-30 at 3.42.34 PM (3).mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-3-d9b1bc33/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-3-d9b1bc33/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-3-d9b1bc33/transcript.txt",
+      "durationSeconds": 58.6,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-04-30 at 3.42.34 PM (3)",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-04-30-at-3-42-34-pm-4-9e8dc036",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM (4).mp4",
+      "fileName": "WhatsApp Video 2026-04-30 at 3.42.34 PM (4).mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-4-b1b546c3/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-4-b1b546c3/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-4-b1b546c3/transcript.txt",
+      "durationSeconds": 56.433333,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-04-30 at 3.42.34 PM (4)",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-04-30-at-3-42-34-pm-5-9e0e71a4",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM (5).mp4",
+      "fileName": "WhatsApp Video 2026-04-30 at 3.42.34 PM (5).mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-5-6f59315b/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-5-6f59315b/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-5-6f59315b/transcript.txt",
+      "durationSeconds": 82.6,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-04-30 at 3.42.34 PM (5)",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-04-30-at-3-42-34-pm-fe140fe8",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM.mp4",
+      "fileName": "WhatsApp Video 2026-04-30 at 3.42.34 PM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/transcript.txt",
+      "durationSeconds": 93.133333,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-04-30 at 3.42.34 PM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-16-at-2-32-01-pm-6b37079e",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-16 at 2.32.01 PM.mp4",
+      "fileName": "WhatsApp Video 2026-05-16 at 2.32.01 PM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/transcript.txt",
+      "durationSeconds": 68,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-16 at 2.32.01 PM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-16-at-2-32-06-pm-3e5b7980",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-16 at 2.32.06 PM.mp4",
+      "fileName": "WhatsApp Video 2026-05-16 at 2.32.06 PM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/transcript.txt",
+      "durationSeconds": 64.166667,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-16 at 2.32.06 PM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-16-at-2-32-23-pm-f49148eb",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-16 at 2.32.23 PM.mp4",
+      "fileName": "WhatsApp Video 2026-05-16 at 2.32.23 PM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23223-pm-34e0dd76/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23223-pm-34e0dd76/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23223-pm-34e0dd76/transcript.txt",
+      "durationSeconds": 74.366667,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-16 at 2.32.23 PM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-16-at-2-33-59-pm-a3c92a3e",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-16 at 2.33.59 PM.mp4",
+      "fileName": "WhatsApp Video 2026-05-16 at 2.33.59 PM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23359-pm-3752fad2/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23359-pm-3752fad2/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23359-pm-3752fad2/transcript.txt",
+      "durationSeconds": 76.1,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-16 at 2.33.59 PM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-17-at-4-45-57-am-5e1e1310",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.45.57 AM.mp4",
+      "fileName": "WhatsApp Video 2026-05-17 at 4.45.57 AM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-44557-am-1c34e86c/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-44557-am-1c34e86c/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-44557-am-1c34e86c/transcript.txt",
+      "durationSeconds": 10.066667,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-17 at 4.45.57 AM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-17-at-4-50-14-am-159cb235",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.14 AM.mp4",
+      "fileName": "WhatsApp Video 2026-05-17 at 4.50.14 AM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45014-am-15b7c7d9/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45014-am-15b7c7d9/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45014-am-15b7c7d9/transcript.txt",
+      "durationSeconds": 87.666667,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-17 at 4.50.14 AM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-17-at-4-50-23-am-5a876ad5",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.23 AM.mp4",
+      "fileName": "WhatsApp Video 2026-05-17 at 4.50.23 AM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45023-am-96a54b09/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45023-am-96a54b09/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45023-am-96a54b09/transcript.txt",
+      "durationSeconds": 111.8,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-17 at 4.50.23 AM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-17-at-4-50-25-am-9dcdc164",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.25 AM.mp4",
+      "fileName": "WhatsApp Video 2026-05-17 at 4.50.25 AM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45025-am-63c56ed5/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45025-am-63c56ed5/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45025-am-63c56ed5/transcript.txt",
+      "durationSeconds": 93.766667,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-17 at 4.50.25 AM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-17-at-4-50-31-am-b38cb3df",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.31 AM.mp4",
+      "fileName": "WhatsApp Video 2026-05-17 at 4.50.31 AM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45031-am-3ef16707/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45031-am-3ef16707/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45031-am-3ef16707/transcript.txt",
+      "durationSeconds": 90.5,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-17 at 4.50.31 AM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-17-at-4-50-40-am-ddebae93",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.40 AM.mp4",
+      "fileName": "WhatsApp Video 2026-05-17 at 4.50.40 AM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45040-am-e639833d/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45040-am-e639833d/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45040-am-e639833d/transcript.txt",
+      "durationSeconds": 103.966667,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-17 at 4.50.40 AM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-17-at-4-50-47-am-711eb44f",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.47 AM.mp4",
+      "fileName": "WhatsApp Video 2026-05-17 at 4.50.47 AM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/transcript.txt",
+      "durationSeconds": 92.666667,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-17 at 4.50.47 AM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-17-at-4-50-53-am-07e2654c",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.53 AM.mp4",
+      "fileName": "WhatsApp Video 2026-05-17 at 4.50.53 AM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45053-am-4e8658f6/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45053-am-4e8658f6/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45053-am-4e8658f6/transcript.txt",
+      "durationSeconds": 96.6,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-17 at 4.50.53 AM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-17-at-4-51-00-am-93558849",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.51.00 AM.mp4",
+      "fileName": "WhatsApp Video 2026-05-17 at 4.51.00 AM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45100-am-e23380e5/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45100-am-e23380e5/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45100-am-e23380e5/transcript.txt",
+      "durationSeconds": 98,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-17 at 4.51.00 AM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-17-at-4-51-04-am-c6bc3175",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.51.04 AM.mp4",
+      "fileName": "WhatsApp Video 2026-05-17 at 4.51.04 AM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45104-am-863614fb/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45104-am-863614fb/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45104-am-863614fb/transcript.txt",
+      "durationSeconds": 67,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-17 at 4.51.04 AM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-01-whatsapp-video-2026-05-17-at-4-51-10-am-6e14c35e",
+      "batch": "batch-01",
+      "sourcePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.51.10 AM.mp4",
+      "fileName": "WhatsApp Video 2026-05-17 at 4.51.10 AM.mp4",
+      "analysisPath": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45110-am-102be52c/summary.json",
+      "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45110-am-102be52c/contact.jpg",
+      "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45110-am-102be52c/transcript.txt",
+      "durationSeconds": 79.166667,
+      "family": "family-b",
+      "topic": "Family B light chart-native reference: WhatsApp Video 2026-05-17 at 4.51.10 AM",
+      "assets": [
+        "source chart",
+        "candlesticks or line chart",
+        "moving-average line",
+        "direct labels",
+        "CTA keyword close"
+      ],
+      "motifs": [
+        "chart-as-terrain",
+        "support-resistance-as-physical-line",
+        "strict-bars-as-measured-objects",
+        "cta-residue"
+      ],
+      "analogies": [
+        "line as floor or resistance",
+        "gap as measurable distance",
+        "chart marker as proof trigger"
+      ],
+      "wowEvents": [
+        "marker lands on source chart",
+        "support line bends or breaks",
+        "gap bracket opens from chart points"
+      ],
+      "proofOperators": [
+        "chart-to-number-extraction",
+        "gap-bracket",
+        "endpoint-label",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Primary proof terrain: chart geometry carries the claim and labels attach to source points.",
+      "ctaBehavior": "CTA inherits a chart line, bracket, underline, or final marker residue.",
+      "financialMechanisms": [
+        "support-resistance",
+        "chart-proof",
+        "spread-gap",
+        "ranking-bars"
+      ],
+      "whatToAdapt": [
+        "Light editorial background",
+        "Mobile-readable chart proof",
+        "Direct labels born from chart events",
+        "CTA residue connected to the final proof object"
+      ],
+      "whatNotToCopy": [
+        "Exact creator layout",
+        "Unverified chart values",
+        "Detached proof cards",
+        "Dashboard panels"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-02-150-000-people-lost-their-jobs-to-ai-the-world-is-changing-fast-but-that-b145ca5b",
+      "batch": "batch-02",
+      "sourcePath": "benchmarks/batch-02/source/150,000 people lost their jobs to AI.The world is changing, fast, but that�s not new to us human.mp4",
+      "fileName": "150,000 people lost their jobs to AI.The world is changing, fast, but that�s not new to us human.mp4",
+      "analysisPath": "analysis-not-found",
+      "contactSheet": "benchmarks/batch-02/analysis/contact-sheet-not-found.jpg",
+      "transcriptText": "transcript-not-required-for-phase-1-atlas",
+      "durationSeconds": 116.354,
+      "family": "family-a",
+      "topic": "150,000 people lost their jobs to AI.The world is changing, fast, but that�s not new to us human",
+      "assets": [
+        "animated hero object",
+        "glow accent",
+        "coin or token icon",
+        "energy trail",
+        "motion burst"
+      ],
+      "motifs": [
+        "logo-as-actor",
+        "route-rail",
+        "vault-unlock-tokenization",
+        "proof-latch"
+      ],
+      "analogies": [
+        "object unlocks access",
+        "signal moves through rails",
+        "pressure creates visible change"
+      ],
+      "wowEvents": [
+        "object snaps into place",
+        "energy pulse travels along route",
+        "proof latch closes after impact"
+      ],
+      "proofOperators": [
+        "endpoint-label",
+        "proof-latch",
+        "selected-path-proof"
+      ],
+      "chartRole": "Secondary or absent: Family A is motion-energy reference, not the house default.",
+      "ctaBehavior": "CTA may inherit the final object residue, but should not bring dark style into Family B/C by default.",
+      "financialMechanisms": [
+        "liquidity-flow",
+        "tokenization-access",
+        "drag-leak",
+        "settlement-stamp"
+      ],
+      "whatToAdapt": [
+        "Asset energy",
+        "Clear object behavior",
+        "Tight kinetic pacing"
+      ],
+      "whatNotToCopy": [
+        "Dark cinematic default",
+        "Unlicensed assets",
+        "Template-like confetti or generic glow"
+      ],
+      "copyRisk": "high"
+    },
+    {
+      "id": "batch-02-everyone-is-focused-on-the-real-world-assets-themselves-the-tokenized-re-dffd7c70",
+      "batch": "batch-02",
+      "sourcePath": "benchmarks/batch-02/source/Everyone is focused on the �Real World Assets� themselves. The tokenized real estate, the treasu.mp4",
+      "fileName": "Everyone is focused on the �Real World Assets� themselves. The tokenized real estate, the treasu.mp4",
+      "analysisPath": "analysis-not-found",
+      "contactSheet": "benchmarks/batch-02/analysis/contact-sheet-not-found.jpg",
+      "transcriptText": "transcript-not-required-for-phase-1-atlas",
+      "durationSeconds": 84.589,
+      "family": "family-a",
+      "topic": "Everyone is focused on the �Real World Assets� themselves. The tokenized real estate, the treasu",
+      "assets": [
+        "animated hero object",
+        "glow accent",
+        "coin or token icon",
+        "energy trail",
+        "motion burst"
+      ],
+      "motifs": [
+        "logo-as-actor",
+        "route-rail",
+        "vault-unlock-tokenization",
+        "proof-latch"
+      ],
+      "analogies": [
+        "object unlocks access",
+        "signal moves through rails",
+        "pressure creates visible change"
+      ],
+      "wowEvents": [
+        "object snaps into place",
+        "energy pulse travels along route",
+        "proof latch closes after impact"
+      ],
+      "proofOperators": [
+        "endpoint-label",
+        "proof-latch",
+        "selected-path-proof"
+      ],
+      "chartRole": "Secondary or absent: Family A is motion-energy reference, not the house default.",
+      "ctaBehavior": "CTA may inherit the final object residue, but should not bring dark style into Family B/C by default.",
+      "financialMechanisms": [
+        "liquidity-flow",
+        "tokenization-access",
+        "drag-leak",
+        "settlement-stamp"
+      ],
+      "whatToAdapt": [
+        "Asset energy",
+        "Clear object behavior",
+        "Tight kinetic pacing"
+      ],
+      "whatNotToCopy": [
+        "Dark cinematic default",
+        "Unlicensed assets",
+        "Template-like confetti or generic glow"
+      ],
+      "copyRisk": "high"
+    },
+    {
+      "id": "batch-02-money-moved-33-trillion-on-blockchains-last-year-more-than-visa-and-mast-4c6c4958",
+      "batch": "batch-02",
+      "sourcePath": "benchmarks/batch-02/source/Money moved $33 trillion on blockchains last year. More than Visa and Mastercard combined.This i.mp4",
+      "fileName": "Money moved $33 trillion on blockchains last year. More than Visa and Mastercard combined.This i.mp4",
+      "analysisPath": "benchmarks/batch-02/analysis/money-moved-33-trillion-on-blockchains-last-year-0019b955/summary.json",
+      "contactSheet": "benchmarks/batch-02/analysis/money-moved-33-trillion-on-blockchains-last-year-0019b955/contact.jpg",
+      "transcriptText": "benchmarks/batch-02/analysis/money-moved-33-trillion-on-blockchains-last-year-0019b955/transcript.txt",
+      "durationSeconds": 90.115238,
+      "family": "family-a",
+      "topic": "Money moved $33 trillion on blockchains last year. More than Visa and Mastercard combined.This i",
+      "assets": [
+        "animated hero object",
+        "glow accent",
+        "coin or token icon",
+        "energy trail",
+        "motion burst"
+      ],
+      "motifs": [
+        "logo-as-actor",
+        "route-rail",
+        "vault-unlock-tokenization",
+        "proof-latch"
+      ],
+      "analogies": [
+        "object unlocks access",
+        "signal moves through rails",
+        "pressure creates visible change"
+      ],
+      "wowEvents": [
+        "object snaps into place",
+        "energy pulse travels along route",
+        "proof latch closes after impact"
+      ],
+      "proofOperators": [
+        "endpoint-label",
+        "proof-latch",
+        "selected-path-proof"
+      ],
+      "chartRole": "Secondary or absent: Family A is motion-energy reference, not the house default.",
+      "ctaBehavior": "CTA may inherit the final object residue, but should not bring dark style into Family B/C by default.",
+      "financialMechanisms": [
+        "liquidity-flow",
+        "tokenization-access",
+        "drag-leak",
+        "settlement-stamp"
+      ],
+      "whatToAdapt": [
+        "Asset energy",
+        "Clear object behavior",
+        "Tight kinetic pacing"
+      ],
+      "whatNotToCopy": [
+        "Dark cinematic default",
+        "Unlicensed assets",
+        "Template-like confetti or generic glow"
+      ],
+      "copyRisk": "high"
+    },
+    {
+      "id": "batch-02-read-for-free-the-next-stock-supply-wave-nobody-is-pricing-in-link-in-bi-640c5788",
+      "batch": "batch-02",
+      "sourcePath": "benchmarks/batch-02/source/READ FOR FREE- The next stock supply wave nobody is pricing in (link in bio).When the most patie.mp4",
+      "fileName": "READ FOR FREE- The next stock supply wave nobody is pricing in (link in bio).When the most patie.mp4",
+      "analysisPath": "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/summary.json",
+      "contactSheet": "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/contact.jpg",
+      "transcriptText": "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/transcript.txt",
+      "durationSeconds": 103.280952,
+      "family": "family-a",
+      "topic": "READ FOR FREE- The next stock supply wave nobody is pricing in (link in bio).When the most patie",
+      "assets": [
+        "animated hero object",
+        "glow accent",
+        "coin or token icon",
+        "energy trail",
+        "motion burst"
+      ],
+      "motifs": [
+        "logo-as-actor",
+        "route-rail",
+        "vault-unlock-tokenization",
+        "proof-latch"
+      ],
+      "analogies": [
+        "object unlocks access",
+        "signal moves through rails",
+        "pressure creates visible change"
+      ],
+      "wowEvents": [
+        "object snaps into place",
+        "energy pulse travels along route",
+        "proof latch closes after impact"
+      ],
+      "proofOperators": [
+        "endpoint-label",
+        "proof-latch",
+        "selected-path-proof"
+      ],
+      "chartRole": "Secondary or absent: Family A is motion-energy reference, not the house default.",
+      "ctaBehavior": "CTA may inherit the final object residue, but should not bring dark style into Family B/C by default.",
+      "financialMechanisms": [
+        "liquidity-flow",
+        "tokenization-access",
+        "drag-leak",
+        "settlement-stamp"
+      ],
+      "whatToAdapt": [
+        "Asset energy",
+        "Clear object behavior",
+        "Tight kinetic pacing"
+      ],
+      "whatNotToCopy": [
+        "Dark cinematic default",
+        "Unlicensed assets",
+        "Template-like confetti or generic glow"
+      ],
+      "copyRisk": "high"
+    },
+    {
+      "id": "batch-02-the-plumbing-of-american-finance-is-being-rebuilt-in-public-the-dtcc-the-67e91755",
+      "batch": "batch-02",
+      "sourcePath": "benchmarks/batch-02/source/The plumbing of American finance is being rebuilt in public.The DTCC, the entity that custodies .mp4",
+      "fileName": "The plumbing of American finance is being rebuilt in public.The DTCC, the entity that custodies .mp4",
+      "analysisPath": "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/summary.json",
+      "contactSheet": "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/contact.jpg",
+      "transcriptText": "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/transcript.txt",
+      "durationSeconds": 87.653923,
+      "family": "family-a",
+      "topic": "The plumbing of American finance is being rebuilt in public.The DTCC, the entity that custodies ",
+      "assets": [
+        "animated hero object",
+        "glow accent",
+        "coin or token icon",
+        "energy trail",
+        "motion burst"
+      ],
+      "motifs": [
+        "logo-as-actor",
+        "route-rail",
+        "vault-unlock-tokenization",
+        "proof-latch"
+      ],
+      "analogies": [
+        "object unlocks access",
+        "signal moves through rails",
+        "pressure creates visible change"
+      ],
+      "wowEvents": [
+        "object snaps into place",
+        "energy pulse travels along route",
+        "proof latch closes after impact"
+      ],
+      "proofOperators": [
+        "endpoint-label",
+        "proof-latch",
+        "selected-path-proof"
+      ],
+      "chartRole": "Secondary or absent: Family A is motion-energy reference, not the house default.",
+      "ctaBehavior": "CTA may inherit the final object residue, but should not bring dark style into Family B/C by default.",
+      "financialMechanisms": [
+        "liquidity-flow",
+        "tokenization-access",
+        "drag-leak",
+        "settlement-stamp"
+      ],
+      "whatToAdapt": [
+        "Asset energy",
+        "Clear object behavior",
+        "Tight kinetic pacing"
+      ],
+      "whatNotToCopy": [
+        "Dark cinematic default",
+        "Unlicensed assets",
+        "Template-like confetti or generic glow"
+      ],
+      "copyRisk": "high"
+    },
+    {
+      "id": "batch-02-whatsapp-video-2026-05-19-at-7-12-30-pm-1-4895382c",
+      "batch": "batch-02",
+      "sourcePath": "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM (1).mp4",
+      "fileName": "WhatsApp Video 2026-05-19 at 7.12.30 PM (1).mp4",
+      "analysisPath": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-1-98bf44e4/summary.json",
+      "contactSheet": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-1-98bf44e4/contact.jpg",
+      "transcriptText": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-1-98bf44e4/transcript.txt",
+      "durationSeconds": 46.841667,
+      "family": "family-c",
+      "topic": "Family C light logo/icon reference: WhatsApp Video 2026-05-19 at 7.12.30 PM (1)",
+      "assets": [
+        "logo actors",
+        "institutional icons",
+        "documents",
+        "server or rails object",
+        "clean CTA mark"
+      ],
+      "motifs": [
+        "logo-as-actor",
+        "route-rail",
+        "stamp-latch",
+        "vault-unlock-tokenization",
+        "cta-residue"
+      ],
+      "analogies": [
+        "settlement route as rail",
+        "logo as character in a mechanism",
+        "approval as stamp or latch"
+      ],
+      "wowEvents": [
+        "route endpoint locks",
+        "document receives stamp",
+        "gate opens into final proof"
+      ],
+      "proofOperators": [
+        "route-endpoint",
+        "stamped-readout",
+        "proof-latch",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Supporting or absent: chart proof appears only when the source requires it.",
+      "ctaBehavior": "CTA reuses the last route, stamp, latch, or icon residue rather than becoming an end card.",
+      "financialMechanisms": [
+        "logo-infographic",
+        "liquidity-flow",
+        "settlement-stamp",
+        "tokenization-access"
+      ],
+      "whatToAdapt": [
+        "Light-background institutional clarity",
+        "Logo and icon actors that perform a mechanism",
+        "Source-grounded proof attached to an event"
+      ],
+      "whatNotToCopy": [
+        "Generic SaaS interface",
+        "Decorative logo grids",
+        "Pasted proof plates",
+        "Overcrowded icon scenes"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-02-whatsapp-video-2026-05-19-at-7-12-30-pm-2-5e0dd552",
+      "batch": "batch-02",
+      "sourcePath": "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM (2).mp4",
+      "fileName": "WhatsApp Video 2026-05-19 at 7.12.30 PM (2).mp4",
+      "analysisPath": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-2-a84e858f/summary.json",
+      "contactSheet": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-2-a84e858f/contact.jpg",
+      "transcriptText": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-2-a84e858f/transcript.txt",
+      "durationSeconds": 43.7,
+      "family": "family-c",
+      "topic": "Family C light logo/icon reference: WhatsApp Video 2026-05-19 at 7.12.30 PM (2)",
+      "assets": [
+        "logo actors",
+        "institutional icons",
+        "documents",
+        "server or rails object",
+        "clean CTA mark"
+      ],
+      "motifs": [
+        "logo-as-actor",
+        "route-rail",
+        "stamp-latch",
+        "vault-unlock-tokenization",
+        "cta-residue"
+      ],
+      "analogies": [
+        "settlement route as rail",
+        "logo as character in a mechanism",
+        "approval as stamp or latch"
+      ],
+      "wowEvents": [
+        "route endpoint locks",
+        "document receives stamp",
+        "gate opens into final proof"
+      ],
+      "proofOperators": [
+        "route-endpoint",
+        "stamped-readout",
+        "proof-latch",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Supporting or absent: chart proof appears only when the source requires it.",
+      "ctaBehavior": "CTA reuses the last route, stamp, latch, or icon residue rather than becoming an end card.",
+      "financialMechanisms": [
+        "logo-infographic",
+        "liquidity-flow",
+        "settlement-stamp",
+        "tokenization-access"
+      ],
+      "whatToAdapt": [
+        "Light-background institutional clarity",
+        "Logo and icon actors that perform a mechanism",
+        "Source-grounded proof attached to an event"
+      ],
+      "whatNotToCopy": [
+        "Generic SaaS interface",
+        "Decorative logo grids",
+        "Pasted proof plates",
+        "Overcrowded icon scenes"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-02-whatsapp-video-2026-05-19-at-7-12-30-pm-3-03ddad35",
+      "batch": "batch-02",
+      "sourcePath": "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM (3).mp4",
+      "fileName": "WhatsApp Video 2026-05-19 at 7.12.30 PM (3).mp4",
+      "analysisPath": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-3-090a673a/summary.json",
+      "contactSheet": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-3-090a673a/contact.jpg",
+      "transcriptText": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-3-090a673a/transcript.txt",
+      "durationSeconds": 50.466667,
+      "family": "family-c",
+      "topic": "Family C light logo/icon reference: WhatsApp Video 2026-05-19 at 7.12.30 PM (3)",
+      "assets": [
+        "logo actors",
+        "institutional icons",
+        "documents",
+        "server or rails object",
+        "clean CTA mark"
+      ],
+      "motifs": [
+        "logo-as-actor",
+        "route-rail",
+        "stamp-latch",
+        "vault-unlock-tokenization",
+        "cta-residue"
+      ],
+      "analogies": [
+        "settlement route as rail",
+        "logo as character in a mechanism",
+        "approval as stamp or latch"
+      ],
+      "wowEvents": [
+        "route endpoint locks",
+        "document receives stamp",
+        "gate opens into final proof"
+      ],
+      "proofOperators": [
+        "route-endpoint",
+        "stamped-readout",
+        "proof-latch",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Supporting or absent: chart proof appears only when the source requires it.",
+      "ctaBehavior": "CTA reuses the last route, stamp, latch, or icon residue rather than becoming an end card.",
+      "financialMechanisms": [
+        "logo-infographic",
+        "liquidity-flow",
+        "settlement-stamp",
+        "tokenization-access"
+      ],
+      "whatToAdapt": [
+        "Light-background institutional clarity",
+        "Logo and icon actors that perform a mechanism",
+        "Source-grounded proof attached to an event"
+      ],
+      "whatNotToCopy": [
+        "Generic SaaS interface",
+        "Decorative logo grids",
+        "Pasted proof plates",
+        "Overcrowded icon scenes"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-02-whatsapp-video-2026-05-19-at-7-12-30-pm-4-dc352774",
+      "batch": "batch-02",
+      "sourcePath": "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM (4).mp4",
+      "fileName": "WhatsApp Video 2026-05-19 at 7.12.30 PM (4).mp4",
+      "analysisPath": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-4-f4ca6482/summary.json",
+      "contactSheet": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-4-f4ca6482/contact.jpg",
+      "transcriptText": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-4-f4ca6482/transcript.txt",
+      "durationSeconds": 27.766667,
+      "family": "family-c",
+      "topic": "Family C light logo/icon reference: WhatsApp Video 2026-05-19 at 7.12.30 PM (4)",
+      "assets": [
+        "logo actors",
+        "institutional icons",
+        "documents",
+        "server or rails object",
+        "clean CTA mark"
+      ],
+      "motifs": [
+        "logo-as-actor",
+        "route-rail",
+        "stamp-latch",
+        "vault-unlock-tokenization",
+        "cta-residue"
+      ],
+      "analogies": [
+        "settlement route as rail",
+        "logo as character in a mechanism",
+        "approval as stamp or latch"
+      ],
+      "wowEvents": [
+        "route endpoint locks",
+        "document receives stamp",
+        "gate opens into final proof"
+      ],
+      "proofOperators": [
+        "route-endpoint",
+        "stamped-readout",
+        "proof-latch",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Supporting or absent: chart proof appears only when the source requires it.",
+      "ctaBehavior": "CTA reuses the last route, stamp, latch, or icon residue rather than becoming an end card.",
+      "financialMechanisms": [
+        "logo-infographic",
+        "liquidity-flow",
+        "settlement-stamp",
+        "tokenization-access"
+      ],
+      "whatToAdapt": [
+        "Light-background institutional clarity",
+        "Logo and icon actors that perform a mechanism",
+        "Source-grounded proof attached to an event"
+      ],
+      "whatNotToCopy": [
+        "Generic SaaS interface",
+        "Decorative logo grids",
+        "Pasted proof plates",
+        "Overcrowded icon scenes"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-02-whatsapp-video-2026-05-19-at-7-12-30-pm-5-3c2ef524",
+      "batch": "batch-02",
+      "sourcePath": "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM (5).mp4",
+      "fileName": "WhatsApp Video 2026-05-19 at 7.12.30 PM (5).mp4",
+      "analysisPath": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/summary.json",
+      "contactSheet": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/contact.jpg",
+      "transcriptText": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/transcript.txt",
+      "durationSeconds": 69.6,
+      "family": "family-c",
+      "topic": "Family C light logo/icon reference: WhatsApp Video 2026-05-19 at 7.12.30 PM (5)",
+      "assets": [
+        "logo actors",
+        "institutional icons",
+        "documents",
+        "server or rails object",
+        "clean CTA mark"
+      ],
+      "motifs": [
+        "logo-as-actor",
+        "route-rail",
+        "stamp-latch",
+        "vault-unlock-tokenization",
+        "cta-residue"
+      ],
+      "analogies": [
+        "settlement route as rail",
+        "logo as character in a mechanism",
+        "approval as stamp or latch"
+      ],
+      "wowEvents": [
+        "route endpoint locks",
+        "document receives stamp",
+        "gate opens into final proof"
+      ],
+      "proofOperators": [
+        "route-endpoint",
+        "stamped-readout",
+        "proof-latch",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Supporting or absent: chart proof appears only when the source requires it.",
+      "ctaBehavior": "CTA reuses the last route, stamp, latch, or icon residue rather than becoming an end card.",
+      "financialMechanisms": [
+        "logo-infographic",
+        "liquidity-flow",
+        "settlement-stamp",
+        "tokenization-access"
+      ],
+      "whatToAdapt": [
+        "Light-background institutional clarity",
+        "Logo and icon actors that perform a mechanism",
+        "Source-grounded proof attached to an event"
+      ],
+      "whatNotToCopy": [
+        "Generic SaaS interface",
+        "Decorative logo grids",
+        "Pasted proof plates",
+        "Overcrowded icon scenes"
+      ],
+      "copyRisk": "medium"
+    },
+    {
+      "id": "batch-02-whatsapp-video-2026-05-19-at-7-12-30-pm-cb86ab21",
+      "batch": "batch-02",
+      "sourcePath": "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM.mp4",
+      "fileName": "WhatsApp Video 2026-05-19 at 7.12.30 PM.mp4",
+      "analysisPath": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-a19b744f/summary.json",
+      "contactSheet": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-a19b744f/contact.jpg",
+      "transcriptText": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-a19b744f/transcript.txt",
+      "durationSeconds": 89.3,
+      "family": "family-c",
+      "topic": "Family C light logo/icon reference: WhatsApp Video 2026-05-19 at 7.12.30 PM",
+      "assets": [
+        "logo actors",
+        "institutional icons",
+        "documents",
+        "server or rails object",
+        "clean CTA mark"
+      ],
+      "motifs": [
+        "logo-as-actor",
+        "route-rail",
+        "stamp-latch",
+        "vault-unlock-tokenization",
+        "cta-residue"
+      ],
+      "analogies": [
+        "settlement route as rail",
+        "logo as character in a mechanism",
+        "approval as stamp or latch"
+      ],
+      "wowEvents": [
+        "route endpoint locks",
+        "document receives stamp",
+        "gate opens into final proof"
+      ],
+      "proofOperators": [
+        "route-endpoint",
+        "stamped-readout",
+        "proof-latch",
+        "cta-underline-inheritance"
+      ],
+      "chartRole": "Supporting or absent: chart proof appears only when the source requires it.",
+      "ctaBehavior": "CTA reuses the last route, stamp, latch, or icon residue rather than becoming an end card.",
+      "financialMechanisms": [
+        "logo-infographic",
+        "liquidity-flow",
+        "settlement-stamp",
+        "tokenization-access"
+      ],
+      "whatToAdapt": [
+        "Light-background institutional clarity",
+        "Logo and icon actors that perform a mechanism",
+        "Source-grounded proof attached to an event"
+      ],
+      "whatNotToCopy": [
+        "Generic SaaS interface",
+        "Decorative logo grids",
+        "Pasted proof plates",
+        "Overcrowded icon scenes"
+      ],
+      "copyRisk": "medium"
+    }
+  ]
+}
