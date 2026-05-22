@@ -109,8 +109,35 @@ Closure criteria:
 - Phase 3 adds one calibration composition only.
 - No production reel implementation has started.
 
-## Phase 4: First Approved Pilot Handoff
+## Phase 4: SVG Insight Chart Intake Add-On
+
+Status: closed.
+
+Alias: Phase 4 Add-On: SVG Insight Chart Intake.
+
+Purpose:
+
+- Add a formal lane for market-insight SVG charts so they become animated Remotion charts, not static pasted images.
+- Preserve Workspace Agent as chart/source/proof approver and Codex as parser, reconstructor, animator, and reviewer.
+- Support the supplied chart families before the first pilot: horizontal bars, grouped vertical bars, line/area charts, and stacked bars with benchmark lines.
+- Keep this as non-production infrastructure; no pilot or production reel implementation starts in this add-on.
+
+Implemented in Phase 4 Add-On:
+
+- `npm run svg:chart-audit` emits deterministic SVG chart intake packets without modifying files.
+- `npm run svg:chart-ingest` ingests only human-approved, source-locked charts into `public/source-charts/`.
+- `AnimatedSourceBarChart`, `AnimatedSourceGroupedBarChart`, `AnimatedSourceStackedBarChart`, and `AnimatedSourceLineChart` reconstruct source charts with native Remotion/SVG primitives instead of final `<Img>` rendering.
+- `npm run phase4:svg-review` dry-runs source-reference, animated reconstruction, proof-event, and CTA-residue review frames.
+- `npm run phase4:validate` enforces the no-production boundary and static-SVG-as-final-chart block.
+
+Closure criteria:
+
+- Verification passes with `npm test`, `npm run lint`, `npm run build`, `npm run phase3:validate`, `npm run phase4:svg-review`, and `npm run phase4:validate`.
+- The four supplied chart families audit successfully.
+- No production reel implementation has started.
+
+## Phase 5: First Approved Pilot Handoff
 
 Status: next.
 
-Phase 4 should start only after a Workspace Agent packet stack selects a real Family B/C pilot route, locks source claims, approves visual/styleframe targets, approves any Lottie or local assets, and produces a Codex-ready handoff. Phase 4 is the first stage where a pilot reel may be implemented, but it should still begin with stills/contact sheets before any draft MP4.
+Phase 5 should start only after a Workspace Agent packet stack selects a real Family B/C pilot route, locks source claims, approves visual/styleframe targets, approves any Lottie or local assets, approves any SVG chart intake packet, and produces a Codex-ready handoff. Phase 5 is the first stage where a pilot reel may be implemented, but it should still begin with stills/contact sheets before any draft MP4.

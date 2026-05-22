@@ -54,7 +54,11 @@
     "phase2:validate": "node scripts/phase2-validate.mjs",
     "lottie:ingest": "node scripts/ingest-approved-lottie.mjs",
     "phase3:review": "node scripts/run-phase3-review.mjs",
-    "phase3:validate": "node scripts/phase3-validate.mjs"
+    "phase3:validate": "node scripts/phase3-validate.mjs",
+    "svg:chart-audit": "node scripts/svg-chart-audit.mjs",
+    "svg:chart-ingest": "node scripts/svg-chart-ingest.mjs",
+    "phase4:svg-review": "node scripts/run-phase4-svg-review.mjs",
+    "phase4:validate": "node scripts/phase4-validate.mjs"
   },
   "sideEffects": [
     "*.css"

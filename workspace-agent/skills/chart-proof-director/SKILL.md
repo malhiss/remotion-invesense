@@ -16,6 +16,7 @@ Decide whether charts, tables, graphs, and stat cards become animated proof, sta
 
 - chart proof role
 - faithful recreation or adaptation decision
+- SVG chart intake packet when a market-insight SVG is supplied
 - chart-to-metaphor integration notes
 - visual proof distortion risks
 
@@ -23,6 +24,8 @@ Decide whether charts, tables, graphs, and stat cards become animated proof, sta
 
 - Charts are proof, not wallpaper.
 - Animated chart proof must preserve source relationships, labels, units, dates, and caveats.
+- Supplied SVG charts are source evidence and visual references; they should become native animated Remotion charts when extraction confidence is high.
+- If SVG comments or geometry cannot source-lock the labels, values, source note, or proof role, require a source table or manual approval before Codex implements.
 - Proof cannot appear before the visual event that creates it.
 
 ## Done When
