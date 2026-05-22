@@ -51,7 +51,10 @@
     "phase1:validate": "node scripts/phase1-validate.mjs",
     "phase2:generate": "node scripts/generate-phase2-workspace-agent.mjs",
     "phase2:dry-run": "node scripts/run-phase2-dry-run.mjs",
-    "phase2:validate": "node scripts/phase2-validate.mjs"
+    "phase2:validate": "node scripts/phase2-validate.mjs",
+    "lottie:ingest": "node scripts/ingest-approved-lottie.mjs",
+    "phase3:review": "node scripts/run-phase3-review.mjs",
+    "phase3:validate": "node scripts/phase3-validate.mjs"
   },
   "sideEffects": [
     "*.css"

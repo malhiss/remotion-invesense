@@ -123,7 +123,8 @@ test("Family B/C visual primitives provide light editorial chart and logo system
     assert.match(primitives, new RegExp(`export const ${exportName}`));
   }
 
-  assert.match(primitives, /#ffffff|#fbfbfa/);
+  const tokens = read("src/components/family-bc/tokens.ts");
+  assert.match(tokens, /#ffffff|#fbfbfa/);
   assert.doesNotMatch(primitives, /Dashboard|SaaS|Progress/);
 });
 
@@ -142,14 +143,20 @@ test("Family B/C calibration reel is registered separately from the dark wiring 
   assert.match(composition, /CTAKeywordClose/);
 });
 
-test("Lottie manifest starts with policy metadata rather than downloaded assets", () => {
+test("Lottie manifest keeps policy metadata and only allows approved assets", () => {
   const manifest = JSON.parse(read("public/lottie/manifest.json"));
 
   assert.equal(manifest.policy, "family-bc-approved-lottie-assets");
   assert.ok(Array.isArray(manifest.allowedRoles));
   assert.ok(manifest.allowedRoles.includes("route-pulse"));
   assert.ok(manifest.forbiddenRoles.includes("unapproved-hero-metaphor"));
-  assert.deepEqual(manifest.assets, []);
+  assert.ok(Array.isArray(manifest.assets));
+  for (const asset of manifest.assets) {
+    assert.equal(asset.approvedByHuman, true);
+    assert.ok(asset.localPath);
+    assert.ok(asset.licenseNote);
+    assert.ok(asset.fallbackNativeRemotionOption);
+  }
 });
 
 test("review utility supports named Family B/C frame sets and comparison outputs", () => {

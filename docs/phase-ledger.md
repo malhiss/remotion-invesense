@@ -82,6 +82,35 @@ Closure criteria:
 
 ## Phase 3: Build The Family B/C Visual System
 
-Status: next.
+Status: closed.
 
 Phase 3 should build the reusable light editorial Family B/C visual primitives and review tooling that Codex will later use after approved Workspace Agent handoffs. It should still avoid starting a production reel slate until the first pilot handoff is approved.
+
+Purpose:
+
+- Translate the Phase 1 and Phase 2 Workspace Agent workflow into reusable Remotion visual foundations.
+- Keep Family B/C primary with a light editorial stage, chart-native proof, logo/icon actors, approved Lottie accents, and review tooling.
+- Keep Lottie discovery and approval in the Workspace Agent lane while Codex owns deterministic local ingestion and rendering.
+- Prove the system through a calibration composition only; no production reel implementation starts in Phase 3.
+
+Implemented in Phase 3:
+
+- `FamilyBCVisualSystemCalibration` is registered as a non-production calibration composition.
+- `src/contracts/family-bc-visual-system-contract.ts` defines visual tokens, chart specs, logo/icon actor specs, Lottie acquisition requests, approved Lottie manifest entries, review frame manifests, and calibration-only handoff status.
+- `src/components/family-bc/` splits the visual system into stage, typography, charts, actors, Lottie, CTA, and review helper modules.
+- `ApprovedLottie` renders local, manifest-approved JSON through Remotion and blocks remote render dependencies.
+- `npm run lottie:ingest` validates approved local or direct JSON Lottie assets before updating `public/lottie/manifest.json`.
+- `npm run phase3:review` dry-runs hook, chart, event, proof, Lottie, and CTA residue review frames by default.
+- `npm run phase3:validate` enforces the no-production boundary, approved-Lottie policy, and Phase 3 ledger state.
+
+Closure criteria:
+
+- Verification passes with `npm test`, `npm run lint`, `npm run build`, `npm run phase2:validate`, `npm run phase3:review`, and `npm run phase3:validate`.
+- Phase 3 adds one calibration composition only.
+- No production reel implementation has started.
+
+## Phase 4: First Approved Pilot Handoff
+
+Status: next.
+
+Phase 4 should start only after a Workspace Agent packet stack selects a real Family B/C pilot route, locks source claims, approves visual/styleframe targets, approves any Lottie or local assets, and produces a Codex-ready handoff. Phase 4 is the first stage where a pilot reel may be implemented, but it should still begin with stills/contact sheets before any draft MP4.
