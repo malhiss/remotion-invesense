@@ -1,5 +1,5 @@
-# Phase 2 Synthesis
+# Phase 6A Synthesis
 
-The old v1 system was practical but shallow. The old v2 system had the right safety logic but became too fragmented to operate cleanly.
+The old v2 agent had valuable depth but too many tiny skills. Phase 6A keeps the new 13-skill workflow and restores the useful operating depth as progressive references and stronger templates.
 
-Phase 2 preserves source proof discipline, chart fidelity, mechanism diagnosis, route scoring, visual target gates, Lottie policy, and Codex readiness boundaries while redesigning them into consolidated workflow skills.
+The hardened agent is intentionally not a template generator. It is a gatekeeping creative director for source-grounded Family B/C reels.

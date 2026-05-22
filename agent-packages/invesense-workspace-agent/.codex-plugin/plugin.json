@@ -1,0 +1,35 @@
+{
+  "name": "invesense-workspace-agent",
+  "version": "0.6.0",
+  "description": "Creative-director Workspace Agent for Invesense Family B/C finance reels with source proof, animated chart/SVG planning, Lottie discipline, styleframe gates, and blocked Codex handoffs.",
+  "author": {
+    "name": "Invesense"
+  },
+  "repository": "https://github.com/malhiss/remotion-invesense",
+  "license": "UNLICENSED",
+  "keywords": [
+    "remotion",
+    "finance",
+    "workspace-agent",
+    "lottie",
+    "charts"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Invesense Workspace Agent",
+    "shortDescription": "Creative-director workflow for source-grounded Family B/C reels.",
+    "longDescription": "Plans premium Invesense Family B/C finance reels before Codex implementation: source locks, chart/SVG proof, benchmark grounding, Lottie as support motion, styleframe gates, review QA, and Codex handoff blocking.",
+    "developerName": "Invesense",
+    "category": "Productivity",
+    "capabilities": [
+      "Workflow",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Create route options for this Invesense insight.",
+      "Audit this source chart for a Family B/C reel.",
+      "Prepare a Codex handoff only if gates pass."
+    ],
+    "brandColor": "#0A7A4B"
+  }
+}

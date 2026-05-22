@@ -1,26 +1,27 @@
 {
-  "briefId": "phase2-family-bc-sample-brief",
+  "briefId": "phase6a-family-bc-pilot-readiness-fixture",
   "familyTarget": "family-bc-hybrid",
   "sourceMode": "manager-kit",
-  "title": "Revenue improved while market price compressed",
-  "sourceBoundary": "Use only the approved sample chart claim. This is a workflow fixture, not a production reel.",
+  "title": "Source chart shows a proof-critical finance mechanism",
+  "sourceBoundary": "Fixture only. It proves the hardened Workspace Agent blocks Codex until human route, source, asset, Lottie, styleframe, and review approvals exist.",
   "approvedClaims": [
     {
       "id": "claim-001",
-      "claim": "Revenue improved while market price compressed.",
-      "value": "sample indexed chart relationship",
-      "source": "Phase 2 sample brief fixture",
-      "confidenceTier": "manager-approved",
-      "visualAttachment": "Gap bracket born from source chart points"
+      "claim": "A source-locked chart relationship must drive the proof.",
+      "value": "fixture chart relationship",
+      "source": "Phase 6A dry-run fixture",
+      "confidenceTier": "fixture-only",
+      "visualAttachment": "Proof label born after animated chart event"
     }
   ],
-  "requestedDurationSeconds": 36,
+  "requestedDurationSeconds": 42,
   "requiredBenchmarkFamilies": [
     "family-b",
     "family-c"
   ],
   "lottieMotionNeeds": [
     "route pulse",
-    "highlight sweep"
+    "chart accent",
+    "CTA residue pulse"
   ]
 }

@@ -2,79 +2,89 @@
   "name": "invesense-workspace-agent",
   "displayName": "Invesense Workspace Agent",
   "phase": "phase-2-workspace-agent-workflow",
-  "version": "0.2.0",
+  "hardenedForPhase": "phase-6a-workspace-agent-hardening",
+  "version": "0.6.0",
   "consolidationMode": "consolidated-chains",
-  "sourceOfTruth": "repo-native Phase 2 pack",
-  "nonApprovalBoundary": "No production reel implementation starts in Phase 2. This pack creates review-only planning outputs.",
+  "disclosureMode": "progressive-references",
+  "sourceOfTruth": "repo-native Phase 6A hardened Workspace Agent pack",
+  "nonApprovalBoundary": "No production reel implementation starts in Phase 6A. This pack creates review-only planning outputs until human gates pass.",
   "skills": [
     {
       "id": "source-and-evidence-steward",
       "title": "Source And Evidence Steward",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "chart-proof-director",
       "title": "Chart Proof Director",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "mechanism-story-diagnostician",
       "title": "Mechanism Story Diagnostician",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "benchmark-reference-deconstructor",
       "title": "Benchmark Reference Deconstructor",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "route-analogy-miner",
       "title": "Route Analogy Miner",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "asset-lottie-planner",
       "title": "Asset Lottie Planner",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "styleframe-visual-target-director",
       "title": "Styleframe Visual Target Director",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "scene-motion-proof-birth-planner",
       "title": "Scene Motion Proof Birth Planner",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "brand-label-silent-reviewer",
       "title": "Brand Label Silent Reviewer",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "remotion-feasibility-gatekeeper",
       "title": "Remotion Feasibility Gatekeeper",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "human-review-packager",
       "title": "Human Review Packager",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "codex-readiness-handoff-gatekeeper",
       "title": "Codex Readiness Handoff Gatekeeper",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     },
     {
       "id": "post-spike-reviewer",
       "title": "Post Spike Reviewer",
-      "sourceOldSystemStrategy": "consolidated rewrite"
+      "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     }
+  ],
+  "references": [
+    "family-bc-benchmark-grammar.md",
+    "source-chart-svg-proof-rules.md",
+    "mechanism-proof-wow-atlas.md",
+    "asset-lottie-styleframe-rules.md",
+    "remotion-qa-codex-gates.md"
   ],
   "templates": [
     "intake-evidence.md",
+    "chart-proof.md",
     "benchmark-reference.md",
     "route-options.md",
     "asset-lottie-board.md",

@@ -1,7 +1,7 @@
 # Invesense Workspace Agent
 
-This is the Phase 2 repo-native Workspace Agent pack.
+This is the Phase 6A hardened Workspace Agent package.
 
-It consolidates the old v1 and v2 Workspace Agent skills into 13 stronger workflow skills, keeps Family B/C as the house benchmark, and blocks Codex implementation until human gates and visual targets are ready.
+It keeps the 13 consolidated workflow skills while adding progressive references, decision-ready templates, current Codex plugin metadata, Family B/C benchmark rules, animated chart/SVG proof planning, Lottie discipline, styleframe gates, review QA, and blocked Codex handoff validation.
 
-This folder is source material for the importable package under `agent-packages/invesense-workspace-agent/`.
+Use the package as a creative-director agent. Do not use it to implement Remotion code directly.

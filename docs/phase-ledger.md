@@ -163,8 +163,37 @@ Closure criteria:
 - No production reel implementation has started.
 - Phase 6 is explicitly marked as next.
 
-## Phase 6: First Approved Pilot Handoff
+## Phase 6A: Harden The Real Workspace Agent Package
+
+Status: closed.
+
+Legacy Phase 5 next-stage alias: Phase 6: First Approved Pilot Handoff is now split into Phase 6A package hardening and Phase 6B first approved pilot handoff.
+
+Purpose:
+
+- Upgrade the Workspace Agent from a minimal scaffold into a real importable creative-director package.
+- Keep the 13 consolidated workflow skills while restoring useful depth from the old v1/v2 agents as progressive references and decision-ready templates.
+- Make `.codex-plugin/plugin.json` the canonical Codex import manifest.
+- Preserve the new workflow: Family B/C benchmark first, source/chart proof first, animated SVG/native chart proof when proof-critical, Lottie as support motion, styleframe gates, review QA, and Codex blocked until human approval.
+
+Implemented in Phase 6A:
+
+- `npm run phase6a:generate` regenerates both `workspace-agent/` and `agent-packages/invesense-workspace-agent/` from the hardened package generator.
+- `agent-packages/invesense-workspace-agent/.codex-plugin/plugin.json` is the canonical import manifest.
+- All 13 Workspace Agent skills now include frontmatter, operational sections, stop conditions, human gates, and reference-loading guidance.
+- `workspace-agent/references/` and package references distill Family B/C benchmark grammar, source/chart/SVG proof rules, mechanism/proof/wow events, asset/Lottie/styleframe rules, and Remotion/QA/Codex gates.
+- Templates are decision-ready packet forms with output fields, human approval, stop conditions, and Codex boundaries.
+- `npm run phase6a:dry-run` proves the first pilot handoff remains blocked until human route, source, asset/Lottie, styleframe, scene behavior, and review approvals exist.
+- `npm run phase6a:validate` verifies import readiness, skill hardening, references, templates, no-production boundary, and blocked Codex handoff.
+
+Closure criteria:
+
+- Verification passes with `npm test`, `npm run lint`, `npm run build`, `npm run phase5:validate`, and `npm run phase6a:validate`.
+- No production reel implementation has started.
+- Phase 6B is explicitly marked as next.
+
+## Phase 6B: First Approved Pilot Handoff
 
 Status: next.
 
-Phase 6 should start only after a Workspace Agent packet stack selects a real Family B/C pilot route, locks source claims, approves visual/styleframe targets, approves any Lottie or local assets, approves any SVG chart intake packet, and produces a Codex-ready handoff. Phase 6 is the first stage where a pilot reel may be implemented, but it should still begin with stills/contact sheets before any draft MP4.
+Phase 6B should start only after the hardened Workspace Agent is imported/usable and a Workspace Agent packet stack selects a real Family B/C pilot route, locks source claims, approves visual/styleframe targets, approves any Lottie or local assets, approves any SVG chart intake packet, and produces a Codex-ready handoff. Phase 6B is the first stage where a pilot reel may be implemented, but it should still begin with stills/contact sheets before any draft MP4.
