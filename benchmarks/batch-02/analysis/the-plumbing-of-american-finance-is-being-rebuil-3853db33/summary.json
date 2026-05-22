@@ -1,0 +1,61 @@
+{
+  "fileName": "The plumbing of American finance is being rebuilt in public.The DTCC, the entity that custodies .mp4",
+  "relativePath": "benchmarks/batch-02/source/The plumbing of American finance is being rebuilt in public.The DTCC, the entity that custodies .mp4",
+  "durationSeconds": 87.653923,
+  "bitRate": 460199,
+  "videoStreams": [
+    {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "avgFrameRate": "30/1",
+      "rawFrameRate": "30/1"
+    }
+  ],
+  "audioStreams": [
+    {
+      "codec": "aac",
+      "sampleRate": "44100",
+      "channels": 2
+    }
+  ],
+  "sampleTimestampsSeconds": [
+    7.012,
+    14.375,
+    21.738,
+    29.101,
+    36.464,
+    43.827,
+    51.19,
+    58.553,
+    65.916,
+    73.279,
+    80.642
+  ],
+  "sceneChangeTimesSeconds": [
+    6.3,
+    30.133333,
+    62.9,
+    65.766667,
+    75.433333,
+    78.433333,
+    87.466667
+  ],
+  "contactSheet": "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/contact.jpg",
+  "frames": [
+    "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/frames/frame-01.jpg",
+    "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/frames/frame-02.jpg",
+    "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/frames/frame-03.jpg",
+    "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/frames/frame-04.jpg",
+    "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/frames/frame-05.jpg",
+    "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/frames/frame-06.jpg",
+    "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/frames/frame-07.jpg",
+    "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/frames/frame-08.jpg",
+    "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/frames/frame-09.jpg",
+    "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/frames/frame-10.jpg",
+    "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/frames/frame-11.jpg"
+  ],
+  "transcriptSrt": "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/transcript.srt",
+  "transcriptText": "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/transcript.txt",
+  "sceneLog": "benchmarks/batch-02/analysis/the-plumbing-of-american-finance-is-being-rebuil-3853db33/scene-log.txt"
+}

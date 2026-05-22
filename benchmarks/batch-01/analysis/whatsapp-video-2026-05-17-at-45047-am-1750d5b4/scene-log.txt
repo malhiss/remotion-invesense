@@ -1,0 +1,35 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\sulta\OneDrive - Invesense Asset Management Limited\Documents\remotion\benchmarks\.cache\source\whatsapp-video-2026-05-17-at-45047-am-1750d5b4.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isom
+  Duration: 00:01:32.67, start: 0.000000, bitrate: 797 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 576x1024, 733 kb/s, 30 fps, 30 tbr, 600 tbn (default)
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 62 kb/s (default)
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isom
+    encoder         : Lavf62.12.101
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 576x1024, q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.101 wrapped_avframe
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 52.630, lavfi.scd.time: 7.6
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 63.611, lavfi.scd.time: 23.166667
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 77.560, lavfi.scd.time: 33.2
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 72.406, lavfi.scd.time: 52.4
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 68.256, lavfi.scd.time: 60.566667
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 62.208, lavfi.scd.time: 64.033333
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 63.398, lavfi.scd.time: 67.666667
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 69.949, lavfi.scd.time: 69.9
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 70.707, lavfi.scd.time: 72.7
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 63.289, lavfi.scd.time: 77.466667
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 16.409, lavfi.scd.time: 87.633333
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 54.631, lavfi.scd.time: 88.633333
+[Parsed_scdet_0 @ 0000018f4eac2840] lavfi.scd.score: 14.558, lavfi.scd.time: 88.666667
+[out#0/null @ 0000018f4eac2940] video:1151KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 2780 fps=0.0 q=-0.0 Lsize=N/A time=00:01:32.66 bitrate=N/A speed= 457x elapsed=0:00:00.20    

@@ -1,0 +1,491 @@
+{
+    "batch":  "batch-01",
+    "importedAt":  "2026-05-21T21:48:05",
+    "fileCount":  21,
+    "totalSizeBytes":  178514182,
+    "files":  [
+                  {
+                      "fileName":  "WhatsApp Video 2026-04-30 at 3.42.34 PM (1).mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM (1).mp4",
+                      "sizeBytes":  7113079,
+                      "durationSeconds":  60.933,
+                      "bitRate":  933883,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "11145/457",
+                                               "rawFrameRate":  "24000/1001"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-04-30 at 3.42.34 PM (2).mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM (2).mp4",
+                      "sizeBytes":  8677478,
+                      "durationSeconds":  83.433,
+                      "bitRate":  832039,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "60810/2503",
+                                               "rawFrameRate":  "60/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-04-30 at 3.42.34 PM (3).mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM (3).mp4",
+                      "sizeBytes":  7015351,
+                      "durationSeconds":  58.6,
+                      "bitRate":  957727,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "7150/293",
+                                               "rawFrameRate":  "40/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-04-30 at 3.42.34 PM (4).mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM (4).mp4",
+                      "sizeBytes":  6637555,
+                      "durationSeconds":  56.433,
+                      "bitRate":  940941,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "41370/1693",
+                                               "rawFrameRate":  "60/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-04-30 at 3.42.34 PM (5).mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM (5).mp4",
+                      "sizeBytes":  8271096,
+                      "durationSeconds":  82.6,
+                      "bitRate":  801074,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "170/7",
+                                               "rawFrameRate":  "40/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-04-30 at 3.42.34 PM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM.mp4",
+                      "sizeBytes":  8597349,
+                      "durationSeconds":  93.133,
+                      "bitRate":  738498,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "33870/1397",
+                                               "rawFrameRate":  "24000/1001"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-16 at 2.32.01 PM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-16 at 2.32.01 PM.mp4",
+                      "sizeBytes":  9199646,
+                      "durationSeconds":  68,
+                      "bitRate":  1082311,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "414/17",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-16 at 2.32.06 PM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-16 at 2.32.06 PM.mp4",
+                      "sizeBytes":  9932936,
+                      "durationSeconds":  64.167,
+                      "bitRate":  1238392,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "9378/385",
+                                               "rawFrameRate":  "300/7"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-16 at 2.32.23 PM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-16 at 2.32.23 PM.mp4",
+                      "sizeBytes":  7029463,
+                      "durationSeconds":  74.367,
+                      "bitRate":  756195,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "54240/2231",
+                                               "rawFrameRate":  "300/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-16 at 2.33.59 PM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-16 at 2.33.59 PM.mp4",
+                      "sizeBytes":  11679965,
+                      "durationSeconds":  76.1,
+                      "bitRate":  1227854,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "18500/761",
+                                               "rawFrameRate":  "40/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-17 at 4.45.57 AM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.45.57 AM.mp4",
+                      "sizeBytes":  1422754,
+                      "durationSeconds":  10.067,
+                      "bitRate":  1130665,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-17 at 4.50.14 AM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.14 AM.mp4",
+                      "sizeBytes":  9876033,
+                      "durationSeconds":  87.667,
+                      "bitRate":  901234,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-17 at 4.50.23 AM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.23 AM.mp4",
+                      "sizeBytes":  10923617,
+                      "durationSeconds":  111.8,
+                      "bitRate":  781654,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-17 at 4.50.25 AM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.25 AM.mp4",
+                      "sizeBytes":  8986842,
+                      "durationSeconds":  93.767,
+                      "bitRate":  766740,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "84330/2813",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-17 at 4.50.31 AM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.31 AM.mp4",
+                      "sizeBytes":  8554811,
+                      "durationSeconds":  90.5,
+                      "bitRate":  756226,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-17 at 4.50.40 AM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.40 AM.mp4",
+                      "sizeBytes":  10478734,
+                      "durationSeconds":  103.967,
+                      "bitRate":  806314,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-17 at 4.50.47 AM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.47 AM.mp4",
+                      "sizeBytes":  9240595,
+                      "durationSeconds":  92.667,
+                      "bitRate":  797749,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-17 at 4.50.53 AM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.53 AM.mp4",
+                      "sizeBytes":  9206400,
+                      "durationSeconds":  96.6,
+                      "bitRate":  762434,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-17 at 4.51.00 AM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.51.00 AM.mp4",
+                      "sizeBytes":  9908291,
+                      "durationSeconds":  98,
+                      "bitRate":  808840,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-17 at 4.51.04 AM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.51.04 AM.mp4",
+                      "sizeBytes":  7143943,
+                      "durationSeconds":  67,
+                      "bitRate":  853008,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-17 at 4.51.10 AM.mp4",
+                      "relativePath":  "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.51.10 AM.mp4",
+                      "sizeBytes":  8618244,
+                      "durationSeconds":  79.167,
+                      "bitRate":  870896,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  }
+              ]
+}

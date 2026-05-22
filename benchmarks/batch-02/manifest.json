@@ -1,0 +1,261 @@
+{
+    "batch":  "batch-02",
+    "importedAt":  "2026-05-21T21:51:46",
+    "fileCount":  11,
+    "totalSizeBytes":  83905711,
+    "files":  [
+                  {
+                      "fileName":  "150,000 people lost their jobs to AI.The world is changing, fast, but that’s not new to us human.mp4",
+                      "relativePath":  "benchmarks/batch-02/source/150,000 people lost their jobs to AI.The world is changing, fast, but that’s not new to us human.mp4",
+                      "sizeBytes":  6119695,
+                      "durationSeconds":  116.354,
+                      "bitRate":  420764,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  720,
+                                               "height":  1280,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "Everyone is focused on the “Real World Assets” themselves. The tokenized real estate, the treasu.mp4",
+                      "relativePath":  "benchmarks/batch-02/source/Everyone is focused on the “Real World Assets” themselves. The tokenized real estate, the treasu.mp4",
+                      "sizeBytes":  4907210,
+                      "durationSeconds":  84.589,
+                      "bitRate":  464099,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  720,
+                                               "height":  1280,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "Money moved $33 trillion on blockchains last year. More than Visa and Mastercard combined.This i.mp4",
+                      "relativePath":  "benchmarks/batch-02/source/Money moved $33 trillion on blockchains last year. More than Visa and Mastercard combined.This i.mp4",
+                      "sizeBytes":  5655687,
+                      "durationSeconds":  90.115,
+                      "bitRate":  502084,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  720,
+                                               "height":  1280,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "READ FOR FREE- The next stock supply wave nobody is pricing in (link in bio).When the most patie.mp4",
+                      "relativePath":  "benchmarks/batch-02/source/READ FOR FREE- The next stock supply wave nobody is pricing in (link in bio).When the most patie.mp4",
+                      "sizeBytes":  6152400,
+                      "durationSeconds":  103.281,
+                      "bitRate":  476556,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  720,
+                                               "height":  1280,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "The plumbing of American finance is being rebuilt in public.The DTCC, the entity that custodies .mp4",
+                      "relativePath":  "benchmarks/batch-02/source/The plumbing of American finance is being rebuilt in public.The DTCC, the entity that custodies .mp4",
+                      "sizeBytes":  5042283,
+                      "durationSeconds":  87.654,
+                      "bitRate":  460199,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  720,
+                                               "height":  1280,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-19 at 7.12.30 PM (1).mp4",
+                      "relativePath":  "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM (1).mp4",
+                      "sizeBytes":  8118612,
+                      "durationSeconds":  46.842,
+                      "bitRate":  1386562,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "14400/511",
+                                               "rawFrameRate":  "600/7"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-19 at 7.12.30 PM (2).mp4",
+                      "relativePath":  "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM (2).mp4",
+                      "sizeBytes":  7216759,
+                      "durationSeconds":  43.7,
+                      "bitRate":  1321145,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "11530/437",
+                                               "rawFrameRate":  "150/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-19 at 7.12.30 PM (3).mp4",
+                      "relativePath":  "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM (3).mp4",
+                      "sizeBytes":  8976161,
+                      "durationSeconds":  50.467,
+                      "bitRate":  1422905,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-19 at 7.12.30 PM (4).mp4",
+                      "relativePath":  "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM (4).mp4",
+                      "sizeBytes":  4969206,
+                      "durationSeconds":  27.767,
+                      "bitRate":  1431703,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-19 at 7.12.30 PM (5).mp4",
+                      "relativePath":  "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM (5).mp4",
+                      "sizeBytes":  12417438,
+                      "durationSeconds":  69.6,
+                      "bitRate":  1427291,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  },
+                  {
+                      "fileName":  "WhatsApp Video 2026-05-19 at 7.12.30 PM.mp4",
+                      "relativePath":  "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM.mp4",
+                      "sizeBytes":  14330260,
+                      "durationSeconds":  89.3,
+                      "bitRate":  1283785,
+                      "videoStreams":  [
+                                           {
+                                               "codec":  "h264",
+                                               "width":  576,
+                                               "height":  1024,
+                                               "avgFrameRate":  "30/1",
+                                               "rawFrameRate":  "30/1"
+                                           }
+                                       ],
+                      "audioStreams":  [
+                                           {
+                                               "codec":  "aac",
+                                               "sampleRate":  "44100",
+                                               "channels":  2
+                                           }
+                                       ]
+                  }
+              ]
+}

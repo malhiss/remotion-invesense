@@ -1,0 +1,32 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\sulta\OneDrive - Invesense Asset Management Limited\Documents\remotion\benchmarks\.cache\source\whatsapp-video-2026-05-17-at-45100-am-e23380e5.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isom
+  Duration: 00:01:38.00, start: 0.000000, bitrate: 808 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 576x1024, 745 kb/s, 30 fps, 30 tbr, 600 tbn (default)
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 62 kb/s (default)
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isom
+    encoder         : Lavf62.12.101
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 576x1024, q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.101 wrapped_avframe
+[Parsed_scdet_0 @ 0000024e6d721740] lavfi.scd.score: 70.748, lavfi.scd.time: 6
+[Parsed_scdet_0 @ 0000024e6d721740] lavfi.scd.score: 69.644, lavfi.scd.time: 7.166667
+[Parsed_scdet_0 @ 0000024e6d721740] lavfi.scd.score: 13.098, lavfi.scd.time: 41.9
+[Parsed_scdet_0 @ 0000024e6d721740] lavfi.scd.score: 65.906, lavfi.scd.time: 47.333333
+[Parsed_scdet_0 @ 0000024e6d721740] lavfi.scd.score: 14.372, lavfi.scd.time: 50.266667
+[Parsed_scdet_0 @ 0000024e6d721740] lavfi.scd.score: 14.296, lavfi.scd.time: 50.366667
+[Parsed_scdet_0 @ 0000024e6d721740] lavfi.scd.score: 76.899, lavfi.scd.time: 66.266667
+[Parsed_scdet_0 @ 0000024e6d721740] lavfi.scd.score: 74.961, lavfi.scd.time: 71.333333
+[Parsed_scdet_0 @ 0000024e6d721740] lavfi.scd.score: 71.608, lavfi.scd.time: 85.366667
+[Parsed_scdet_0 @ 0000024e6d721740] lavfi.scd.score: 26.918, lavfi.scd.time: 93.9
+[out#0/null @ 0000024e6d720740] video:1217KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 2940 fps=0.0 q=-0.0 Lsize=N/A time=00:01:38.00 bitrate=N/A speed= 404x elapsed=0:00:00.24    

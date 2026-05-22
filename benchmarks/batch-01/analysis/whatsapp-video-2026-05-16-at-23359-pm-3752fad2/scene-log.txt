@@ -1,0 +1,24 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\sulta\OneDrive - Invesense Asset Management Limited\Documents\remotion\benchmarks\.cache\source\whatsapp-video-2026-05-16-at-23359-pm-3752fad2.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isom
+  Duration: 00:01:16.10, start: 0.000000, bitrate: 1227 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 576x1024, 1162 kb/s, 24.31 fps, 40 tbr, 600 tbn (default)
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 62 kb/s (default)
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isom
+    encoder         : Lavf62.12.101
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 576x1024, q=2-31, 200 kb/s, 40 fps, 40 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.101 wrapped_avframe
+[Parsed_scdet_0 @ 0000027b786d3980] lavfi.scd.score: 48.069, lavfi.scd.time: 64
+[Parsed_scdet_0 @ 0000027b786d3980] lavfi.scd.score: 34.254, lavfi.scd.time: 72.05
+[out#0/null @ 0000027b786d3a80] video:766KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 1850 fps=0.0 q=-0.0 Lsize=N/A time=00:01:16.10 bitrate=N/A speed= 501x elapsed=0:00:00.15    

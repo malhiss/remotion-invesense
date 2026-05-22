@@ -1,0 +1,36 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\sulta\OneDrive - Invesense Asset Management Limited\Documents\remotion\benchmarks\.cache\source\read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:01:43.28, start: 0.000000, bitrate: 476 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 406 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : AVC Coding
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 63 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.101
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 720x1280, q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.101 wrapped_avframe
+      handler_name    : VideoHandler
+[Parsed_scdet_0 @ 000002e42f8843c0] lavfi.scd.score: 75.632, lavfi.scd.time: 9.1
+[Parsed_scdet_0 @ 000002e42f8843c0] lavfi.scd.score: 80.738, lavfi.scd.time: 17.4
+[Parsed_scdet_0 @ 000002e42f8843c0] lavfi.scd.score: 61.878, lavfi.scd.time: 39.3
+[Parsed_scdet_0 @ 000002e42f8843c0] lavfi.scd.score: 52.598, lavfi.scd.time: 48.9
+[Parsed_scdet_0 @ 000002e42f8843c0] lavfi.scd.score: 68.802, lavfi.scd.time: 69.6
+[Parsed_scdet_0 @ 000002e42f8843c0] lavfi.scd.score: 13.069, lavfi.scd.time: 80.733333
+[Parsed_scdet_0 @ 000002e42f8843c0] lavfi.scd.score: 75.892, lavfi.scd.time: 92.266667
+frame= 2865 fps=0.0 q=-0.0 size=N/A time=00:01:35.50 bitrate=N/A speed= 189x elapsed=0:00:00.50    [Parsed_scdet_0 @ 000002e42f8843c0] lavfi.scd.score: 75.872, lavfi.scd.time: 97.933333
+[out#0/null @ 000002e42f883d80] video:1282KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 3095 fps=0.0 q=-0.0 Lsize=N/A time=00:01:43.16 bitrate=N/A speed= 188x elapsed=0:00:00.54    

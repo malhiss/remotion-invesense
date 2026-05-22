@@ -1,0 +1,57 @@
+{
+  "fileName": "WhatsApp Video 2026-04-30 at 3.42.34 PM.mp4",
+  "relativePath": "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM.mp4",
+  "durationSeconds": 93.133333,
+  "bitRate": 738498,
+  "videoStreams": [
+    {
+      "codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "avgFrameRate": "33870/1397",
+      "rawFrameRate": "24000/1001"
+    }
+  ],
+  "audioStreams": [
+    {
+      "codec": "aac",
+      "sampleRate": "44100",
+      "channels": 2
+    }
+  ],
+  "sampleTimestampsSeconds": [
+    7.451,
+    14.563,
+    21.675,
+    28.787,
+    35.899,
+    43.011,
+    50.123,
+    57.235,
+    64.347,
+    71.459,
+    78.571,
+    85.683
+  ],
+  "sceneChangeTimesSeconds": [
+    89.131667
+  ],
+  "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/contact.jpg",
+  "frames": [
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-01.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-02.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-03.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-04.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-05.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-06.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-07.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-08.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-09.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-10.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-11.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/frames/frame-12.jpg"
+  ],
+  "transcriptSrt": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/transcript.srt",
+  "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/transcript.txt",
+  "sceneLog": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-c2d095e7/scene-log.txt"
+}

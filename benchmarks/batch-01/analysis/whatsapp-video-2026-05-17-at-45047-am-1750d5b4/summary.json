@@ -1,0 +1,69 @@
+{
+  "fileName": "WhatsApp Video 2026-05-17 at 4.50.47 AM.mp4",
+  "relativePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-17 at 4.50.47 AM.mp4",
+  "durationSeconds": 92.666667,
+  "bitRate": 797749,
+  "videoStreams": [
+    {
+      "codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "avgFrameRate": "30/1",
+      "rawFrameRate": "30/1"
+    }
+  ],
+  "audioStreams": [
+    {
+      "codec": "aac",
+      "sampleRate": "44100",
+      "channels": 2
+    }
+  ],
+  "sampleTimestampsSeconds": [
+    7.413,
+    14.49,
+    21.566,
+    28.642,
+    35.719,
+    42.795,
+    49.872,
+    56.948,
+    64.024,
+    71.101,
+    78.177,
+    85.253
+  ],
+  "sceneChangeTimesSeconds": [
+    7.6,
+    23.166667,
+    33.2,
+    52.4,
+    60.566667,
+    64.033333,
+    67.666667,
+    69.9,
+    72.7,
+    77.466667,
+    87.633333,
+    88.633333,
+    88.666667
+  ],
+  "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/contact.jpg",
+  "frames": [
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-01.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-02.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-03.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-04.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-05.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-06.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-07.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-08.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-09.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-10.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-11.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/frames/frame-12.jpg"
+  ],
+  "transcriptSrt": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/transcript.srt",
+  "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/transcript.txt",
+  "sceneLog": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-17-at-45047-am-1750d5b4/scene-log.txt"
+}

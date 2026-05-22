@@ -1,0 +1,136 @@
+0
+00:00:00,000 --> 00:00:03,040
+Everyone's buying AI stocks, but nobody realizes the real-
+
+1
+00:00:02,994 --> 00:00:05,394
+Real bottleneck isn't chips or rare earth.
+
+2
+00:00:05,394 --> 00:00:05,994
+AI data science
+
+3
+00:00:05,990 --> 00:00:08,990
+centers are power hungry monsters, a single GP.
+
+4
+00:00:08,985 --> 00:00:11,985
+CPU cluster running AI models can use as much electricity.
+
+5
+00:00:11,981 --> 00:00:14,981
+as a small town. Right now, US data centers
+
+6
+00:00:14,976 --> 00:00:44,976
+centers consume about 7 gigawatts of power. And by 20% of the time, the world is still in the world.
+
+7
+00:00:17,971 --> 00:00:20,931
+In the 2035 they'll need 123 gigawatts.
+
+8
+00:00:20,967 --> 00:00:23,607
+17x increase in just 10 years.
+
+9
+00:00:23,607 --> 00:00:23,967
+The problem
+
+10
+00:00:23,962 --> 00:00:26,962
+help miss you can manufacture chips faster than you can build
+
+11
+00:00:26,957 --> 00:00:29,917
+power infrastructure. TSMC can expand the fact that
+
+12
+00:00:29,953 --> 00:00:32,913
+in two years, building new power plants and upgrading the
+
+13
+00:00:32,948 --> 00:00:35,748
+electrical grid takes 5 to 10 years.
+
+14
+00:00:35,944 --> 00:00:37,544
+with government approvals.
+
+15
+00:00:37,544 --> 00:00:38,904
+Companies have been buying old-
+
+16
+00:00:38,939 --> 00:00:41,939
+power plants and restarting them just to run data centers.
+
+17
+00:00:41,934 --> 00:00:44,934
+Microsoft is exploring small modular nuclear reactors.
+
+18
+00:00:44,930 --> 00:00:47,930
+and Amazon is building next to existing power.
+
+19
+00:00:47,925 --> 00:00:50,885
+stations. This creates a massive opportunity in power
+
+20
+00:00:50,920 --> 00:00:53,960
+companies that nobody's talking about. US energy provides
+
+21
+00:00:53,916 --> 00:00:56,916
+are expanding capacity specifically for data centers.
+
+22
+00:00:56,911 --> 00:00:57,911
+centers.
+
+23
+00:00:57,911 --> 00:00:59,911
+Infrastructure companies are building the grids to connect
+
+24
+00:00:59,907 --> 00:01:04,787
+these new power sources. These aren't sexy tech stocks.
+
+25
+00:01:02,902 --> 00:01:05,902
+They're utility and construction companies, but they're capped.
+
+26
+00:01:05,897 --> 00:01:08,897
+capturing billions in guaranteed government and corporate contracts.
+
+27
+00:01:08,893 --> 00:01:11,893
+tracks. The Chips Act gave billions to semiconductor
+
+28
+00:01:11,888 --> 00:01:14,788
+companies and infrastructure bills are funding grid
+
+29
+00:01:14,883 --> 00:01:17,883
+modernization. These companies have federal backing and
+
+30
+00:01:17,879 --> 00:01:20,879
+decade-long demand visibility that most tech stocks
+
+31
+00:01:20,874 --> 00:01:23,874
+Don't everyone sees the AI chip demand but
+
+32
+00:01:23,869 --> 00:01:26,869
+If you see the power constraints, that's where the next big offer is.
+
+33
+00:01:26,865 --> 00:01:28,865
+is hiding in plain sight.
+

@@ -1,0 +1,50 @@
+{
+  "fileName": "WhatsApp Video 2026-04-30 at 3.42.34 PM (1).mp4",
+  "relativePath": "benchmarks/batch-01/source/WhatsApp Video 2026-04-30 at 3.42.34 PM (1).mp4",
+  "durationSeconds": 60.933333,
+  "bitRate": 933883,
+  "videoStreams": [
+    {
+      "codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "avgFrameRate": "11145/457",
+      "rawFrameRate": "24000/1001"
+    }
+  ],
+  "audioStreams": [
+    {
+      "codec": "aac",
+      "sampleRate": "44100",
+      "channels": 2
+    }
+  ],
+  "sampleTimestampsSeconds": [
+    4.875,
+    12.187,
+    19.499,
+    26.811,
+    34.123,
+    41.435,
+    48.747,
+    56.059
+  ],
+  "sceneChangeTimesSeconds": [
+    56.931667,
+    56.965
+  ],
+  "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/contact.jpg",
+  "frames": [
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/frames/frame-01.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/frames/frame-02.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/frames/frame-03.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/frames/frame-04.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/frames/frame-05.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/frames/frame-06.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/frames/frame-07.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/frames/frame-08.jpg"
+  ],
+  "transcriptSrt": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/transcript.srt",
+  "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/transcript.txt",
+  "sceneLog": "benchmarks/batch-01/analysis/whatsapp-video-2026-04-30-at-34234-pm-1-e04c4f9a/scene-log.txt"
+}

@@ -1,0 +1,62 @@
+{
+  "fileName": "Everyone is focused on the “Real World Assets” themselves. The tokenized real estate, the treasu.mp4",
+  "relativePath": "benchmarks/batch-02/source/Everyone is focused on the “Real World Assets” themselves. The tokenized real estate, the treasu.mp4",
+  "durationSeconds": 84.588889,
+  "bitRate": 464099,
+  "videoStreams": [
+    {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "avgFrameRate": "30/1",
+      "rawFrameRate": "30/1"
+    }
+  ],
+  "audioStreams": [
+    {
+      "codec": "aac",
+      "sampleRate": "44100",
+      "channels": 2
+    }
+  ],
+  "sampleTimestampsSeconds": [
+    6.767,
+    13.873,
+    20.978,
+    28.084,
+    35.189,
+    42.294,
+    49.4,
+    56.505,
+    63.611,
+    70.716,
+    77.822
+  ],
+  "sceneChangeTimesSeconds": [
+    9.633333,
+    13.733333,
+    14.933333,
+    19.166667,
+    28.9,
+    37.066667,
+    51,
+    56.9
+  ],
+  "contactSheet": "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/contact.jpg",
+  "frames": [
+    "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/frames/frame-01.jpg",
+    "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/frames/frame-02.jpg",
+    "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/frames/frame-03.jpg",
+    "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/frames/frame-04.jpg",
+    "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/frames/frame-05.jpg",
+    "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/frames/frame-06.jpg",
+    "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/frames/frame-07.jpg",
+    "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/frames/frame-08.jpg",
+    "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/frames/frame-09.jpg",
+    "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/frames/frame-10.jpg",
+    "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/frames/frame-11.jpg"
+  ],
+  "transcriptSrt": "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/transcript.srt",
+  "transcriptText": "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/transcript.txt",
+  "sceneLog": "benchmarks/batch-02/analysis/everyone-is-focused-on-the-real-world-assets-the-5bacd504/scene-log.txt"
+}

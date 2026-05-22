@@ -1,0 +1,64 @@
+{
+  "fileName": "150,000 people lost their jobs to AI.The world is changing, fast, but that’s not new to us human.mp4",
+  "relativePath": "benchmarks/batch-02/source/150,000 people lost their jobs to AI.The world is changing, fast, but that’s not new to us human.mp4",
+  "durationSeconds": 116.353787,
+  "bitRate": 420764,
+  "videoStreams": [
+    {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "avgFrameRate": "30/1",
+      "rawFrameRate": "30/1"
+    }
+  ],
+  "audioStreams": [
+    {
+      "codec": "aac",
+      "sampleRate": "44100",
+      "channels": 2
+    }
+  ],
+  "sampleTimestampsSeconds": [
+    9.308,
+    18.194,
+    27.079,
+    35.964,
+    44.849,
+    53.734,
+    62.619,
+    71.505,
+    80.39,
+    89.275,
+    98.16,
+    107.045
+  ],
+  "sceneChangeTimesSeconds": [
+    40.966667,
+    49.966667,
+    53.233333,
+    75.066667,
+    87,
+    93.433333,
+    99.633333,
+    112.3
+  ],
+  "contactSheet": "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/contact.jpg",
+  "frames": [
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-01.jpg",
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-02.jpg",
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-03.jpg",
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-04.jpg",
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-05.jpg",
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-06.jpg",
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-07.jpg",
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-08.jpg",
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-09.jpg",
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-10.jpg",
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-11.jpg",
+    "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/frames/frame-12.jpg"
+  ],
+  "transcriptSrt": "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/transcript.srt",
+  "transcriptText": "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/transcript.txt",
+  "sceneLog": "benchmarks/batch-02/analysis/150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1/scene-log.txt"
+}

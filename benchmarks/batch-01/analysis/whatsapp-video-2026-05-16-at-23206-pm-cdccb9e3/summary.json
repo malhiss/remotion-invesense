@@ -1,0 +1,50 @@
+{
+  "fileName": "WhatsApp Video 2026-05-16 at 2.32.06 PM.mp4",
+  "relativePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-16 at 2.32.06 PM.mp4",
+  "durationSeconds": 64.166667,
+  "bitRate": 1238392,
+  "videoStreams": [
+    {
+      "codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "avgFrameRate": "9378/385",
+      "rawFrameRate": "300/7"
+    }
+  ],
+  "audioStreams": [
+    {
+      "codec": "aac",
+      "sampleRate": "44100",
+      "channels": 2
+    }
+  ],
+  "sampleTimestampsSeconds": [
+    5.133,
+    12.833,
+    20.533,
+    28.233,
+    35.933,
+    43.633,
+    51.333,
+    59.033
+  ],
+  "sceneChangeTimesSeconds": [
+    60.153333,
+    60.176667
+  ],
+  "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/contact.jpg",
+  "frames": [
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/frames/frame-01.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/frames/frame-02.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/frames/frame-03.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/frames/frame-04.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/frames/frame-05.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/frames/frame-06.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/frames/frame-07.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/frames/frame-08.jpg"
+  ],
+  "transcriptSrt": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/transcript.srt",
+  "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/transcript.txt",
+  "sceneLog": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23206-pm-cdccb9e3/scene-log.txt"
+}

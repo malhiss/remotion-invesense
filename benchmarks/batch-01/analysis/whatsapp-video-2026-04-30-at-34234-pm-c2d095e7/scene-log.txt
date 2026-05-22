@@ -1,0 +1,48 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\sulta\OneDrive - Invesense Asset Management Limited\Documents\remotion\benchmarks\.cache\source\whatsapp-video-2026-04-30-at-34234-pm-c2d095e7.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isom
+  Duration: 00:01:33.13, start: 0.000000, bitrate: 738 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 576x1024, 673 kb/s, 24.24 fps, 23.98 tbr, 600 tbn (default)
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 62 kb/s (default)
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isom
+    encoder         : Lavf62.12.101
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 576x1024, q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.101 wrapped_avframe
+[Parsed_scdet_0 @ 0000020b2c3d0600] lavfi.scd.score: 22.557, lavfi.scd.time: 89.131667
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2139 >= 2139
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2143 >= 2143
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2147 >= 2147
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2151 >= 2151
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2155 >= 2155
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2159 >= 2159
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2163 >= 2163
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2167 >= 2167
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2171 >= 2171
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2175 >= 2175
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2179 >= 2179
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2183 >= 2183
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2187 >= 2187
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2191 >= 2191
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2195 >= 2195
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2199 >= 2199
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2203 >= 2203
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2207 >= 2207
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2209 >= 2209
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2211 >= 2211
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2215 >= 2215
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2219 >= 2219
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2223 >= 2223
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2227 >= 2227
+[null @ 0000020b2e863c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2231 >= 2231
+[out#0/null @ 0000020b2c3cfb40] video:935KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 2258 fps=0.0 q=-0.0 Lsize=N/A time=00:01:33.13 bitrate=N/A speed= 562x elapsed=0:00:00.16    

@@ -1,0 +1,51 @@
+{
+  "fileName": "WhatsApp Video 2026-05-16 at 2.32.01 PM.mp4",
+  "relativePath": "benchmarks/batch-01/source/WhatsApp Video 2026-05-16 at 2.32.01 PM.mp4",
+  "durationSeconds": 68,
+  "bitRate": 1082311,
+  "videoStreams": [
+    {
+      "codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "avgFrameRate": "414/17",
+      "rawFrameRate": "30/1"
+    }
+  ],
+  "audioStreams": [
+    {
+      "codec": "aac",
+      "sampleRate": "44100",
+      "channels": 2
+    }
+  ],
+  "sampleTimestampsSeconds": [
+    5.44,
+    12.58,
+    19.72,
+    26.86,
+    34,
+    41.14,
+    48.28,
+    55.42,
+    62.56
+  ],
+  "sceneChangeTimesSeconds": [
+    52.433333
+  ],
+  "contactSheet": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/contact.jpg",
+  "frames": [
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/frames/frame-01.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/frames/frame-02.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/frames/frame-03.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/frames/frame-04.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/frames/frame-05.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/frames/frame-06.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/frames/frame-07.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/frames/frame-08.jpg",
+    "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/frames/frame-09.jpg"
+  ],
+  "transcriptSrt": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/transcript.srt",
+  "transcriptText": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/transcript.txt",
+  "sceneLog": "benchmarks/batch-01/analysis/whatsapp-video-2026-05-16-at-23201-pm-56705722/scene-log.txt"
+}

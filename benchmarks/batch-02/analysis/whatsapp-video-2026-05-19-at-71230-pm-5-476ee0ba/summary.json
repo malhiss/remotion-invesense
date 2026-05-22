@@ -1,0 +1,54 @@
+{
+  "fileName": "WhatsApp Video 2026-05-19 at 7.12.30 PM (5).mp4",
+  "relativePath": "benchmarks/batch-02/source/WhatsApp Video 2026-05-19 at 7.12.30 PM (5).mp4",
+  "durationSeconds": 69.6,
+  "bitRate": 1427291,
+  "videoStreams": [
+    {
+      "codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "avgFrameRate": "30/1",
+      "rawFrameRate": "30/1"
+    }
+  ],
+  "audioStreams": [
+    {
+      "codec": "aac",
+      "sampleRate": "44100",
+      "channels": 2
+    }
+  ],
+  "sampleTimestampsSeconds": [
+    5.568,
+    12.876,
+    20.184,
+    27.492,
+    34.8,
+    42.108,
+    49.416,
+    56.724,
+    64.032
+  ],
+  "sceneChangeTimesSeconds": [
+    12.2,
+    16.333333,
+    65.566667,
+    65.6
+  ],
+  "contactSheet": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/contact.jpg",
+  "frames": [
+    "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/frames/frame-01.jpg",
+    "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/frames/frame-02.jpg",
+    "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/frames/frame-03.jpg",
+    "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/frames/frame-04.jpg",
+    "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/frames/frame-05.jpg",
+    "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/frames/frame-06.jpg",
+    "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/frames/frame-07.jpg",
+    "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/frames/frame-08.jpg",
+    "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/frames/frame-09.jpg"
+  ],
+  "transcriptSrt": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/transcript.srt",
+  "transcriptText": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/transcript.txt",
+  "sceneLog": "benchmarks/batch-02/analysis/whatsapp-video-2026-05-19-at-71230-pm-5-476ee0ba/scene-log.txt"
+}

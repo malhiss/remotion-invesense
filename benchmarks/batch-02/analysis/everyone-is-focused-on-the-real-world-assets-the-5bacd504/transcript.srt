@@ -1,0 +1,140 @@
+0
+00:00:00,000 --> 00:00:02,960
+When Larry Fink, the CEO of BlackRock, says something is
+
+1
+00:00:02,996 --> 00:00:05,956
+the future, you pay attention. He manages ten.
+
+2
+00:00:05,968 --> 00:00:08,868
+trillion dollars. That is half the GDP of
+
+3
+00:00:08,940 --> 00:00:11,820
+China, and he isn't talking about Bitcoin.
+
+4
+00:00:11,912 --> 00:00:14,712
+talking about tokenization. Let us explain.
+
+5
+00:00:14,884 --> 00:00:17,884
+Right now, the financial system is running on code written.
+
+6
+00:00:17,857 --> 00:00:19,457
+in the 1970s.
+
+7
+00:00:19,457 --> 00:00:20,857
+When you buy a stock, it takes
+
+8
+00:00:20,829 --> 00:00:23,109
+two days to actually settle.
+
+9
+00:00:23,109 --> 00:00:23,829
+The market closed
+
+10
+00:00:23,801 --> 00:00:28,561
+at 4 p.m. and if you want to sell a building
+
+11
+00:00:26,773 --> 00:00:29,733
+Good luck. That takes months. Think of it like the...
+
+12
+00:00:29,745 --> 00:00:32,745
+post office before the internet if you wanted to send a
+
+13
+00:00:32,717 --> 00:00:35,677
+message, he wrote a letter, bought a stamp, and
+
+14
+00:00:35,689 --> 00:00:38,649
+waited three days. Tokenization is...
+
+15
+00:00:38,662 --> 00:00:41,402
+is the email moment for finance.
+
+16
+00:00:41,634 --> 00:00:44,634
+It puts stocks, bonds, even real estate.
+
+17
+00:00:44,606 --> 00:00:47,606
+on a blockchain. Suddenly that three-day wait becomes
+
+18
+00:00:47,578 --> 00:00:50,538
+three seconds. But here is where it gets processed.
+
+19
+00:00:50,550 --> 00:00:53,550
+Once these assets are tokenized,
+
+20
+00:00:53,522 --> 00:00:54,962
+They don't just sit there.
+
+21
+00:00:54,962 --> 00:00:56,562
+They become liquid collateral.
+
+22
+00:00:56,495 --> 00:00:59,495
+Imagine tokenizing your house and using it
+
+23
+00:00:59,467 --> 00:01:02,427
+to take out a loan in 30 seconds, right on your phone.
+
+24
+00:01:02,439 --> 00:01:04,639
+without a bank manager in sight.
+
+25
+00:01:04,639 --> 00:01:05,639
+This is going to ensure
+
+26
+00:01:05,411 --> 00:01:08,411
+and project trillions of dollars of value into crypto.
+
+27
+00:01:08,383 --> 00:01:10,683
+And that volume has to go somewhere.
+
+28
+00:01:10,683 --> 00:01:11,343
+It flows the...
+
+29
+00:01:11,355 --> 00:01:14,395
+through what we call DeFi that issues the loans.
+
+30
+00:01:14,328 --> 00:01:17,328
+We are just a random Instagram page, but we're not.
+
+31
+00:01:17,300 --> 00:01:20,300
+$16 trillion is looking for a home.
+
+32
+00:01:20,272 --> 00:01:22,872
+we think it pays to know the address.
+
+33
+00:01:22,872 --> 00:01:23,272
+So hit the
+
+34
+00:01:23,244 --> 00:01:25,244
+follow.
+

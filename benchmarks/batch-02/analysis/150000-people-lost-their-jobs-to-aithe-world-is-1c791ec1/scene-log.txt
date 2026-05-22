@@ -1,0 +1,36 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\sulta\OneDrive - Invesense Asset Management Limited\Documents\remotion\benchmarks\.cache\source\150000-people-lost-their-jobs-to-aithe-world-is-1c791ec1.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:01:56.35, start: 0.000000, bitrate: 420 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 347 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : AVC Coding
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 66 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.101
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 720x1280, q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.101 wrapped_avframe
+      handler_name    : VideoHandler
+[Parsed_scdet_0 @ 000001c627a218c0] lavfi.scd.score: 27.164, lavfi.scd.time: 40.966667
+[Parsed_scdet_0 @ 000001c627a218c0] lavfi.scd.score: 63.130, lavfi.scd.time: 49.966667
+[Parsed_scdet_0 @ 000001c627a218c0] lavfi.scd.score: 20.859, lavfi.scd.time: 53.233333
+[Parsed_scdet_0 @ 000001c627a218c0] lavfi.scd.score: 70.594, lavfi.scd.time: 75.066667
+[Parsed_scdet_0 @ 000001c627a218c0] lavfi.scd.score: 70.328, lavfi.scd.time: 87
+[Parsed_scdet_0 @ 000001c627a218c0] lavfi.scd.score: 12.095, lavfi.scd.time: 93.433333
+[Parsed_scdet_0 @ 000001c627a218c0] lavfi.scd.score: 65.821, lavfi.scd.time: 99.633333
+frame= 2989 fps=0.0 q=-0.0 size=N/A time=00:01:39.63 bitrate=N/A speed= 193x elapsed=0:00:00.51    [Parsed_scdet_0 @ 000001c627a218c0] lavfi.scd.score: 65.513, lavfi.scd.time: 112.3
+[out#0/null @ 000001c627a22340] video:1444KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 3487 fps=0.0 q=-0.0 Lsize=N/A time=00:01:56.23 bitrate=N/A speed= 193x elapsed=0:00:00.60    

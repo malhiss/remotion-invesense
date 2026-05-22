@@ -1,0 +1,54 @@
+{
+  "name": "invesense-remotion-reels",
+  "version": "1.0.0",
+  "description": "Fresh Remotion-only foundation for premium Invesense finance reels",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/captions": "4.0.464",
+    "@remotion/cli": "4.0.464",
+    "@remotion/fonts": "4.0.464",
+    "@remotion/google-fonts": "4.0.464",
+    "@remotion/layout-utils": "4.0.464",
+    "@remotion/light-leaks": "4.0.464",
+    "@remotion/lottie": "4.0.464",
+    "@remotion/media": "4.0.464",
+    "@remotion/media-utils": "4.0.464",
+    "@remotion/motion-blur": "4.0.464",
+    "@remotion/noise": "4.0.464",
+    "@remotion/paths": "4.0.464",
+    "@remotion/preload": "4.0.464",
+    "@remotion/sfx": "4.0.464",
+    "@remotion/shapes": "4.0.464",
+    "@remotion/tailwind-v4": "4.0.464",
+    "@remotion/transitions": "4.0.464",
+    "@remotion/zod-types": "4.0.464",
+    "lottie-web": "5.13.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.464",
+    "tailwindcss": "4.0.0",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.464",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc",
+    "test": "node --test tests/*.test.mjs",
+    "review": "node scripts/review-reel.mjs",
+    "review:family-bc": "node scripts/review-reel.mjs --composition FamilyBCCalibrationReel --frame-set family-bc-calibration"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

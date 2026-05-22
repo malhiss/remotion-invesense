@@ -1,0 +1,64 @@
+{
+  "fileName": "READ FOR FREE- The next stock supply wave nobody is pricing in (link in bio).When the most patie.mp4",
+  "relativePath": "benchmarks/batch-02/source/READ FOR FREE- The next stock supply wave nobody is pricing in (link in bio).When the most patie.mp4",
+  "durationSeconds": 103.280952,
+  "bitRate": 476556,
+  "videoStreams": [
+    {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "avgFrameRate": "30/1",
+      "rawFrameRate": "30/1"
+    }
+  ],
+  "audioStreams": [
+    {
+      "codec": "aac",
+      "sampleRate": "44100",
+      "channels": 2
+    }
+  ],
+  "sampleTimestampsSeconds": [
+    8.262,
+    16.149,
+    24.036,
+    31.923,
+    39.81,
+    47.697,
+    55.584,
+    63.471,
+    71.358,
+    79.245,
+    87.132,
+    95.018
+  ],
+  "sceneChangeTimesSeconds": [
+    9.1,
+    17.4,
+    39.3,
+    48.9,
+    69.6,
+    80.733333,
+    92.266667,
+    97.933333
+  ],
+  "contactSheet": "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/contact.jpg",
+  "frames": [
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-01.jpg",
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-02.jpg",
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-03.jpg",
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-04.jpg",
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-05.jpg",
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-06.jpg",
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-07.jpg",
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-08.jpg",
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-09.jpg",
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-10.jpg",
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-11.jpg",
+    "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/frames/frame-12.jpg"
+  ],
+  "transcriptSrt": "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/transcript.srt",
+  "transcriptText": "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/transcript.txt",
+  "sceneLog": "benchmarks/batch-02/analysis/read-for-free-the-next-stock-supply-wave-nobody-d3e2ff14/scene-log.txt"
+}

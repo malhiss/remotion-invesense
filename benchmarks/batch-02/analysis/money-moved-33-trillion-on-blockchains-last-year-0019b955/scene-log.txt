@@ -1,0 +1,33 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\sulta\OneDrive - Invesense Asset Management Limited\Documents\remotion\benchmarks\.cache\source\money-moved-33-trillion-on-blockchains-last-year-0019b955.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:01:30.12, start: 0.000000, bitrate: 502 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 429 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : AVC Coding
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 66 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.101
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 720x1280, q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.101 wrapped_avframe
+      handler_name    : VideoHandler
+[Parsed_scdet_0 @ 0000017eed531940] lavfi.scd.score: 72.167, lavfi.scd.time: 27.766667
+[Parsed_scdet_0 @ 0000017eed531940] lavfi.scd.score: 53.059, lavfi.scd.time: 43.433333
+[Parsed_scdet_0 @ 0000017eed531940] lavfi.scd.score: 72.593, lavfi.scd.time: 67.966667
+[Parsed_scdet_0 @ 0000017eed531940] lavfi.scd.score: 69.250, lavfi.scd.time: 80.5
+frame= 2461 fps=0.0 q=-0.0 size=N/A time=00:01:22.03 bitrate=N/A speed= 160x elapsed=0:00:00.51    [Parsed_scdet_0 @ 0000017eed531940] lavfi.scd.score: 75.517, lavfi.scd.time: 88.066667
+[out#0/null @ 0000017eed530640] video:1118KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 2700 fps=0.0 q=-0.0 Lsize=N/A time=00:01:30.00 bitrate=N/A speed= 160x elapsed=0:00:00.56    

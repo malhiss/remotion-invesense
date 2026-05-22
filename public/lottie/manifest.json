@@ -1,0 +1,36 @@
+{
+  "policy": "family-bc-approved-lottie-assets",
+  "purpose": "LottieFiles assets are approved accent motion for Family B/C reels, not hero metaphors or standalone proof.",
+  "allowedRoles": [
+    "accent",
+    "transition",
+    "CTA",
+    "route-pulse",
+    "highlight",
+    "checkmark",
+    "warning",
+    "loader",
+    "micro-icon",
+    "proof-burst",
+    "chart-accent",
+    "payment-transfer",
+    "data-transfer"
+  ],
+  "forbiddenRoles": [
+    "unapproved-hero-metaphor",
+    "decorative-clutter",
+    "standalone-proof",
+    "random-confetti",
+    "unlicensed-asset"
+  ],
+  "requiredFieldsForNewAssets": [
+    "id",
+    "sourceUrl",
+    "localPath",
+    "licenseNote",
+    "approvedUsage",
+    "approvedByHuman",
+    "fallbackNativeRemotionOption"
+  ],
+  "assets": []
+}
