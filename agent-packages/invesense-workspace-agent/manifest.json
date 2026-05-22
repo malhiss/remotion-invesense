@@ -1,0 +1,90 @@
+{
+  "name": "invesense-workspace-agent",
+  "displayName": "Invesense Workspace Agent",
+  "phase": "phase-2-workspace-agent-workflow",
+  "version": "0.2.0",
+  "consolidationMode": "consolidated-chains",
+  "sourceOfTruth": "repo-native Phase 2 pack",
+  "nonApprovalBoundary": "No production reel implementation starts in Phase 2. This pack creates review-only planning outputs.",
+  "skills": [
+    {
+      "id": "source-and-evidence-steward",
+      "title": "Source And Evidence Steward",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "chart-proof-director",
+      "title": "Chart Proof Director",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "mechanism-story-diagnostician",
+      "title": "Mechanism Story Diagnostician",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "benchmark-reference-deconstructor",
+      "title": "Benchmark Reference Deconstructor",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "route-analogy-miner",
+      "title": "Route Analogy Miner",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "asset-lottie-planner",
+      "title": "Asset Lottie Planner",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "styleframe-visual-target-director",
+      "title": "Styleframe Visual Target Director",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "scene-motion-proof-birth-planner",
+      "title": "Scene Motion Proof Birth Planner",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "brand-label-silent-reviewer",
+      "title": "Brand Label Silent Reviewer",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "remotion-feasibility-gatekeeper",
+      "title": "Remotion Feasibility Gatekeeper",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "human-review-packager",
+      "title": "Human Review Packager",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "codex-readiness-handoff-gatekeeper",
+      "title": "Codex Readiness Handoff Gatekeeper",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    },
+    {
+      "id": "post-spike-reviewer",
+      "title": "Post Spike Reviewer",
+      "sourceOldSystemStrategy": "consolidated rewrite"
+    }
+  ],
+  "templates": [
+    "intake-evidence.md",
+    "benchmark-reference.md",
+    "route-options.md",
+    "asset-lottie-board.md",
+    "styleframe-direction.md",
+    "scene-behavior.md",
+    "human-review-document.md",
+    "codex-readiness-handoff.md",
+    "post-spike-review.md"
+  ],
+  "examples": [
+    "family-bc-sample-brief.json"
+  ]
+}
