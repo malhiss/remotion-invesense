@@ -55,6 +55,33 @@ Closure criteria:
 
 ## Phase 2: Build The Workspace Agent Creative Director Workflow
 
+Status: closed.
+
+Purpose:
+
+- Turn the Phase 1 knowledge layer into the working creative-director workflow.
+- Consolidate the old v1 and v2 Workspace Agent sprawl into fewer stronger skills.
+- Add a repo-native Workspace Agent pack and an importable plugin package.
+- Add a deterministic dry-run CLI that proves the workflow produces a blocked, review-only packet stack before implementation.
+
+Implemented in Phase 2:
+
+- `workspace-agent/` is the repo-native Workspace Agent artifact.
+- `agent-packages/invesense-workspace-agent/` is the importable plugin package.
+- The old-system audit register maps every old v1 skill, v2 skill, v2 knowledge file, and v2 template to preserve, merge, redesign, or discard.
+- Thirteen consolidated skills replace the old one-file-per-micro-skill maze.
+- `src/contracts/workspace-agent-phase2-contract.ts` defines Phase 2 skill, audit, plugin, dry-run, human gate, and blocked handoff contracts.
+- `npm run phase2:dry-run` produces a review-only packet stack with blocked Codex handoff.
+- `npm run phase2:validate` validates the workflow, plugin package, audit register, dry-run, and no-production boundary.
+
+Closure criteria:
+
+- Verification passes with `npm test`, `npm run lint`, `npm run build`, `npm run phase2:dry-run`, `npm run phase2:validate`, and the dry-run sanity check `npm run review:family-bc`.
+- No production reel implementation has started.
+- Phase 3 is explicitly marked as next.
+
+## Phase 3: Build The Family B/C Visual System
+
 Status: next.
 
-Phase 2 should turn the Phase 1 knowledge layer into the working creative-director workflow: packet order, route options, human approvals, rejection rights, and Codex-readiness gates. It should not start a production slate before the gate system is operational.
+Phase 3 should build the reusable light editorial Family B/C visual primitives and review tooling that Codex will later use after approved Workspace Agent handoffs. It should still avoid starting a production reel slate until the first pilot handoff is approved.

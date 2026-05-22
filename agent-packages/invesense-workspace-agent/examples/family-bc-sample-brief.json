@@ -1,0 +1,26 @@
+{
+  "briefId": "phase2-family-bc-sample-brief",
+  "familyTarget": "family-bc-hybrid",
+  "sourceMode": "manager-kit",
+  "title": "Revenue improved while market price compressed",
+  "sourceBoundary": "Use only the approved sample chart claim. This is a workflow fixture, not a production reel.",
+  "approvedClaims": [
+    {
+      "id": "claim-001",
+      "claim": "Revenue improved while market price compressed.",
+      "value": "sample indexed chart relationship",
+      "source": "Phase 2 sample brief fixture",
+      "confidenceTier": "manager-approved",
+      "visualAttachment": "Gap bracket born from source chart points"
+    }
+  ],
+  "requestedDurationSeconds": 36,
+  "requiredBenchmarkFamilies": [
+    "family-b",
+    "family-c"
+  ],
+  "lottieMotionNeeds": [
+    "route pulse",
+    "highlight sweep"
+  ]
+}

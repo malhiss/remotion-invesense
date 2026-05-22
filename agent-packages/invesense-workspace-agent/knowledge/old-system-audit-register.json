@@ -1,0 +1,1794 @@
+{
+  "version": 1,
+  "generatedForPhase": "phase-2-workspace-agent-workflow",
+  "sourceSummary": {
+    "v1Skills": 5,
+    "v2Skills": 63,
+    "v2Knowledge": 84,
+    "v2Templates": 70
+  },
+  "decisions": [
+    "preserve",
+    "merge",
+    "redesign",
+    "discard"
+  ],
+  "entries": [
+    {
+      "sourceSystem": "v1",
+      "artifactType": "skill",
+      "oldPath": ".agents/skills/generate-premium-concepts.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v1",
+      "artifactType": "skill",
+      "oldPath": ".agents/skills/intake-manager-kit.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v1",
+      "artifactType": "skill",
+      "oldPath": ".agents/skills/motion-narrative-pass.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v1",
+      "artifactType": "skill",
+      "oldPath": ".agents/skills/normalize-brief.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v1",
+      "artifactType": "skill",
+      "oldPath": ".agents/skills/select-analogy.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/3d-feasibility-evaluator.md",
+      "decision": "merge",
+      "target": "remotion-feasibility-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/analogy-scorecard-runner.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/animated-chart-recreation-planner.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/asset-board-builder.md",
+      "decision": "merge",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/asset-creation-packet-builder.md",
+      "decision": "merge",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/asset-sourcing-planner.md",
+      "decision": "merge",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/asset-system-designer.md",
+      "decision": "merge",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/audio-silent-readability-planner.md",
+      "decision": "merge",
+      "target": "brand-label-silent-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/benchmark-comparison.md",
+      "decision": "merge",
+      "target": "benchmark-reference-deconstructor",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/brandbook-enforcer.md",
+      "decision": "merge",
+      "target": "brand-label-silent-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/chart-animation-decision-maker.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/chart-graph-table-auditor.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/chart-proof-object-decider.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/chart-to-metaphor-integrator.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/chart-to-proof-translator.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/claim-confidence-tierer.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/codex-handoff-gatekeeper.md",
+      "decision": "preserve",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/codex-readiness-scorer.md",
+      "decision": "preserve",
+      "target": "codex-readiness-handoff-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/contact-sheet-reviewer.md",
+      "decision": "preserve",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/continuous-motion-analogy-mining.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/cta-residue-close-planner.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/decision-gate-summarizer.md",
+      "decision": "merge",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/evidence-table-formatter.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/exact-number-fidelity-checker.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/financial-mechanism-diagnosis.md",
+      "decision": "merge",
+      "target": "mechanism-story-diagnostician",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/financial-story-extraction.md",
+      "decision": "merge",
+      "target": "mechanism-story-diagnostician",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/format-duration-strategist.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/human-review-document-formatter.md",
+      "decision": "merge",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/label-budget-enforcer.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/long-output-gatekeeper.md",
+      "decision": "merge",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/manual-reel-brief-auditor.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/number-label-lock-checker.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/online-visual-research.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/physical-metaphor-mining.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/production-brief-completeness-checker.md",
+      "decision": "merge",
+      "target": "codex-readiness-handoff-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/prompt-failure-diagnosis.md",
+      "decision": "merge",
+      "target": "codex-readiness-handoff-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/prompt-style-creative-brief-writer.md",
+      "decision": "merge",
+      "target": "codex-readiness-handoff-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/proof-hierarchy-auditor.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/reference-video-deconstruction.md",
+      "decision": "merge",
+      "target": "benchmark-reference-deconstructor",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/remotion-feasibility-mapping.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/remotion-styleframe-recreation-brief-writer.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/research-depth-selector.md",
+      "decision": "merge",
+      "target": "mechanism-story-diagnostician",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/retention-pacing-strategist.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/review-only-codex-draft-writer.md",
+      "decision": "preserve",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/reviewer-codex-separation-checker.md",
+      "decision": "preserve",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/reviewer-mode-selector.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/route-card-summarizer.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/scene-behavior-planner.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/search-playbook-runner.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/skill-chain-orchestration.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/source-evidence-inventory.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/source-intake-and-boundary-detection.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/source-label-locker.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/source-proof-gatekeeper.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/styleframe-approval-gatekeeper.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/styleframe-direction-writer.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/variant-strategy-planner.md",
+      "decision": "merge",
+      "target": "brand-label-silent-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/visual-analogy-research-runner.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/visual-causality-checker.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/visual-proof-distortion-checker.md",
+      "decision": "merge",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/visual-reference-collector.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/visual-spike-failure-diagnoser.md",
+      "decision": "preserve",
+      "target": "post-spike-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "skill",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/skills/wow-asset-event-ideation.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/3d-decision-tree.md",
+      "decision": "merge",
+      "target": "remotion-feasibility-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/analogy-failure-modes.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/analogy-scoring-system.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/animated-chart-proof-rules.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/anti-patterns-and-rejection-rules.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/asset-board-rules.md",
+      "decision": "merge",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/asset-design-rules.md",
+      "decision": "merge",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/asset-sourcing-rules.md",
+      "decision": "merge",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/asset-taxonomy.md",
+      "decision": "merge",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/audio-silent-readability-rules.md",
+      "decision": "merge",
+      "target": "brand-label-silent-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/benchmark-lessons.md",
+      "decision": "merge",
+      "target": "benchmark-reference-deconstructor",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/benchmark-moment-card-schema.md",
+      "decision": "merge",
+      "target": "benchmark-reference-deconstructor",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/benchmark-moment-library.md",
+      "decision": "merge",
+      "target": "benchmark-reference-deconstructor",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/chart-animation-fidelity-rules.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/chart-as-proof-object-rules.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/chart-graph-table-rules.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/chart-recreation-vs-adaptation-rules.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/chart-to-metaphor-integration-rules.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/claim-confidence-tier-rules.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/codex-failure-patterns.md",
+      "decision": "preserve",
+      "target": "codex-readiness-handoff-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/codex-readiness-score-rules.md",
+      "decision": "preserve",
+      "target": "codex-readiness-handoff-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/component-mechanism-atlas.md",
+      "decision": "discard",
+      "target": "historical-failure-evidence-only",
+      "rationale": "Useful only as failure evidence; do not migrate visuals, shells, or implementation patterns."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/contact-sheet-review-rules.md",
+      "decision": "preserve",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/continuous-motion-system.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/cta-residue-close-rules.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/decision-gate-summary-rules.md",
+      "decision": "merge",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/estimate-consensus-caveat-rules.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/evidence-table-format-rules.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/exact-number-fidelity-rules.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/executive-summary-rules.md",
+      "decision": "merge",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/expanded-mechanism-library-100.md",
+      "decision": "merge",
+      "target": "mechanism-story-diagnostician",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/failed-visual-lessons.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/financial-analogy-atlas.md",
+      "decision": "merge",
+      "target": "mechanism-story-diagnostician",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/format-duration-rules.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/graph-to-metaphor-translation-rules.md",
+      "decision": "merge",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/human-review-format-rules.md",
+      "decision": "merge",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/image-reference-copy-risk-rules.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/invesense-brand-taste-rules.md",
+      "decision": "merge",
+      "target": "brand-label-silent-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/invesense-brandbook.md",
+      "decision": "merge",
+      "target": "brand-label-silent-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/invesense-color-material-system.md",
+      "decision": "merge",
+      "target": "brand-label-silent-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/invesense-label-and-typography-rules.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/invesense-motion-styleguide.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/label-budget-rules.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/legacy-system-extraction-summary.md",
+      "decision": "discard",
+      "target": "historical-failure-evidence-only",
+      "rationale": "Useful only as failure evidence; do not migrate visuals, shells, or implementation patterns."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/long-output-format-rules.md",
+      "decision": "merge",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/luke-style-synthesis.md",
+      "decision": "merge",
+      "target": "benchmark-reference-deconstructor",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/manual-reel-lessons.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/motion-narrative-pass.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/number-label-lock-rules.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/object-permanence-and-handoff-rules.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/online-search-playbooks.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/production-brief-completeness-rules.md",
+      "decision": "merge",
+      "target": "codex-readiness-handoff-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/prompt-pattern-library.md",
+      "decision": "merge",
+      "target": "codex-readiness-handoff-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/proof-hierarchy-rules.md",
+      "decision": "merge",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/proof-object-design.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/proof-operator-library.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/pseudo-3d-vs-true-3d.md",
+      "decision": "merge",
+      "target": "remotion-feasibility-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/remotion-capability-guidance.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/remotion-recreate-from-styleframe-rules.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/repo-component-inventory.md",
+      "decision": "discard",
+      "target": "historical-failure-evidence-only",
+      "rationale": "Useful only as failure evidence; do not migrate visuals, shells, or implementation patterns."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/research-depth-rules.md",
+      "decision": "merge",
+      "target": "mechanism-story-diagnostician",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/research-source-map.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/retention-pacing-rules.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/review-only-codex-draft-rules.md",
+      "decision": "preserve",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/reviewer-mode-rules.md",
+      "decision": "merge",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/reviewer-vs-codex-document-rules.md",
+      "decision": "preserve",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/route-card-format-rules.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/scene-behavior-rules.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/scene-handoff-pattern-library.md",
+      "decision": "merge",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/search-query-recipes.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/source-evidence-audit-rules.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/source-hierarchy-and-citation-rules.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/source-label-fidelity-rules.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/source-proof-before-metaphor-rules.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/source-visual-escalation-rules.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/styleframe-approval-rules.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/styleframe-before-codex-rules.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/topic-first-mechanism-understanding.md",
+      "decision": "merge",
+      "target": "mechanism-story-diagnostician",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/variant-strategy-rules.md",
+      "decision": "merge",
+      "target": "brand-label-silent-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/visual-proof-distortion-rules.md",
+      "decision": "merge",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/visual-reference-usage-rules.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/visual-spike-review-rules.md",
+      "decision": "preserve",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/visual-target-handoff-rules.md",
+      "decision": "merge",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "knowledge",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/knowledge/wow-asset-event-library.md",
+      "decision": "merge",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/3d-feasibility-spike-packet.md",
+      "decision": "preserve",
+      "target": "remotion-feasibility-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/analogy-selection-scorecard.md",
+      "decision": "redesign",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/animated-chart-recreation-plan.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/asset-creation-packet.md",
+      "decision": "redesign",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/asset-grounding-packet.md",
+      "decision": "redesign",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/asset-sourcing-plan.md",
+      "decision": "redesign",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/asset-system-packet.md",
+      "decision": "redesign",
+      "target": "asset-lottie-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/audio-silent-readability-plan.md",
+      "decision": "redesign",
+      "target": "brand-label-silent-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/benchmark-moment-card.md",
+      "decision": "redesign",
+      "target": "benchmark-reference-deconstructor",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/brand-fit-review-packet.md",
+      "decision": "redesign",
+      "target": "brand-label-silent-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/chart-animation-decision-packet.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/chart-graph-table-audit-packet.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/chart-proof-object-decision-packet.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/chart-to-metaphor-integration-packet.md",
+      "decision": "preserve",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/claim-confidence-tier-packet.md",
+      "decision": "redesign",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/codex-failure-diagnosis-packet.md",
+      "decision": "preserve",
+      "target": "codex-readiness-handoff-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/codex-handoff-packet.md",
+      "decision": "preserve",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/codex-readiness-scorecard.md",
+      "decision": "preserve",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/contact-sheet-review-packet.md",
+      "decision": "preserve",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/cta-residue-close-plan.md",
+      "decision": "redesign",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/decision-gate-summary.md",
+      "decision": "redesign",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/evidence-table.md",
+      "decision": "redesign",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/exact-number-fidelity-packet.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/executive-summary-page.md",
+      "decision": "redesign",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/financial-mechanism-diagnosis-packet.md",
+      "decision": "redesign",
+      "target": "mechanism-story-diagnostician",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/five-route-creative-packet.md",
+      "decision": "redesign",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/format-duration-plan.md",
+      "decision": "redesign",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/graph-to-proof-translation-packet.md",
+      "decision": "redesign",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/human-decision-box.md",
+      "decision": "redesign",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/human-review-document.md",
+      "decision": "redesign",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/label-budget-plan.md",
+      "decision": "redesign",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/long-output-plan.md",
+      "decision": "redesign",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/machine-readable-appendix.md",
+      "decision": "redesign",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/manual-reel-brief-audit-packet.md",
+      "decision": "redesign",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/missing-input-packet.md",
+      "decision": "redesign",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/motion-narrative-pass.md",
+      "decision": "redesign",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/number-label-lock-table.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/physical-metaphor-route-packet.md",
+      "decision": "redesign",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/production-brief-completeness-checklist.md",
+      "decision": "redesign",
+      "target": "codex-readiness-handoff-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/prompt-style-creative-brief.md",
+      "decision": "redesign",
+      "target": "codex-readiness-handoff-gatekeeper",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/proof-hierarchy-audit-packet.md",
+      "decision": "redesign",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/reference-video-deconstruction-packet.md",
+      "decision": "redesign",
+      "target": "benchmark-reference-deconstructor",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/remotion-styleframe-recreation-brief.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/research-depth-decision-packet.md",
+      "decision": "redesign",
+      "target": "mechanism-story-diagnostician",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/retention-pacing-plan.md",
+      "decision": "redesign",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/review-only-codex-prompt-draft.md",
+      "decision": "preserve",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/reviewer-codex-separation-check.md",
+      "decision": "preserve",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/reviewer-mode-decision-packet.md",
+      "decision": "redesign",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/route-card.md",
+      "decision": "redesign",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/route-comparison-matrix.md",
+      "decision": "redesign",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/route-comparison-packet.md",
+      "decision": "redesign",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/scene-beat-table.md",
+      "decision": "redesign",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/scene-by-scene-behavior-packet.md",
+      "decision": "redesign",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/selected-route-concept-packet.md",
+      "decision": "redesign",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/source-evidence-inventory-packet.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/source-intake-packet.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/source-label-lock-packet.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/source-proof-gate-packet.md",
+      "decision": "preserve",
+      "target": "source-and-evidence-steward",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/styleframe-approval-packet.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/styleframe-direction-packet.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/timestamped-beat-sheet.md",
+      "decision": "redesign",
+      "target": "scene-motion-proof-birth-planner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/variant-strategy-plan.md",
+      "decision": "redesign",
+      "target": "brand-label-silent-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/visual-analogy-research-packet.md",
+      "decision": "redesign",
+      "target": "route-analogy-miner",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/visual-causality-review-packet.md",
+      "decision": "redesign",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/visual-proof-distortion-review-packet.md",
+      "decision": "redesign",
+      "target": "chart-proof-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/visual-reference-board-packet.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/visual-reference-research-packet.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/visual-review-packet.md",
+      "decision": "redesign",
+      "target": "human-review-packager",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/visual-spike-failure-diagnosis-packet.md",
+      "decision": "preserve",
+      "target": "post-spike-reviewer",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    },
+    {
+      "sourceSystem": "v2",
+      "artifactType": "template",
+      "oldPath": "agent-packages/invesense-reel-coordinator-v2/templates/visual-target-codex-handoff-patch.md",
+      "decision": "preserve",
+      "target": "styleframe-visual-target-director",
+      "rationale": "Rewrite the useful operating logic into the consolidated Phase 2 Workspace Agent workflow."
+    }
+  ]
+}

@@ -48,7 +48,10 @@
     "review": "node scripts/review-reel.mjs",
     "review:family-bc": "node scripts/review-reel.mjs --composition FamilyBCCalibrationReel --frame-set family-bc-calibration",
     "phase1:atlas": "node scripts/generate-workspace-agent-atlas.mjs",
-    "phase1:validate": "node scripts/phase1-validate.mjs"
+    "phase1:validate": "node scripts/phase1-validate.mjs",
+    "phase2:generate": "node scripts/generate-phase2-workspace-agent.mjs",
+    "phase2:dry-run": "node scripts/run-phase2-dry-run.mjs",
+    "phase2:validate": "node scripts/phase2-validate.mjs"
   },
   "sideEffects": [
     "*.css"
