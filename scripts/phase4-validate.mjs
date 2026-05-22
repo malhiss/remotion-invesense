@@ -77,7 +77,8 @@ assert(/not static pasted images/iu.test(docs), "Phase 4 docs must forbid static
 const ledger = read("docs/phase-ledger.md");
 assert(/Phase 4 Add-On: SVG Insight Chart Intake/u.test(ledger), "Phase 4 SVG add-on ledger section missing.");
 assert(/Status: closed/u.test(ledger), "Phase 4 SVG add-on must be marked closed.");
-assert(/Phase 5: First Approved Pilot Handoff/u.test(ledger), "Phase 5 next section missing.");
+assert(/Phase 5: Review \+ QA Tooling/u.test(ledger), "Phase 5 review tooling section missing.");
+assert(/Phase 6: First Approved Pilot Handoff/u.test(ledger), "Phase 6 pilot handoff section missing.");
 
 const validation = {
   phase4SvgChartIntake: {
@@ -91,7 +92,7 @@ const validation = {
     staticSvgAsFinalChart: false,
     finalMp4RenderAllowed: false,
   },
-  next: "Phase 5: First Approved Pilot Handoff",
+  next: "Phase 5: Review + QA Tooling",
 };
 
 console.log("---PHASE4_VALIDATE_JSON_START---");
