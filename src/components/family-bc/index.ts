@@ -2,6 +2,7 @@ export * from "./tokens";
 export * from "./stage";
 export * from "./typography";
 export * from "./charts";
+export * from "./svg-chart";
 export * from "./actors";
 export * from "./lottie";
 export * from "./cta";
