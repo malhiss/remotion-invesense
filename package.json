@@ -46,7 +46,9 @@
     "lint": "eslint src && tsc",
     "test": "node --test tests/*.test.mjs",
     "review": "node scripts/review-reel.mjs",
-    "review:family-bc": "node scripts/review-reel.mjs --composition FamilyBCCalibrationReel --frame-set family-bc-calibration"
+    "review:family-bc": "node scripts/review-reel.mjs --composition FamilyBCCalibrationReel --frame-set family-bc-calibration",
+    "phase1:atlas": "node scripts/generate-workspace-agent-atlas.mjs",
+    "phase1:validate": "node scripts/phase1-validate.mjs"
   },
   "sideEffects": [
     "*.css"

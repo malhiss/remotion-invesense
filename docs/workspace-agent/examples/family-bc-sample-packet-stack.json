@@ -1,0 +1,465 @@
+{
+  "stackId": "family-bc-sample-source-chart-to-residue",
+  "phase": "phase-1-knowledge-layer",
+  "workspaceAgentRole": "creative-director",
+  "codexRole": "implementation-only",
+  "productionImplementationAllowed": false,
+  "sourceIntake": {
+    "packetType": "source-intake-packet",
+    "inputMode": "manager-kit",
+    "sourceSummary": "Sample controlled Family B/C brief: a source chart shows revenue expanding while market price compresses.",
+    "approvedClaims": [
+      {
+        "id": "claim-001",
+        "claim": "Revenue increased while price declined over the same source period.",
+        "value": "source chart values only",
+        "source": "Approved manager chart fixture",
+        "confidenceTier": "manager-approved",
+        "onScreen": true,
+        "visualAttachment": "The claim attaches to the chart line and gap bracket after the marker event."
+      }
+    ],
+    "sourceGaps": [],
+    "containsNumericProof": true,
+    "sourceVisualAuditRequired": true,
+    "whatMustNotBeClaimed": [
+      "Do not infer future performance.",
+      "Do not invent dates or values not present in the source chart."
+    ],
+    "sourceOfTruth": "Approved manager chart fixture",
+    "visualResearchAllowed": true,
+    "nextRecommendedPacket": "evidence-audit-packet",
+    "humanGate": "approved"
+  },
+  "evidenceAudit": {
+    "packetType": "evidence-audit-packet",
+    "sourceBoundary": "Only the approved manager chart fixture may supply claims and values.",
+    "claims": [
+      {
+        "id": "claim-001",
+        "claim": "Revenue increased while price declined over the same source period.",
+        "value": "source chart values only",
+        "source": "Approved manager chart fixture",
+        "confidenceTier": "manager-approved",
+        "onScreen": true,
+        "visualAttachment": "The proof is born from a bracket pulled directly from the chart."
+      }
+    ],
+    "numbers": [
+      "Use exact chart labels from the approved fixture only."
+    ],
+    "charts": [
+      "Primary source chart"
+    ],
+    "tables": [],
+    "caveats": [
+      "Sample fixture for Phase 1 validation, not a production claim."
+    ],
+    "confidenceTier": "complete",
+    "sourceLockStatus": "locked",
+    "headlineProof": "Divergence between the source chart line and price line.",
+    "supportingProof": [
+      "Direct labels stay attached to chart points."
+    ],
+    "visualProof": [
+      "Gap bracket appears only after the chart marker lands."
+    ],
+    "offscreenProof": [
+      "Source note remains in the lower safe zone."
+    ],
+    "humanGate": "approved"
+  },
+  "mechanismDiagnosis": {
+    "packetType": "mechanism-diagnosis-packet",
+    "financialMechanism": "Valuation compression despite operating improvement",
+    "mechanismFamily": "spread-gap",
+    "force": "Revenue line rises.",
+    "constraint": "Price line compresses lower.",
+    "stateChange": "The gap widens into an investable proof object.",
+    "proofConsequence": "The viewer sees the spread before reading the number.",
+    "candidateAnalogyFamilies": [
+      "gap-bracket",
+      "chart-as-terrain",
+      "caliper-spread"
+    ],
+    "rejectedAnalogyFamilies": [
+      "dark turbine",
+      "dashboard card"
+    ],
+    "humanGate": "approved"
+  },
+  "benchmarkDeconstruction": {
+    "packetType": "benchmark-deconstruction-packet",
+    "benchmarkFamily": "family-bc-hybrid",
+    "referenceSummary": "Light chart-native reels with direct labels, clean source proof, simple logo/icon support, and CTA residue.",
+    "hookBehavior": "Large mobile-readable headline enters before the chart becomes the stage.",
+    "chartRole": "The chart is the terrain and proof object, not wallpaper.",
+    "assetBehavior": "One restrained logo/icon marker behaves as an actor on the chart.",
+    "textRhythm": "Short kinetic phrases, no paragraphs.",
+    "CTAStyle": "CTA inherits the final underline/bracket residue.",
+    "whatToAdapt": [
+      "Light editorial background",
+      "Full-bleed chart proof",
+      "Direct labels attached to source geometry"
+    ],
+    "whatNotToCopy": [
+      "Do not copy the creator's exact layout.",
+      "Do not paste proof as a detached card."
+    ],
+    "copyRisk": "medium",
+    "humanGate": "approved"
+  },
+  "routeOptions": [
+    {
+      "routeId": "route-gap-caliper",
+      "summary": "A caliper measures the distance opened by the chart divergence."
+    },
+    {
+      "routeId": "route-pressure-line",
+      "summary": "The rising source line presses against a flat valuation line."
+    }
+  ],
+  "selectedRouteId": "route-gap-caliper",
+  "chartProof": {
+    "packetType": "chart-proof-packet",
+    "chartProofRole": "main-proof",
+    "recreationMode": "faithful-svg",
+    "sourceImageOrVideo": "docs/workspace-agent/examples/source-chart-fixture.png",
+    "chartType": "dual-line chart",
+    "axes": [
+      "time",
+      "indexed value"
+    ],
+    "units": [
+      "index"
+    ],
+    "dates": [
+      "source fixture dates only"
+    ],
+    "series": [
+      "revenue",
+      "price"
+    ],
+    "labels": [
+      "revenue",
+      "price",
+      "gap"
+    ],
+    "caveats": [
+      "Sample Phase 1 fixture, not production."
+    ],
+    "proofMoment": "The bracket expands from the exact chart points after the marker lands.",
+    "adaptationRationale": "Faithful SVG recreation keeps the chart legible at 1080x1920.",
+    "fidelityRisks": [
+      "Wrong point alignment would detach proof from source geometry."
+    ],
+    "humanGate": "approved"
+  },
+  "assetBoard": {
+    "packetType": "asset-board-packet",
+    "heroAssetTarget": "Chart line and gap caliper",
+    "proofObjectTarget": "Bracket born from source chart coordinates",
+    "residueObjectTarget": "CTA underline inherited from the gap bracket",
+    "logoIconAssets": [
+      {
+        "id": "invesense-watermark",
+        "label": "Invesense watermark",
+        "role": "watermark",
+        "licenseNote": "Owned brand asset placeholder for Phase 1 fixture.",
+        "behavior": "Stays quiet in the safe zone; does not become the proof."
+      },
+      {
+        "id": "marker-dot",
+        "label": "Chart marker dot",
+        "role": "hero",
+        "licenseNote": "Native Remotion shape.",
+        "behavior": "Travels along the chart path and triggers the proof bracket."
+      }
+    ],
+    "labelSurfaceTarget": "Direct chart labels attached to lines and bracket endpoints.",
+    "materialTarget": "Warm white paper, navy ink, Invesense green accent, restrained red contrast.",
+    "layoutTarget": "Family B/C light editorial vertical reel with large safe-zone typography.",
+    "negativeExamples": [
+      "Pale dashboard cards",
+      "Generic progress bars",
+      "Detached proof plates"
+    ],
+    "referenceLinksOrUploads": [
+      "benchmarks/batch-01",
+      "benchmarks/batch-02"
+    ],
+    "CodexRecreationNotes": "Codex must recreate the approved styleframes and source geometry only after human approval.",
+    "humanGate": "approved"
+  },
+  "lottieSearch": {
+    "packetType": "lottie-search-packet",
+    "motionNeed": "Subtle route pulse that emphasizes the chart marker without becoming the hero metaphor.",
+    "searchTerms": [
+      "arrow pulse",
+      "data transfer",
+      "highlight sweep"
+    ],
+    "candidateUrls": [
+      "https://lottiefiles.com/free-animation/arrow"
+    ],
+    "licenseNotes": [
+      "Confirm per-asset LottieFiles license before download and production use."
+    ],
+    "previewBehavior": "Small pulse, one-shot, transparent background, recolorable if possible.",
+    "approvedUsage": "route-pulse",
+    "whatNotToCopy": [
+      "Do not use confetti.",
+      "Do not let Lottie replace the chart proof."
+    ],
+    "fallbackNativeRemotionOption": "Animate a native SVG pulse ring using spring timing.",
+    "lottieCandidates": [
+      {
+        "id": "lottie-route-pulse-001",
+        "motionNeed": "Route pulse",
+        "sourceUrl": "https://lottiefiles.com/free-animation/arrow",
+        "licenseNote": "Candidate only; license must be confirmed before production.",
+        "approvedUsage": "route-pulse",
+        "fallbackNativeRemotionOption": "Native SVG pulse ring.",
+        "approved": false
+      }
+    ],
+    "humanGate": "approved"
+  },
+  "styleframes": [
+    {
+      "packetType": "styleframe-direction-packet",
+      "styleframeName": "Hook chart terrain",
+      "representedBeat": "Hook",
+      "framePurpose": "Set the claim and reveal the chart as the stage.",
+      "layoutProportions": "Top 25 percent headline, middle 55 percent chart, bottom 20 percent source and watermark.",
+      "objectGeometry": "Two line paths and one marker dot.",
+      "chartTarget": "Faithful chart geometry with mobile-readable direct labels.",
+      "colorMaterialTokens": [
+        "warm-white",
+        "navy-ink",
+        "invesense-green",
+        "risk-red"
+      ],
+      "typographyScale": "Headline 92-116px, proof label 44-56px, source note 24-30px.",
+      "proofAttachmentRules": "Labels attach to chart endpoints and never float as generic cards.",
+      "imageReferences": [
+        "benchmarks/batch-01/contact-sheets",
+        "benchmarks/batch-02/contact-sheets"
+      ],
+      "negativeExamples": [
+        "Canva-style floating panel",
+        "Dashboard widget"
+      ],
+      "humanGate": "approved"
+    }
+  ],
+  "codexReadiness": {
+    "packetType": "codex-readiness-scorecard",
+    "sourceBoundaryReady": true,
+    "evidenceAuditReady": true,
+    "chartFidelityReady": true,
+    "routeSelectionReady": true,
+    "assetBoardReady": true,
+    "lottiePolicyReady": true,
+    "styleframeReady": true,
+    "sceneBehaviorReady": true,
+    "proofBirthReady": true,
+    "residueReady": true,
+    "packageBoundaryReady": true,
+    "renderPermissionReady": true,
+    "overallReadiness": "ready",
+    "blockedBy": [],
+    "humanGate": "approved"
+  },
+  "codexHandoff": {
+    "packetType": "codex-handoff-packet",
+    "humanRouteSelectionRecord": "Phase 1 sample route approved for schema validation only.",
+    "humanConceptApprovalRecord": "Phase 1 sample concept approved for knowledge-layer smoke testing only.",
+    "selectedRoute": {
+      "packetType": "analogy-route-packet",
+      "routeName": "route-gap-caliper",
+      "benchmarkFamilyFit": "family-bc-hybrid",
+      "simplePhysicalSentence": "A chart gap opens and the caliper turns it into proof.",
+      "heroAsset": "Chart line and gap caliper",
+      "physicalEvent": "Marker lands, bracket expands, proof label locks to the bracket.",
+      "chartProofRole": "main-proof",
+      "proofBirth": "Proof label appears only after the bracket expands from source points.",
+      "residue": "The bracket straightens into the CTA underline.",
+      "lottieNeed": "Optional route pulse only.",
+      "noLabelTest": "The widening distance between lines should be readable before labels.",
+      "risks": [
+        "Detached label would weaken proof birth.",
+        "Overdecorated Lottie would make it feel templated."
+      ],
+      "humanGate": "approved"
+    },
+    "frameRanges": [
+      "0-120 hook",
+      "121-420 chart terrain",
+      "421-660 proof birth",
+      "661-900 CTA residue"
+    ],
+    "approvedAssets": [
+      "source-chart-fixture",
+      "invesense-watermark",
+      "marker-dot"
+    ],
+    "chartSpecs": [
+      {
+        "packetType": "chart-proof-packet",
+        "chartProofRole": "main-proof",
+        "recreationMode": "faithful-svg",
+        "sourceImageOrVideo": "docs/workspace-agent/examples/source-chart-fixture.png",
+        "chartType": "dual-line chart",
+        "axes": [
+          "time",
+          "indexed value"
+        ],
+        "units": [
+          "index"
+        ],
+        "dates": [
+          "source fixture dates only"
+        ],
+        "series": [
+          "revenue",
+          "price"
+        ],
+        "labels": [
+          "revenue",
+          "price",
+          "gap"
+        ],
+        "caveats": [
+          "Sample Phase 1 fixture, not production."
+        ],
+        "proofMoment": "The bracket expands from the exact chart points after the marker lands.",
+        "adaptationRationale": "Faithful SVG recreation keeps the chart legible at 1080x1920.",
+        "fidelityRisks": [
+          "Wrong point alignment would detach proof from source geometry."
+        ],
+        "humanGate": "approved"
+      }
+    ],
+    "lottieSpecs": [
+      {
+        "id": "lottie-route-pulse-001",
+        "motionNeed": "Route pulse",
+        "sourceUrl": "https://lottiefiles.com/free-animation/arrow",
+        "licenseNote": "Candidate only; license must be confirmed before production.",
+        "approvedUsage": "route-pulse",
+        "fallbackNativeRemotionOption": "Native SVG pulse ring.",
+        "approved": false
+      }
+    ],
+    "styleframeTargets": [
+      {
+        "packetType": "styleframe-direction-packet",
+        "styleframeName": "Hook chart terrain",
+        "representedBeat": "Hook",
+        "framePurpose": "Set the claim and reveal the chart as the stage.",
+        "layoutProportions": "Top 25 percent headline, middle 55 percent chart, bottom 20 percent source and watermark.",
+        "objectGeometry": "Two line paths and one marker dot.",
+        "chartTarget": "Faithful chart geometry with mobile-readable direct labels.",
+        "colorMaterialTokens": [
+          "warm-white",
+          "navy-ink",
+          "invesense-green",
+          "risk-red"
+        ],
+        "typographyScale": "Headline 92-116px, proof label 44-56px, source note 24-30px.",
+        "proofAttachmentRules": "Labels attach to chart endpoints and never float as generic cards.",
+        "imageReferences": [
+          "benchmarks/batch-01/contact-sheets",
+          "benchmarks/batch-02/contact-sheets"
+        ],
+        "negativeExamples": [
+          "Canva-style floating panel",
+          "Dashboard widget"
+        ],
+        "humanGate": "approved"
+      }
+    ],
+    "allowedPackages": [
+      "remotion",
+      "@remotion/lottie",
+      "@remotion/paths",
+      "@remotion/layout-utils",
+      "@remotion/transitions"
+    ],
+    "gatedPackages": [
+      "@remotion/three"
+    ],
+    "forbiddenInventions": [
+      "No new claims.",
+      "No invented numbers.",
+      "No unapproved visual style.",
+      "No production MP4 in Phase 1."
+    ],
+    "filesAllowedToModify": [
+      "docs/workspace-agent/**",
+      "src/contracts/**",
+      "tests/**",
+      "scripts/**"
+    ],
+    "renderPermissions": {
+      "stills": true,
+      "contactSheet": true,
+      "draftMp4": false,
+      "finalRenderApproval": false
+    },
+    "validationCommands": [
+      "npm test",
+      "npm run lint",
+      "npm run build",
+      "npm run phase1:validate"
+    ],
+    "stopConditions": [
+      "Missing source lock",
+      "Missing styleframe",
+      "Detached proof label",
+      "Human gate not approved"
+    ],
+    "readinessStatus": "ready",
+    "humanGate": "approved"
+  },
+  "benchmarkLinks": [
+    {
+      "benchmarkId": "family-b-chart-native-reference",
+      "family": "family-b",
+      "reason": "Chart proof and light editorial pacing are primary.",
+      "adapt": [
+        "Direct labels",
+        "Source chart as terrain"
+      ],
+      "avoid": [
+        "Exact creator layout",
+        "Detached proof card"
+      ]
+    },
+    {
+      "benchmarkId": "family-c-logo-actor-reference",
+      "family": "family-c",
+      "reason": "Logo/icon actor supports the chart without replacing it.",
+      "adapt": [
+        "Restrained icon behavior",
+        "Clean institutional visual grammar"
+      ],
+      "avoid": [
+        "Generic SaaS dashboard",
+        "Overuse of icons"
+      ]
+    }
+  ],
+  "requiredHumanGates": [
+    "route approval",
+    "source approval",
+    "chart proof approval",
+    "asset/Lottie approval",
+    "styleframe approval",
+    "Codex readiness approval",
+    "still/contact-sheet approval",
+    "draft approval",
+    "final approval"
+  ]
+}
