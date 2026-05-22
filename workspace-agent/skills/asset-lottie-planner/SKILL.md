@@ -73,6 +73,19 @@ Create asset boards that make the reel asset-led without letting Lottie, icons, 
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/family-bc-benchmark-grammar.md
+- knowledge/source-proof-operating-system.md
+- knowledge/chart-svg-animation-playbook.md
+- knowledge/lottie-asset-operating-system.md
+- knowledge/mechanism-analogy-wow-atlas.md
+- knowledge/styleframe-and-asset-board-rules.md
+- knowledge/codex-handoff-and-stop-gates.md
+- knowledge/review-qa-gates.md
+
+Then load deeper references as needed:
+
 - references/asset-lottie-styleframe-rules.md
 - references/remotion-qa-codex-gates.md
 

@@ -181,10 +181,11 @@ Implemented in Phase 6A:
 - `npm run phase6a:generate` regenerates both `workspace-agent/` and `agent-packages/invesense-workspace-agent/` from the hardened package generator.
 - `agent-packages/invesense-workspace-agent/.codex-plugin/plugin.json` is the canonical import manifest.
 - All 13 Workspace Agent skills now include frontmatter, operational sections, stop conditions, human gates, and reference-loading guidance.
+- Phase 6A.1 adds import-visible canonical knowledge files under `knowledge/` so the Workspace Agent package has an obvious operating brain, not only skills and references.
 - `workspace-agent/references/` and package references distill Family B/C benchmark grammar, source/chart/SVG proof rules, mechanism/proof/wow events, asset/Lottie/styleframe rules, and Remotion/QA/Codex gates.
 - Templates are decision-ready packet forms with output fields, human approval, stop conditions, and Codex boundaries.
 - `npm run phase6a:dry-run` proves the first pilot handoff remains blocked until human route, source, asset/Lottie, styleframe, scene behavior, and review approvals exist.
-- `npm run phase6a:validate` verifies import readiness, skill hardening, references, templates, no-production boundary, and blocked Codex handoff.
+- `npm run phase6a:validate` verifies import readiness, skill hardening, visible knowledge, references, templates, no-production boundary, and blocked Codex handoff.
 
 Closure criteria:
 

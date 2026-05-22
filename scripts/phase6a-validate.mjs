@@ -26,6 +26,16 @@ const referenceFiles = [
   "asset-lottie-styleframe-rules.md",
   "remotion-qa-codex-gates.md",
 ];
+const knowledgeFiles = [
+  "family-bc-benchmark-grammar.md",
+  "source-proof-operating-system.md",
+  "chart-svg-animation-playbook.md",
+  "lottie-asset-operating-system.md",
+  "mechanism-analogy-wow-atlas.md",
+  "styleframe-and-asset-board-rules.md",
+  "codex-handoff-and-stop-gates.md",
+  "review-qa-gates.md",
+];
 const templateFiles = [
   "intake-evidence.md",
   "chart-proof.md",
@@ -61,6 +71,12 @@ assert(plugin.skills === "./skills/", "plugin skills path mismatch.");
 assert(/Family B\/C/u.test(plugin.interface.longDescription), "plugin interface must mention Family B/C.");
 
 for (const root of ["workspace-agent", packageRoot]) {
+  const manifest = readJson(`${root}/manifest.json`);
+  assert(
+    JSON.stringify(manifest.knowledge) === JSON.stringify(knowledgeFiles),
+    `${root} manifest must list canonical knowledge files.`,
+  );
+
   for (const skillId of skillIds) {
     const source = read(`${root}/skills/${skillId}/SKILL.md`);
     for (const required of [
@@ -73,11 +89,35 @@ for (const root of ["workspace-agent", packageRoot]) {
       "## Stop Conditions",
       "## Human Gates",
       "## References To Load",
+      "knowledge/",
+      "references/",
       "Family B/C",
       "Codex remains implementation-only",
     ]) {
       assert(source.includes(required), `${root}/${skillId} missing ${required}`);
     }
+  }
+
+  const combinedKnowledge = knowledgeFiles.map((fileName) => {
+    const source = read(`${root}/knowledge/${fileName}`);
+    assert(source.length > 1200, `${root}/knowledge/${fileName} is too small to be operating knowledge.`);
+    return source;
+  }).join("\n");
+  for (const required of [
+    "Family B/C is primary",
+    "Family A is secondary motion-energy",
+    "source locks",
+    "proof-critical SVG",
+    "animated Remotion chart",
+    "Lottie is an asset source",
+    "not the hero metaphor",
+    "styleframe",
+    "asset board",
+    "Codex remains implementation-only",
+    "blocked",
+    "review frames",
+  ]) {
+    assert(new RegExp(required, "iu").test(combinedKnowledge), `${root} knowledge missing ${required}`);
   }
 
   const combinedReferences = referenceFiles.map((fileName) => read(`${root}/references/${fileName}`)).join("\n");
@@ -124,6 +164,7 @@ const validation = {
     closed: true,
     importReady: true,
     skillsHardened: true,
+    knowledgeVisible: true,
     referencesAdded: true,
     templatesHardened: true,
   },

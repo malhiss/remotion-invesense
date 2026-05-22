@@ -73,6 +73,19 @@ Produce distinct route options that show financial mechanism through object beha
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/family-bc-benchmark-grammar.md
+- knowledge/source-proof-operating-system.md
+- knowledge/chart-svg-animation-playbook.md
+- knowledge/lottie-asset-operating-system.md
+- knowledge/mechanism-analogy-wow-atlas.md
+- knowledge/styleframe-and-asset-board-rules.md
+- knowledge/codex-handoff-and-stop-gates.md
+- knowledge/review-qa-gates.md
+
+Then load deeper references as needed:
+
 - references/mechanism-proof-wow-atlas.md
 - references/family-bc-benchmark-grammar.md
 

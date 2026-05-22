@@ -71,6 +71,19 @@ Make human gates real. The package must help the user approve, reject, or revise
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/family-bc-benchmark-grammar.md
+- knowledge/source-proof-operating-system.md
+- knowledge/chart-svg-animation-playbook.md
+- knowledge/lottie-asset-operating-system.md
+- knowledge/mechanism-analogy-wow-atlas.md
+- knowledge/styleframe-and-asset-board-rules.md
+- knowledge/codex-handoff-and-stop-gates.md
+- knowledge/review-qa-gates.md
+
+Then load deeper references as needed:
+
 - references/remotion-qa-codex-gates.md
 - references/family-bc-benchmark-grammar.md
 

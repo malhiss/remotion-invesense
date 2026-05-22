@@ -660,6 +660,252 @@ QA gates:
 `,
 };
 
+const knowledge = {
+  "family-bc-benchmark-grammar.md": `# Family B/C Benchmark Grammar
+
+Family B/C is primary. This is the house benchmark for Invesense reels: light editorial backgrounds, source charts, clean labels, logo/icon actors, mobile-readable typography, and proof born from visible motion. Family A is secondary motion-energy only. Borrow its pacing, asset confidence, and impact timing only when those qualities strengthen the Family B/C reel without turning it into a dark cinematic abstraction.
+
+The reel should feel like a creator-grade finance story, not a slide deck. The viewer should understand the mechanism before reading every label. Charts, logos, icons, and proof marks should behave as objects in the world of the reel. A chart line can become terrain. A benchmark can become a barrier. A logo can become an actor. A proof label can lock only after the chart or object event creates it.
+
+Family B/C defaults:
+
+- White, warm-white, or light editorial background.
+- Black, navy, gray, green, red, or blue text accents with strong mobile contrast.
+- Source chart proof, direct labels, and real chart units when proof-critical.
+- Logos and icons that move with cause, route, selection, rejection, or settlement logic.
+- CTA residue that inherits an event object: line, marker, underline, stamp, route, bracket, or proof mark.
+
+Anti-failure rules:
+
+- No abstract shape-only diagrams.
+- No dashboard/card drift.
+- No generic SaaS UI panels.
+- No Canva/deck pacing.
+- No detached proof plates.
+- No labels carrying the whole meaning.
+- No source-free numbers.
+
+Use this knowledge before route planning, benchmark deconstruction, styleframe direction, and brand/silent review. If a concept cannot pass Family B/C grammar, it must be revised before Codex receives any handoff.
+`,
+  "source-proof-operating-system.md": `# Source Proof Operating System
+
+Source proof comes before metaphor. The Workspace Agent must inventory claims, numbers, charts, tables, source labels, units, dates, caveats, and source notes before creative routing. Every claim in a reel should be either source-locked, explicitly marked as context, or excluded.
+
+Source locks are the contract that keeps the reel from becoming a stylish but untrustworthy animation. A source lock records the exact claim, exact number, source label, unit, time period, visual attachment, confidence tier, and whether external research is allowed to support context without changing the approved claim.
+
+Proof hierarchy:
+
+- Headline proof: the number or chart relationship the reel is about.
+- Visual proof: the chart, table, SVG, screenshot, or source asset that can become motion.
+- Supporting proof: context that helps explain the mechanism.
+- Off-screen proof: source material that informs the script but should not be visualized.
+- Unusable proof: unreadable, unsupported, unapproved, or conflicting material.
+
+What cannot be claimed:
+
+- Numbers that are not in approved source material.
+- Reworded claims that change time period, denominator, ranking, or caveat.
+- External research that replaces the manager-approved insight.
+- Proof labels that appear before the event that creates them.
+
+The source steward blocks route planning when critical proof is missing. It also blocks Codex handoff when source labels, chart units, dates, or values are unlocked. If the source has a chart, the chart-proof director decides whether it is faithful reconstruction, adapted proof, reference-only, or do-not-use.
+
+The operating sentence is: source truth first, mechanism second, motion third. Visual metaphor may clarify the source; it cannot overwrite it.
+`,
+  "chart-svg-animation-playbook.md": `# Chart SVG Animation Playbook
+
+Proof-critical SVG charts should become animated Remotion charts, not static pasted images. The original SVG is source evidence and review reference; the final reel should use native Remotion/SVG reconstruction when chart relationships carry the claim.
+
+A proof-critical SVG chart is one where the viewer must trust the values, ranking, scale, dates, units, or source note. In that case, Codex should parse or manually receive source-locked chart data, reconstruct the chart with Remotion primitives, and animate the chart relationship. The chart cannot be wallpaper.
+
+Supported first-pass chart roles:
+
+- Horizontal bars: staggered bar growth, value labels after reveal, highlight marker, source note.
+- Grouped bars: group-by-group reveal, benchmark marker, comparison label born after reveal.
+- Stacked bars: stack segment growth, total marker, composition proof.
+- Line/area charts: trace reveal, endpoint proof, benchmark line, source note.
+
+Animation rules:
+
+- Preserve rank order, labels, values, dates, units, and source note.
+- Preserve relative scale relationships unless human approves an editorial transformation.
+- Attach proof labels to the bar, line, marker, bracket, or endpoint event.
+- Do not show a static pasted SVG as final proof when animated Remotion chart proof is required.
+- If extraction confidence is low, block Codex until the human approves manual extraction or supplies a source-locked data table.
+
+Review requirements:
+
+- Original SVG/reference frame.
+- Animated reconstruction frame.
+- Proof-event frame.
+- CTA residue frame.
+
+Use this knowledge when the market insight supplies an SVG, chart screenshot, table, or graph. It protects against the old failure where charts became decorative panels instead of source-born proof.
+`,
+  "lottie-asset-operating-system.md": `# Lottie Asset Operating System
+
+Lottie is an asset source and motion layer. Lottie is not the hero metaphor. This means the Workspace Agent should absolutely search LottieFiles and similar sources for useful animated assets, but it should select them by role in the story rather than letting a generic premade animation become the story.
+
+Good Lottie roles:
+
+- Route pulse through a payment, data, or settlement rail.
+- Highlight sweep over a chart event.
+- Proof burst after a stamp, latch, endpoint, or selection.
+- Checkmark, warning mark, rejected path, or approved path.
+- Loader, subtle icon, money transfer accent, data flow accent, CTA pulse.
+
+Bad Lottie roles:
+
+- Generic money animation as the entire reel.
+- Premade chart animation replacing source-locked chart reconstruction.
+- Decorative confetti unrelated to proof.
+- Standalone proof with no source event.
+- Remote browser-scraped animation required during render.
+
+Every Lottie candidate needs a motion role, source URL or local path, license note, approved usage, human approval, and native Remotion fallback. The fallback matters because Remotion can recreate many simple pulses, sweeps, bursts, arrows, and icons natively if the Lottie flickers, fails, has licensing risk, or adds clutter.
+
+Workspace Agent owns Lottie discovery, role fit, license/source notes, and approval. Codex owns deterministic ingestion only after approval: local JSON or direct JSON URL, manifest entry, staticFile usage, and Lottie QA frames for entry, peak, and exit.
+
+The decision sentence is: use Lottie heavily where it improves motion texture or asset clarity, but never outsource the reel's core financial mechanism to a generic Lottie asset.
+`,
+  "mechanism-analogy-wow-atlas.md": `# Mechanism Analogy Wow Atlas
+
+The route should show the financial mechanism, not decorate a finance keyword. Start with the mechanism: force, constraint, state change, and proof consequence. Then choose objects that make that mechanism visible.
+
+Route sentence pattern: object does X to constraint Y, causing proof Z.
+
+Mechanism mappings:
+
+- Support/resistance: floor catch, floor crack, barrier hold, barrier breach.
+- Screening/filtering: scanner contact, reject deflection, sieve pass, aperture narrowing.
+- Liquidity/flows: route rail, pipe bottleneck, tank fill, drain mark, endpoint settlement.
+- Spread/compression: caliper gap, clamp compression, bracket expansion, dual-rail tension.
+- Tokenization/access: vault unlock, token unfold, access bridge, eligibility mint.
+- Settlement/certification: ledger stamp, proof latch, route endpoint, stamped readout.
+- Fee/inflation drag: leak, siphon, friction pad, erosion line.
+- Ranking/comparison: strict bars, podium, measured objects, source labels.
+
+Wow events are useful only when they clarify the mechanism. Strong events include line bend and snap, gate open, scanner reject, route endpoint, bracket spread, vault unlock, proof latch, stamp contact, bar reveal, endpoint marker, and CTA underline inheritance.
+
+Proof birth patterns:
+
+- Endpoint label appears after endpoint settles.
+- Bracket proof appears after gap opens.
+- Stamped readout appears after stamp contact.
+- Selected path proof appears after route completion.
+- Chart marker proof appears after chart event.
+
+Residue patterns:
+
+- Broken line remains.
+- Route trail remains.
+- Scanner aperture remains.
+- Caliper remains open.
+- Proof underline becomes CTA residue.
+
+If the route needs labels to explain everything, it fails the no-label test. If the final frame could be swapped onto another reel, it lacks residue.
+`,
+  "styleframe-and-asset-board-rules.md": `# Styleframe And Asset Board Rules
+
+The old failure was asking Codex to invent premium visual taste from prose. Phase 6A prevents that by requiring visual targets before complex implementation. A complex Family B/C reel needs an asset board and styleframes before Codex gets a handoff.
+
+Asset board requirements:
+
+- Hero asset: the object or chart element that carries the mechanism.
+- Proof object: the marker, label, bracket, endpoint, stamp, line, or bar that proves the claim.
+- Residue object: what remains in the CTA close.
+- Logo/icon actors: companies, institutions, products, or mechanisms that behave rather than decorate.
+- Source charts: SVGs, screenshots, or data tables with proof role.
+- Lottie candidates: support accents with role, license, approval, and fallback.
+- Negative references: dashboard/card drift, abstract diagrams, weak old outputs, or copy-risk examples.
+
+Styleframe requirements:
+
+- Hook frame: mobile-readable promise and visual world.
+- Mechanism frame: object behavior setup.
+- Proof frame: event-born proof, not pasted proof.
+- Lottie frame: accent role and clutter check.
+- CTA residue frame: inherited line, marker, route, stamp, bracket, or object.
+
+Visual references can teach form, material, layout, behavior, pacing, or negative avoidance. They do not become source truth, and they cannot justify copying a creator shell. The human approves route and styleframes before Codex implements.
+
+If styleframes are missing for a complex reel, Codex remains blocked. If the asset board has no hero asset or no proof object, the route must be revised.
+`,
+  "codex-handoff-and-stop-gates.md": `# Codex Handoff And Stop Gates
+
+Codex remains implementation-only. Codex cannot choose the route, analogy, claims, numbers, source labels, visual style, Lottie assets, chart interpretation, or render approval. The Workspace Agent creates the packet stack; the human approves it; Codex executes the approved Remotion implementation.
+
+Codex handoff is blocked until these gates pass:
+
+- Source locks approved.
+- Chart/SVG proof role approved.
+- Human route approval recorded.
+- Asset and Lottie approvals recorded.
+- Styleframe targets approved.
+- Scene behavior packet complete.
+- Review frame manifest complete.
+- Remotion feasibility map complete.
+- Render permissions explicit.
+
+Valid Codex handoff includes:
+
+- Selected route and simple physical sentence.
+- Exact source claims, values, units, source notes, and labels.
+- Frame ranges and scene behavior.
+- Approved source charts and extracted data when needed.
+- Asset board and Lottie manifest instructions.
+- Styleframe targets and negative references.
+- Allowed packages and forbidden patterns.
+- Required validation and review commands.
+
+Codex must stop if it would need to invent missing claims, infer values, choose a metaphor, select assets, browse Lottie without approval, paste proof cards, use remote assets at render time, or render final MP4 without approval.
+
+The handoff rule is intentionally strict because passing TypeScript is not visual quality. Still frames and contact sheets come before draft MP4, and final MP4 stays blocked until explicit final approval.
+`,
+  "review-qa-gates.md": `# Review QA Gates
+
+Review artifacts are production safety rails. They prevent the team from repeating the old pattern where technically valid Remotion renders looked like weak diagrams.
+
+Required review frames and frame roles:
+
+- Hook: mobile-readable entry, safe-zone check, Family B/C fit.
+- Chart: source chart or native reconstruction proof check.
+- Event: visible mechanism behavior before labels explain it.
+- Proof: proof label born after the event.
+- Lottie: entry, peak, exit, color, flicker, timing, and clutter QA.
+- CTA residue: final frame inherits event residue instead of becoming a generic card.
+
+Benchmark comparison:
+
+- Use Family B/C atlas entries as primary reference.
+- Use Family A only for motion energy and event clarity.
+- Record what to adapt and what not to copy.
+
+Source-chart comparison:
+
+- Original reference frame.
+- Animated reconstruction frame.
+- Proof-event frame.
+- CTA-residue frame.
+
+Safe-zone QA:
+
+- 1080x1920 mobile margins.
+- Text and source-note readability.
+- Watermark and CTA placement.
+- No critical proof hidden by platform UI.
+
+Final render gate:
+
+- Stills before MP4.
+- Contact sheet before draft.
+- Source proof review before draft.
+- Final MP4 blocked without explicit approval.
+
+If a contact sheet fails, diagnose the failure source: route, source proof, styleframe, asset, Lottie, chart, motion, label budget, or Codex execution. Do not patch endlessly without naming the failure.
+`,
+};
+
 const templates = {
   "intake-evidence.md": {
     title: "Intake And Evidence Packet",
@@ -836,7 +1082,7 @@ const manifest = {
   displayName: "Invesense Workspace Agent",
   phase: "phase-2-workspace-agent-workflow",
   hardenedForPhase: "phase-6a-workspace-agent-hardening",
-  version: "0.6.0",
+  version: "0.6.1",
   consolidationMode: "consolidated-chains",
   disclosureMode: "progressive-references",
   sourceOfTruth: "repo-native Phase 6A hardened Workspace Agent pack",
@@ -847,6 +1093,7 @@ const manifest = {
     title: skillDefinitions[id].title,
     sourceOldSystemStrategy: "consolidated rewrite with Phase 6A hardening",
   })),
+  knowledge: Object.keys(knowledge),
   references: Object.keys(references),
   templates: Object.keys(templates),
   examples: ["family-bc-sample-brief.json"],
@@ -854,7 +1101,7 @@ const manifest = {
 
 const codexPluginJson = {
   name: "invesense-workspace-agent",
-  version: "0.6.0",
+  version: "0.6.1",
   description:
     "Creative-director Workspace Agent for Invesense Family B/C finance reels with source proof, animated chart/SVG planning, Lottie discipline, styleframe gates, and blocked Codex handoffs.",
   author: {
@@ -886,7 +1133,7 @@ const legacyAgentPluginJson = {
   display_name: "Invesense Workspace Agent",
   description:
     "Legacy metadata for the hardened creative-director workflow. Canonical Codex import uses .codex-plugin/plugin.json.",
-  version: "0.6.0",
+  version: "0.6.1",
   type: "agent",
   entrypoint: "instructions.md",
 };
@@ -898,6 +1145,8 @@ Workspace Agent proposes; human approves; Codex implements.
 ## Role
 
 You are the creative director for Invesense Remotion reels. You do source intake, evidence audit, mechanism diagnosis, benchmark grounding, route ideation, asset and Lottie planning, styleframe direction, human review packaging, and Codex readiness gating.
+
+Start from \`knowledge/\` as the visible operating brain. Load \`references/\` only when deeper guidance is needed.
 
 ## House Benchmark
 
@@ -940,16 +1189,20 @@ No production reel implementation starts in Phase 6A.
 
 const readme = `# Invesense Workspace Agent
 
-This is the Phase 6A hardened Workspace Agent package.
+This is the Phase 6A.1 hardened Workspace Agent package.
 
-It keeps the 13 consolidated workflow skills while adding progressive references, decision-ready templates, current Codex plugin metadata, Family B/C benchmark rules, animated chart/SVG proof planning, Lottie discipline, styleframe gates, review QA, and blocked Codex handoff validation.
+It keeps the 13 consolidated workflow skills while adding import-visible knowledge, progressive references, decision-ready templates, current Codex plugin metadata, Family B/C benchmark rules, animated chart/SVG proof planning, Lottie discipline, styleframe gates, review QA, and blocked Codex handoff validation.
+
+Start with \`knowledge/\` for the canonical operating brain. Use \`references/\` for deeper progressive-disclosure support.
 
 Use the package as a creative-director agent. Do not use it to implement Remotion code directly.
 `;
 
-const synthesis = `# Phase 6A Synthesis
+const synthesis = `# Phase 6A.1 Synthesis
 
 The old v2 agent had valuable depth but too many tiny skills. Phase 6A keeps the new 13-skill workflow and restores the useful operating depth as progressive references and stronger templates.
+
+Phase 6A.1 makes the agent brain visible under knowledge/ so imported Workspace Agents and humans can discover the operating system immediately.
 
 The hardened agent is intentionally not a template generator. It is a gatekeeping creative director for source-grounded Family B/C reels.
 `;
@@ -1011,6 +1264,12 @@ ${definition.stop.map((item) => `- ${item}`).join("\n")}
 
 ## References To Load
 
+Load canonical knowledge first:
+
+${Object.keys(knowledge).map((item) => `- knowledge/${item}`).join("\n")}
+
+Then load deeper references as needed:
+
 ${definition.references.map((item) => `- ${item}`).join("\n")}
 
 ## Done When
@@ -1069,6 +1328,9 @@ const writePack = (root) => {
     `${root}/knowledge/old-system-audit-register.json`,
     JSON.parse(fs.readFileSync(path.join(projectRoot, "workspace-agent/knowledge/old-system-audit-register.json"), "utf8")),
   );
+  for (const [fileName, content] of Object.entries(knowledge)) {
+    writeText(`${root}/knowledge/${fileName}`, content);
+  }
   writeJson(`${root}/examples/family-bc-sample-brief.json`, sampleBrief);
 
   for (const [fileName, content] of Object.entries(references)) {
@@ -1090,5 +1352,5 @@ writeJson(`${packageRoot}/.codex-plugin/plugin.json`, codexPluginJson);
 writeJson(`${packageRoot}/.agent-plugin/plugin.json`, legacyAgentPluginJson);
 
 console.log(
-  `Generated Phase 6A hardened Workspace Agent pack with ${skillIds.length} skills, ${Object.keys(references).length} references, and ${Object.keys(templates).length} templates.`,
+  `Generated Phase 6A.1 hardened Workspace Agent pack with ${skillIds.length} skills, ${Object.keys(knowledge).length} knowledge files, ${Object.keys(references).length} references, and ${Object.keys(templates).length} templates.`,
 );

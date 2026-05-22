@@ -3,7 +3,7 @@
   "displayName": "Invesense Workspace Agent",
   "phase": "phase-2-workspace-agent-workflow",
   "hardenedForPhase": "phase-6a-workspace-agent-hardening",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "consolidationMode": "consolidated-chains",
   "disclosureMode": "progressive-references",
   "sourceOfTruth": "repo-native Phase 6A hardened Workspace Agent pack",
@@ -74,6 +74,16 @@
       "title": "Post Spike Reviewer",
       "sourceOldSystemStrategy": "consolidated rewrite with Phase 6A hardening"
     }
+  ],
+  "knowledge": [
+    "family-bc-benchmark-grammar.md",
+    "source-proof-operating-system.md",
+    "chart-svg-animation-playbook.md",
+    "lottie-asset-operating-system.md",
+    "mechanism-analogy-wow-atlas.md",
+    "styleframe-and-asset-board-rules.md",
+    "codex-handoff-and-stop-gates.md",
+    "review-qa-gates.md"
   ],
   "references": [
     "family-bc-benchmark-grammar.md",
