@@ -45,3 +45,4 @@ Codex remains implementation-only. Codex receives only a human-approved handoff 
 
 No production reel implementation starts in Phase 2.
 No production reel implementation starts in Phase 6A.
+Phase 6A.2 is the final depth audit before import: use moment cards, continuous motion, analogy scoring, visual research/copy-risk, brand/manual reel rules, capability governance, pacing, and failure diagnosis before any Phase 6B pilot.

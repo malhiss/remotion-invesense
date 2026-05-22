@@ -1,0 +1,23 @@
+{
+  "fixtureId": "phase6a2-lottie-support-motion",
+  "reviewOnly": true,
+  "productionImplementationAllowed": false,
+  "familyTarget": "family-bc",
+  "promptType": "lottie-support-motion",
+  "expectedAgentBehavior": "Search Lottie by motion role, require URL/license/approved usage/native fallback, reject Lottie as hero metaphor, and keep Codex blocked.",
+  "requiredKnowledge": [
+    "lottie-asset-operating-system.md",
+    "visual-reference-search-and-copy-risk.md",
+    "remotion-3d-and-capability-governance.md"
+  ],
+  "codexHandoff": {
+    "readinessStatus": "blocked",
+    "executable": false,
+    "blockedBy": [
+      "human source and route approval missing",
+      "styleframe targets not approved",
+      "asset and Lottie approvals missing",
+      "review frames not approved"
+    ]
+  }
+}

@@ -35,6 +35,14 @@ const knowledgeFiles = [
   "styleframe-and-asset-board-rules.md",
   "codex-handoff-and-stop-gates.md",
   "review-qa-gates.md",
+  "benchmark-moment-card-system.md",
+  "continuous-motion-and-object-permanence.md",
+  "analogy-scoring-and-failure-modes.md",
+  "visual-reference-search-and-copy-risk.md",
+  "brandbook-manual-reel-and-label-rules.md",
+  "remotion-3d-and-capability-governance.md",
+  "motion-pacing-format-and-variant-rules.md",
+  "failure-diagnosis-and-legacy-component-inventory.md",
 ];
 const templateFiles = [
   "intake-evidence.md",
@@ -116,6 +124,17 @@ for (const root of ["workspace-agent", packageRoot]) {
     "Codex remains implementation-only",
     "blocked",
     "review frames",
+    "moment card",
+    "continuous motion",
+    "object permanence",
+    "analogy scoring",
+    "copy-risk",
+    "brandbook",
+    "manual reel",
+    "3D governance",
+    "retention pacing",
+    "visual causality",
+    "prompt failure",
   ]) {
     assert(new RegExp(required, "iu").test(combinedKnowledge), `${root} knowledge missing ${required}`);
   }
@@ -165,6 +184,7 @@ const validation = {
     importReady: true,
     skillsHardened: true,
     knowledgeVisible: true,
+    finalDepthAuditReady: true,
     referencesAdded: true,
     templatesHardened: true,
   },

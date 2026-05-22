@@ -2,8 +2,8 @@
   "name": "invesense-workspace-agent",
   "displayName": "Invesense Workspace Agent",
   "phase": "phase-2-workspace-agent-workflow",
-  "hardenedForPhase": "phase-6a-workspace-agent-hardening",
-  "version": "0.6.1",
+  "hardenedForPhase": "phase-6a-2-depth-audit",
+  "version": "0.6.2",
   "consolidationMode": "consolidated-chains",
   "disclosureMode": "progressive-references",
   "sourceOfTruth": "repo-native Phase 6A hardened Workspace Agent pack",
@@ -83,14 +83,24 @@
     "mechanism-analogy-wow-atlas.md",
     "styleframe-and-asset-board-rules.md",
     "codex-handoff-and-stop-gates.md",
-    "review-qa-gates.md"
+    "review-qa-gates.md",
+    "benchmark-moment-card-system.md",
+    "continuous-motion-and-object-permanence.md",
+    "analogy-scoring-and-failure-modes.md",
+    "visual-reference-search-and-copy-risk.md",
+    "brandbook-manual-reel-and-label-rules.md",
+    "remotion-3d-and-capability-governance.md",
+    "motion-pacing-format-and-variant-rules.md",
+    "failure-diagnosis-and-legacy-component-inventory.md"
   ],
   "references": [
     "family-bc-benchmark-grammar.md",
     "source-chart-svg-proof-rules.md",
     "mechanism-proof-wow-atlas.md",
     "asset-lottie-styleframe-rules.md",
-    "remotion-qa-codex-gates.md"
+    "remotion-qa-codex-gates.md",
+    "phase6a2-old-v2-depth-audit.md",
+    "phase6a2-forward-test-prompts.md"
   ],
   "templates": [
     "intake-evidence.md",
@@ -105,6 +115,10 @@
     "post-spike-review.md"
   ],
   "examples": [
-    "family-bc-sample-brief.json"
+    "family-bc-sample-brief.json",
+    "phase6a2-source-chart-heavy-family-b.json",
+    "phase6a2-logo-asset-heavy-family-c.json",
+    "phase6a2-lottie-support-motion.json",
+    "phase6a2-failed-output-diagnosis.json"
   ]
 }

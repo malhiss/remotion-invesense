@@ -182,14 +182,16 @@ Implemented in Phase 6A:
 - `agent-packages/invesense-workspace-agent/.codex-plugin/plugin.json` is the canonical import manifest.
 - All 13 Workspace Agent skills now include frontmatter, operational sections, stop conditions, human gates, and reference-loading guidance.
 - Phase 6A.1 adds import-visible canonical knowledge files under `knowledge/` so the Workspace Agent package has an obvious operating brain, not only skills and references.
+- Phase 6A.2 adds the final depth audit/backfill before import: benchmark moment cards, continuous motion, object permanence, analogy scoring and failure modes, visual search/citation/copy-risk, brandbook/manual reel/label rules, Remotion 3D/capability governance, retention/format/variant rules, visual causality, prompt-failure diagnosis, and legacy component inventory as concept-only evidence.
 - `workspace-agent/references/` and package references distill Family B/C benchmark grammar, source/chart/SVG proof rules, mechanism/proof/wow events, asset/Lottie/styleframe rules, and Remotion/QA/Codex gates.
 - Templates are decision-ready packet forms with output fields, human approval, stop conditions, and Codex boundaries.
 - `npm run phase6a:dry-run` proves the first pilot handoff remains blocked until human route, source, asset/Lottie, styleframe, scene behavior, and review approvals exist.
-- `npm run phase6a:validate` verifies import readiness, skill hardening, visible knowledge, references, templates, no-production boundary, and blocked Codex handoff.
+- `npm run phase6a:validate` verifies import readiness, skill hardening, visible knowledge, depth backfill, references, templates, no-production boundary, and blocked Codex handoff.
+- `npm run phase6a:audit` reports old-v2 parity coverage while confirming the new package stays at 13 consolidated skills, not the old 63-skill sprawl.
 
 Closure criteria:
 
-- Verification passes with `npm test`, `npm run lint`, `npm run build`, `npm run phase5:validate`, and `npm run phase6a:validate`.
+- Verification passes with `npm test`, `npm run lint`, `npm run build`, `npm run phase5:validate`, `npm run phase6a:validate`, and `npm run phase6a:audit`.
 - No production reel implementation has started.
 - Phase 6B is explicitly marked as next.
 

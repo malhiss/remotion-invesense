@@ -1,0 +1,23 @@
+{
+  "fixtureId": "phase6a2-failed-output-diagnosis",
+  "reviewOnly": true,
+  "productionImplementationAllowed": false,
+  "familyTarget": "family-bc",
+  "promptType": "failed-output-diagnosis",
+  "expectedAgentBehavior": "Classify weak output as source, route, styleframe, asset, chart, Lottie, motion, label, visual causality, or Codex execution failure before patching.",
+  "requiredKnowledge": [
+    "failure-diagnosis-and-legacy-component-inventory.md",
+    "continuous-motion-and-object-permanence.md",
+    "review-qa-gates.md"
+  ],
+  "codexHandoff": {
+    "readinessStatus": "blocked",
+    "executable": false,
+    "blockedBy": [
+      "human source and route approval missing",
+      "styleframe targets not approved",
+      "asset and Lottie approvals missing",
+      "review frames not approved"
+    ]
+  }
+}

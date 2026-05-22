@@ -75,14 +75,9 @@ Find what is actually happening financially so the reel shows mechanism, not key
 
 Load canonical knowledge first:
 
-- knowledge/family-bc-benchmark-grammar.md
-- knowledge/source-proof-operating-system.md
-- knowledge/chart-svg-animation-playbook.md
-- knowledge/lottie-asset-operating-system.md
 - knowledge/mechanism-analogy-wow-atlas.md
-- knowledge/styleframe-and-asset-board-rules.md
-- knowledge/codex-handoff-and-stop-gates.md
-- knowledge/review-qa-gates.md
+- knowledge/analogy-scoring-and-failure-modes.md
+- knowledge/continuous-motion-and-object-permanence.md
 
 Then load deeper references as needed:
 

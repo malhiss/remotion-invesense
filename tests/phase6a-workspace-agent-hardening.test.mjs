@@ -39,6 +39,14 @@ const knowledgeFiles = [
   "styleframe-and-asset-board-rules.md",
   "codex-handoff-and-stop-gates.md",
   "review-qa-gates.md",
+  "benchmark-moment-card-system.md",
+  "continuous-motion-and-object-permanence.md",
+  "analogy-scoring-and-failure-modes.md",
+  "visual-reference-search-and-copy-risk.md",
+  "brandbook-manual-reel-and-label-rules.md",
+  "remotion-3d-and-capability-governance.md",
+  "motion-pacing-format-and-variant-rules.md",
+  "failure-diagnosis-and-legacy-component-inventory.md",
 ];
 
 const hardenedTemplates = [
@@ -187,6 +195,10 @@ test("Phase 6A.1 exposes canonical operating knowledge in the importable package
       "Codex remains implementation-only",
       "blocked",
       "review frames",
+      "moment card",
+      "continuous motion",
+      "copy-risk",
+      "visual causality",
     ]) {
       assert.match(combinedKnowledge, new RegExp(requiredPhrase, "i"));
     }
