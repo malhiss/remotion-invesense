@@ -785,7 +785,7 @@ Use this knowledge when the market insight supplies an SVG, chart screenshot, ta
 `,
   "lottie-asset-operating-system.md": `# Lottie Asset Operating System
 
-Lottie is an asset source and motion layer. Lottie is not the hero metaphor. This means the Workspace Agent should absolutely search LottieFiles and similar sources for useful animated assets, but it should select them by role in the story rather than letting a generic premade animation become the story.
+Lottie is an asset source and motion layer. Lottie may support a chart scene, or it may be used as a standalone analogy scene if the asset itself clearly explains the approved financial mechanism. Lottie is not the hero metaphor when that means outsourcing the entire reel to a generic premade animation. The rule is not "Lottie must always sit on top of the graph." The rule is: never let a generic premade animation replace source truth, invent the claim, or become a disconnected template.
 
 The default split is: Workspace Agent searches and plans Lottie candidates; Codex ingests only human-approved local JSON or direct JSON assets later. The Workspace Agent should not wait for Codex to invent the asset plan. It should provide candidate URL when available, search query used, intended role, scene placement, why it improves the metaphor, license note requirement, approved usage requirement, and native Remotion fallback.
 
@@ -796,6 +796,7 @@ Good Lottie roles:
 - Proof burst after a stamp, latch, endpoint, or selection.
 - Checkmark, warning mark, rejected path, or approved path.
 - Loader, subtle icon, money transfer accent, data flow accent, CTA pulse.
+- Standalone analogy scene when the asset behavior directly maps to the mechanism, such as a filter, gate, lock, transfer rail, network flow, vault, stamp, scanner, bridge, reservoir, or approval path.
 
 Bad Lottie roles:
 
@@ -804,12 +805,13 @@ Bad Lottie roles:
 - Decorative confetti unrelated to proof.
 - Standalone proof with no source event.
 - Remote browser-scraped animation required during render.
+- Standalone analogy scene with no source-safe label, no mechanism mapping, no license note, or no native fallback.
 
 Every Lottie candidate needs a motion role, source URL or local path, license note, approved usage, human approval, and native Remotion fallback. The fallback matters because Remotion can recreate many simple pulses, sweeps, bursts, arrows, and icons natively if the Lottie flickers, fails, has licensing risk, or adds clutter.
 
 Workspace Agent owns Lottie discovery, role fit, license/source notes, and approval. Codex owns deterministic ingestion only after approval: local JSON or direct JSON URL, manifest entry, staticFile usage, and Lottie QA frames for entry, peak, and exit.
 
-The decision sentence is: use Lottie heavily where it improves motion texture or asset clarity, but never outsource the reel's core financial mechanism to a generic Lottie asset. Lottie should help prevent boring chart-only output by adding supporting asset motion around the proof event, not by replacing the source-proof chart.
+The decision sentence is: use Lottie heavily where it improves motion texture, asset clarity, or analogy comprehension. It can carry a standalone analogy beat when approved, but source-proof charts and exact claims still need their own source-locked treatment.
 `,
   "mechanism-analogy-wow-atlas.md": `# Mechanism Analogy Wow Atlas
 
@@ -902,6 +904,28 @@ Valid Codex handoff includes:
 - Required validation and review commands.
 
 Codex must stop if it would need to invent missing claims, infer values, choose a metaphor, select assets, browse Lottie without approval, paste proof cards, use remote assets at render time, or render final MP4 without approval.
+
+## Phase 6B.1 visual stress gates
+
+Every executable handoff must include a no-label read, average viewer translation, proof birth attachment, Lottie role fit, card/dashboard drift risk, CTA close plan, review-only overlay plan, transcript/caption plan, narration visual sync, sound effect plan, and visual stress audit.
+
+The no-label read states what the viewer should understand before reading labels. It must assume an average viewer with no finance background. The handoff should translate advanced website insights into a simple visual mechanism, while preserving exact source-locked numbers, exact claims, units, dates, caveats, and source labels.
+
+The proof birth rule states which physical event creates the proof and which frame range creates it. Lottie fit states whether a Lottie asset is supporting the chart, acting as a standalone analogy scene, or rejected because it reads as generic decoration.
+
+Lottie can explain a financial analogy by itself when the Workspace Agent explicitly approves it as a standalone analogy scene with source-safe labels, license/source notes, and a native fallback. It still cannot replace source truth, invent numbers, or become a generic premade template with no connection to the mechanism.
+
+Every reel must include a branded CTA close plan. The default Invesense close is a clean logo hold with a direct research CTA such as \`Read the research -> invesense.com/insights\`. CTA residue can lead into the close, but it cannot replace the company logo and website action.
+
+Narrated reels must include a transcript, caption, and voiceover plan. The Workspace Agent should create plain-language narration from the insight, not paste the website copy. Captions should be concise, source-safe, and timed to the visual event. Animation, assets, and Lottie should appear while the narration is talking about that mechanism, matching the benchmark's audio-visual timing.
+
+Caption implementation should use Remotion's caption JSON shape when captions are implemented: text, startMs, endMs, timestampMs, and confidence. If voiceover audio already exists, Codex may later use Remotion caption tooling or Whisper transcription only after approval. If no audio exists yet, the Workspace Agent should still write a timed transcript that can become captions or speech later.
+
+Sound effects are optional but should be planned when they clarify motion. Use restrained Remotion SFX roles such as whoosh for movement, switch for gate/latch movement, or ding only after proof confirmation. Do not use comedic or meme SFX in professional asset-manager reels unless explicitly approved.
+
+Stop if card drift or dashboard drift is unresolved. A chart may be source proof, but the hero asset must physically explain the mechanism. Stop if review-only overlay text, internal critique labels, or review scaffolding would appear inside production-style visuals.
+
+After Phase 6B.1-level changes, perform a system-wide coherence audit before moving forward. Treat audit findings and human clarifications as source-of-truth updates: easy visual explanation for average viewers, exact source-locked evidence, standalone Lottie analogy permission, branded CTA close, transcript/caption/SFX planning, manager-kit intake separation, and review-scaffolding isolation must all agree across Workspace Agent knowledge, templates, contracts, visual primitives, and validators.
 
 The handoff rule is intentionally strict because passing TypeScript is not visual quality. Still frames and contact sheets come before draft MP4, and final MP4 stays blocked until explicit final approval.
 `,
@@ -1419,6 +1443,17 @@ const templates = {
       "lottieCandidateUrls",
       "lottieSearchQueries",
       "lottieScenePlacementAndMetaphorRationale",
+      "noLabelRead",
+      "averageViewerTranslation",
+      "transcriptCaptionPlan",
+      "narrationVisualSync",
+      "soundFxPlan",
+      "proofBirthAttachment",
+      "lottieRoleFit",
+      "visualStressAudit",
+      "cardDriftRisk",
+      "ctaClosePlan",
+      "reviewOnlyOverlayPlan",
       "allowedPackages",
       "forbiddenPatterns",
       "filesAllowedToModify",
@@ -1539,6 +1574,39 @@ const phase6a2ForwardFixtures = {
   },
 };
 
+const supplementalKnowledge = {
+  "manager-kit-intake-rules.md": `# Manager Kit Intake Rules
+
+Manager kits are source and planning inputs, not visual templates to copy one-to-one. A kit may include a brief, key stats, chart CSV/SVG/PNG files, mockup frames, Canva assembly notes, search terms, music/audio notes, and a voiceover script with timestamps.
+
+The Workspace Agent should deconstruct every supplied kit into:
+
+- exact source-locked claims, numbers, caveats, and source labels
+- chart/source assets that may become animated Remotion proof
+- manager-approved CTA language, logo requirements, and hold timing
+- voiceover/transcript timing that can become captions or speech later
+- negative constraints such as no clipart, no fake values, no overcrowded labels, and no style copying
+- opportunities for Remotion upgrades: animated charts, asset-led analogies, Lottie support motion, sound effects, and source-born proof
+
+Manual reels, manual stills, and previous mockups are separate reference inputs unless the manager kit explicitly includes them. Manual reels are separate benchmark or CTA references. If a manual reference reel is supplied separately, use it as benchmark or CTA evidence, not as proof that every future kit will contain those stills.
+
+The rule is not to recreate Canva one-to-one. Do not recreate Canva frames one-to-one. Preserve source truth, CTA obligations, and useful pacing, then upgrade the route into a Family B/C Remotion treatment with clear analogy, animated proof, Lottie support where useful, and review still/contact-sheet gates. The output should be a Remotion-upgraded route, not a Canva clone.
+
+Manager-kit CTA rules:
+
+- Preserve explicit closing CTA requirements such as logo hold, research URL, and minimum static hold time.
+- The default Invesense close is a clean logo lockup plus \`Read the research -> invesense.com/insights\`.
+- CTA residue from the reel mechanism may lead into the close, but it does not replace the branded logo and website action.
+
+Manager-kit Lottie rules:
+
+- If the kit forbids clipart or generic Canva vectors, do not add generic Lottie as a loophole.
+- Lottie may be used when it improves analogy comprehension, motion energy, or CTA polish.
+- Lottie can be a standalone analogy beat only when its behavior maps to the approved mechanism and remains source-safe.
+- Every candidate still needs source URL/local path, license note, role, scene placement, approval, and native fallback.
+`,
+};
+
 const manifest = {
   name: "invesense-workspace-agent",
   displayName: "Invesense Workspace Agent",
@@ -1556,6 +1624,7 @@ const manifest = {
     sourceOldSystemStrategy: "consolidated rewrite with Phase 6A hardening",
   })),
   knowledge: Object.keys(knowledge),
+  supplementalKnowledge: Object.keys(supplementalKnowledge),
   references: Object.keys(references),
   templates: Object.keys(templates),
   examples: ["family-bc-sample-brief.json", ...Object.keys(phase6a2ForwardFixtures)],
@@ -1770,6 +1839,14 @@ ${template.fields.map((field) => `- \`${field}\``).join("\n")}
 
 - Stop if source proof, chart fidelity, asset/Lottie approval, styleframe targets, scene behavior, review frames, or Codex readiness are missing.
 - Stop if the packet permits abstract shape-only diagrams, dashboard/card drift, static pasted charts as final proof, Lottie as hero metaphor, or Codex creative invention.
+- Stop if the no-label read is unclear, proof birth is not attached to a physical event, Lottie fit is generic, or review-only overlay / review scaffolding would appear inside production-style visuals.
+- Stop if card drift or dashboard drift is unresolved: charts may be source proof, but the hero asset must physically explain the mechanism.
+- Stop if the packet translates the website insight too literally. The handoff must include a plain-language average viewer explanation for someone with no finance background.
+- Stop if simplification changes the evidence. Use simple language and visual analogy, but preserve exact source-locked numbers, exact claims, units, dates, caveats, and source labels.
+- Stop if no transcript, caption, or voiceover plan exists for a narrated reel. Captions may become on-screen text only when they are short, source-safe, and timed to the visual event.
+- Stop if animation and narration are not synchronized. Assets and Lottie should appear as the voiceover is talking about the mechanism, not before or after the idea has passed.
+- Stop if SFX is missing for an audio-approved draft. Sound effect choices should be restrained and event-linked: soft whoosh for movement, switch or ding for confirmation, never meme sounds unless explicitly approved.
+- Stop if the branded CTA close is missing. Every reel needs a logo hold and direct website action such as \`Read the research -> invesense.com/insights\`.
 
 ## Codex boundary
 
@@ -1801,6 +1878,9 @@ const writePack = (root) => {
     JSON.parse(fs.readFileSync(path.join(projectRoot, "workspace-agent/knowledge/old-system-audit-register.json"), "utf8")),
   );
   for (const [fileName, content] of Object.entries(knowledge)) {
+    writeText(`${root}/knowledge/${fileName}`, content);
+  }
+  for (const [fileName, content] of Object.entries(supplementalKnowledge)) {
     writeText(`${root}/knowledge/${fileName}`, content);
   }
   writeJson(`${root}/examples/family-bc-sample-brief.json`, sampleBrief);

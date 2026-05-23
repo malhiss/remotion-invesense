@@ -7,3 +7,5 @@ export * from "./actors";
 export * from "./lottie";
 export * from "./cta";
 export * from "./review";
+export * from "./stress-audit-primitives";
+export * from "./asset-event-primitives";

@@ -64,7 +64,13 @@
     "phase6a:generate": "node scripts/generate-phase6a-workspace-agent.mjs",
     "phase6a:dry-run": "node scripts/run-phase6a-dry-run.mjs",
     "phase6a:validate": "node scripts/phase6a-validate.mjs",
-    "phase6a:audit": "node scripts/phase6a-audit.mjs"
+    "phase6a:audit": "node scripts/phase6a-audit.mjs",
+    "phase6b:review": "node scripts/run-phase6b-review.mjs",
+    "phase6b:validate": "node scripts/phase6b-validate.mjs",
+    "phase6b:audit": "node scripts/phase6b-audit.mjs",
+    "phase6b1:validate": "node scripts/phase6b1-validate.mjs",
+    "phase6b2:review": "node scripts/run-phase6b2-review.mjs",
+    "phase6b2:validate": "node scripts/phase6b2-validate.mjs"
   },
   "sideEffects": [
     "*.css"

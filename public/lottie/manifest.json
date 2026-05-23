@@ -1,48 +1,63 @@
 {
-  "policy": "family-bc-approved-lottie-assets",
-  "purpose": "LottieFiles assets are approved accent motion for Family B/C reels, not hero metaphors or standalone proof.",
-  "allowedRoles": [
-    "accent",
-    "transition",
-    "CTA",
-    "route-pulse",
-    "highlight",
-    "checkmark",
-    "warning",
-    "loader",
-    "micro-icon",
-    "proof-burst",
-    "chart-accent",
-    "payment-transfer",
-    "data-transfer"
-  ],
-  "forbiddenRoles": [
-    "unapproved-hero-metaphor",
-    "decorative-clutter",
-    "standalone-proof",
-    "random-confetti",
-    "unlicensed-asset"
-  ],
-  "requiredFieldsForNewAssets": [
-    "id",
-    "sourceUrl",
-    "localPath",
-    "licenseNote",
-    "approvedUsage",
-    "approvedByHuman",
-    "fallbackNativeRemotionOption"
-  ],
-  "assets": [
-    {
-      "id": "phase3-approved-pulse",
-      "sourceUrl": "https://lottiefiles.com/free-animations/chart",
-      "localPath": "lottie/phase3-approved-pulse.json",
-      "licenseNote": "Non-production local fixture used only to validate approved Lottie rendering.",
-      "approvedUsage": "route-pulse",
-      "approvedByHuman": true,
-      "approvedBy": "phase-3-calibration",
-      "fallbackNativeRemotionOption": "Use deterministic native LottieAccentLayer pulse if JSON fails QA.",
-      "nonProduction": true
-    }
-  ]
+    "policy":  "family-bc-approved-lottie-assets",
+    "purpose":  "LottieFiles assets are approved accent motion for Family B/C reels, not hero metaphors or standalone proof.",
+    "allowedRoles":  [
+                         "accent",
+                         "transition",
+                         "CTA",
+                         "route-pulse",
+                         "highlight",
+                         "checkmark",
+                         "warning",
+                         "loader",
+                         "micro-icon",
+                         "proof-burst",
+                         "chart-accent",
+                         "payment-transfer",
+                         "data-transfer"
+                     ],
+    "forbiddenRoles":  [
+                           "unapproved-hero-metaphor",
+                           "decorative-clutter",
+                           "standalone-proof",
+                           "random-confetti",
+                           "unlicensed-asset"
+                       ],
+    "requiredFieldsForNewAssets":  [
+                                       "id",
+                                       "sourceUrl",
+                                       "localPath",
+                                       "licenseNote",
+                                       "approvedUsage",
+                                       "approvedByHuman",
+                                       "fallbackNativeRemotionOption"
+                                   ],
+    "assets":  [
+                   {
+                       "id":  "phase3-approved-pulse",
+                       "sourceUrl":  "https://lottiefiles.com/free-animations/chart",
+                       "localPath":  "lottie/phase3-approved-pulse.json",
+                       "licenseNote":  "Non-production local fixture used only to validate approved Lottie rendering.",
+                       "approvedUsage":  "route-pulse",
+                       "approvedByHuman":  true,
+                       "approvedBy":  "phase-3-calibration",
+                       "fallbackNativeRemotionOption":  "Use deterministic native LottieAccentLayer pulse if JSON fails QA.",
+                       "nonProduction":  true
+                   },
+                   {
+                       "id":  "phase6b-data-flow-rail-pulse",
+                       "sourceUrl":  "https://lottiefiles.com/free-animation/data-flow-XwZ4VYbgwT",
+                       "localPath":  "lottie/phase6b-data-flow-rail-pulse.json",
+                       "licenseNote":  "Human-approved Data Flow LottieFiles free animation candidate; page stated free use under the Lottie Simple License; exact export retained locally for Phase 6B stills QA.",
+                       "approvedUsage":  "data-transfer",
+                       "approvedByHuman":  true,
+                       "approvedBy":  "phase-6b-human-approval",
+                       "fallbackNativeRemotionOption":  "Native Remotion traveling dot, rail glow, or signal pulse along the issuance path.",
+                       "nonProduction":  false,
+                       "sourceKind":  "local-file",
+                       "scenePlacement":  "Setup and pressure beats, clipped to the source-linked issuance rail.",
+                       "metaphorRole":  "Subtle rail/data-flow pulse only; not the threshold mechanism or proof.",
+                       "qaScope":  "Phase 6B stills/contact-sheet/Lottie QA only; draft and final MP4 remain blocked."
+                   }
+               ]
 }

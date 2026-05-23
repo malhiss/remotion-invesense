@@ -93,6 +93,9 @@
     "motion-pacing-format-and-variant-rules.md",
     "failure-diagnosis-and-legacy-component-inventory.md"
   ],
+  "supplementalKnowledge": [
+    "manager-kit-intake-rules.md"
+  ],
   "references": [
     "family-bc-benchmark-grammar.md",
     "source-chart-svg-proof-rules.md",

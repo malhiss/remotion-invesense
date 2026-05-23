@@ -1,0 +1,116 @@
+{
+  "packetType": "svg-chart-intake-packet",
+  "sourceSvgPath": "C:\\Users\\sulta\\Downloads\\chart_01_global_sukuk_issuance.svg",
+  "supported": true,
+  "chartType": "line-chart",
+  "confidence": "medium",
+  "title": "GLOBAL SUKUK ISSUANCE",
+  "subtitle": "Annual syndicated issuance volume, 2001–2025",
+  "unit": "USD billions",
+  "sourceNote": "Invesense Research | Bloomberg LEAG | April 2026",
+  "axisTicks": {
+    "x": [
+      "2001",
+      "2003",
+      "2005",
+      "2007",
+      "2009",
+      "2011",
+      "2013",
+      "2015",
+      "2017",
+      "2019",
+      "2021",
+      "2023",
+      "2025"
+    ],
+    "y": [
+      "$0B",
+      "$20B",
+      "$40B",
+      "$60B",
+      "$80B",
+      "$100B",
+      "$120B",
+      "$140B",
+      "$150.5B"
+    ]
+  },
+  "categories": [],
+  "values": [],
+  "xLabels": [
+    "2001",
+    "2003",
+    "2005",
+    "2007",
+    "2009",
+    "2011",
+    "2013",
+    "2015",
+    "2017",
+    "2019",
+    "2021",
+    "2023",
+    "2025"
+  ],
+  "series": [
+    {
+      "name": "Global sukuk issuance",
+      "color": "#75bee9"
+    }
+  ],
+  "bars": [],
+  "groupedBars": [],
+  "stackedBars": [],
+  "totalLabels": [],
+  "line": {
+    "pathD": "M 81.354886 308.129218 \nL 106.693333 306.173784 \nL 132.03178 326.040709 \nL 157.370227 323.700906 \nL 182.708674 320.005283 \nL 208.047121 306.63438 \nL 233.385568 282.819634 \nL 258.724015 310.350378 \nL 284.062462 302.107754 \nL 309.400909 304.157711 \nL 334.739356 275.513756 \nL 360.077803 255.298206 \nL 385.41625 260.398382 \nL 410.754697 258.282232 \nL 436.093144 279.429021 \nL 461.431591 265.800477 \nL 486.770038 249.401653 \nL 512.108485 262.997917 \nL 537.446932 243.542784 \nL 562.785379 228.87613 \nL 588.123826 220.990108 \nL 613.462273 229.125891 \nL 638.80072 205.609401 \nL 664.139167 175.040958 \nL 689.477614 106.633709 \n",
+    "stroke": "#75bee9",
+    "headlineValue": "$150.5B",
+    "headlineLabel": "(2025)"
+  },
+  "benchmarkLabel": null,
+  "derivedValuesFromGeometry": true,
+  "extractionNotes": [
+    "Recovered line shape from source SVG path geometry.",
+    "Full annual data series is not printed as comments; treat this as source-locked shape unless Workspace Agent supplies a table."
+  ],
+  "unsupportedElements": [],
+  "proofAnimationPlan": {
+    "reconstruction": "native-line-trace-from-source-path",
+    "event": "trace line, then birth headline value from final endpoint",
+    "staticSvgAsFinalChartAllowed": false
+  },
+  "comments": [
+    "2001",
+    "2003",
+    "2005",
+    "2007",
+    "2009",
+    "2011",
+    "2013",
+    "2015",
+    "2017",
+    "2019",
+    "2021",
+    "2023",
+    "2025",
+    "$0B",
+    "$20B",
+    "$40B",
+    "$60B",
+    "$80B",
+    "$100B",
+    "$120B",
+    "$140B",
+    "$150.5B",
+    "(2025)",
+    "GLOBAL SUKUK ISSUANCE",
+    "Annual syndicated issuance volume, 2001–2025",
+    "Invesense Research | Bloomberg LEAG | April 2026",
+    "INVE",
+    "SENSE"
+  ],
+  "pathCount": 97,
+  "rectLikePathCount": 8
+}

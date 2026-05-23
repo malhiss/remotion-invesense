@@ -197,6 +197,9 @@ type ChartMarkerCalloutProps = {
   label: string;
   color?: string;
   startFrame?: number;
+  productionMode?: boolean;
+  attachmentMode?: "endpoint" | "chart-marker" | "bar-end" | "residue-line" | "surface-plate";
+  eventSurfaceId?: string;
 };
 
 export const ChartMarkerCallout = ({
@@ -205,7 +208,17 @@ export const ChartMarkerCallout = ({
   label,
   color = familyBCPalette.red,
   startFrame = 0,
+  productionMode = false,
+  attachmentMode,
+  eventSurfaceId,
 }: ChartMarkerCalloutProps) => {
+  // calibration-only by default; production use must attach the callout to an event surface.
+  if (productionMode && (!attachmentMode || !eventSurfaceId)) {
+    throw new Error(
+      "ChartMarkerCallout productionMode requires attachmentMode and eventSurfaceId.",
+    );
+  }
+
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pop = spring({
@@ -267,6 +280,8 @@ type StrictBarSeriesProps = {
   y: number;
   width: number;
   startFrame?: number;
+  valuePlacement?: "inside" | "bar-end";
+  productionMode?: boolean;
 };
 
 export const StrictBarSeries = ({
@@ -276,6 +291,8 @@ export const StrictBarSeries = ({
   y,
   width,
   startFrame = 0,
+  valuePlacement = "bar-end",
+  productionMode = false,
 }: StrictBarSeriesProps) => {
   const frame = useCurrentFrame();
   const max = Math.max(...bars.map((bar) => bar.value), 1);
@@ -309,27 +326,46 @@ export const StrictBarSeries = ({
           <div key={bar.label} style={{ marginBottom: 34 }}>
             <div
               style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "baseline",
                 marginBottom: 10,
                 fontSize: 26,
                 fontWeight: 800,
                 color: familyBCPalette.navy,
               }}
             >
-              <span>{bar.label}</span>
-              <span>{bar.valueLabel}</span>
+              {bar.label}
             </div>
             <div
               style={{
-                width: barWidth,
+                position: "relative",
+                width: Math.max(barWidth, productionMode ? 84 : 0),
                 height: 54,
                 borderRadius: 10,
                 background: bar.color,
                 boxShadow: "0 10px 28px rgba(71, 85, 100, 0.12)",
               }}
-            />
+            >
+              <span
+                style={{
+                  position: "absolute",
+                  left:
+                    valuePlacement === "inside"
+                      ? 18
+                      : Math.max(barWidth, productionMode ? 84 : 0) + 14,
+                  top: "50%",
+                  transform: "translate3d(0, -50%, 0)",
+                  fontSize: 24,
+                  lineHeight: 1,
+                  fontWeight: 900,
+                  color:
+                    valuePlacement === "inside"
+                      ? familyBCPalette.white
+                      : familyBCPalette.ink,
+                  whiteSpace: "nowrap",
+                }}
+              >
+                {bar.valueLabel}
+              </span>
+            </div>
           </div>
         );
       })}
@@ -460,6 +496,10 @@ type ProofReadoutFromEventProps = {
   y: number;
   proofBirthFrame: number;
   color?: string;
+  productionMode?: boolean;
+  eventSurfaceId?: string;
+  proofSurfaceId?: string;
+  proofAttachmentMode?: "stamp" | "latch" | "endpoint" | "bar-end" | "chart-marker" | "residue-line" | "surface-plate";
 };
 
 export const ProofReadoutFromEvent = ({
@@ -469,7 +509,21 @@ export const ProofReadoutFromEvent = ({
   y,
   proofBirthFrame,
   color = familyBCPalette.green,
+  productionMode = false,
+  eventSurfaceId,
+  proofSurfaceId,
+  proofAttachmentMode,
 }: ProofReadoutFromEventProps) => {
+  // calibration-only by default; production use must bind proof to the event surface that created it.
+  if (
+    productionMode &&
+    (!eventSurfaceId || !proofSurfaceId || !proofAttachmentMode)
+  ) {
+    throw new Error(
+      "ProofReadoutFromEvent productionMode requires eventSurfaceId, proofSurfaceId, and proofAttachmentMode.",
+    );
+  }
+
   const frame = useCurrentFrame();
   const emerge = interpolate(frame, [proofBirthFrame, proofBirthFrame + 34], [0, 1], {
     ...clamp,

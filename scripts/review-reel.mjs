@@ -52,6 +52,19 @@ const frameSetDefinitions = {
       { role: "cta-residue", frame: 990, purpose: "CTA residue/memory-frame still." },
     ],
   },
+  "phase6b-sukuk-stills": {
+    stackMode: "vstack",
+    frames: [
+      { role: "hook", frame: 45, purpose: "Approved hook styleframe for Threshold Rail." },
+      { role: "chart-reconstruction", frame: 240, purpose: "Chart 01 native rail reconstruction still." },
+      { role: "rail-data-flow", frame: 420, purpose: "Approved Data Flow Lottie support motion on the source-linked rail." },
+      { role: "threshold-event", frame: 720, purpose: "$1T threshold contact/unlock event still." },
+      { role: "proof-birth", frame: 840, purpose: "$1T+ proof born after threshold unlock." },
+      { role: "lottie-qa", frame: 735, purpose: "Data Flow Lottie QA still near the event boundary." },
+      { role: "cta-residue", frame: 1320, purpose: "CTA residue inherits the unlocked threshold line." },
+      { role: "source-chart-comparison", frame: 240, purpose: "Source-chart comparison review frame for Chart 01." },
+    ],
+  },
 };
 
 if (args.has("--final-render") && !finalRenderApproval) {
@@ -68,7 +81,12 @@ const stackMode =
   (frameSet === "family-bc-calibration" ? "vstack" : "hstack");
 
 const manifest = {
-  phase: frameSet === "phase5-review" ? "Phase 5: Review + QA Tooling" : "shared-review",
+  phase:
+    frameSet === "phase5-review"
+      ? "Phase 5: Review + QA Tooling"
+      : frameSet === "phase6b-sukuk-stills"
+        ? "Phase 6B: First Approved Pilot Handoff Stills"
+        : "shared-review",
   mode: args.has("--execute") ? "execute" : "dry-run",
   composition,
   frameSet,
