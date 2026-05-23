@@ -73,6 +73,15 @@ Stop the old failure pattern where Codex had to invent taste from prose and prod
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/styleframe-and-asset-board-rules.md
+- knowledge/brandbook-manual-reel-and-label-rules.md
+- knowledge/visual-reference-search-and-copy-risk.md
+- knowledge/failure-diagnosis-and-legacy-component-inventory.md
+
+Then load deeper references as needed:
+
 - references/asset-lottie-styleframe-rules.md
 - references/family-bc-benchmark-grammar.md
 

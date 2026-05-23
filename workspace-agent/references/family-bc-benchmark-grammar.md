@@ -4,6 +4,8 @@ Family B/C is primary. Use light editorial backgrounds, source charts, direct la
 
 Family A is secondary. Borrow asset energy, pacing, event clarity, and animation confidence only when it supports Family B/C. Do not turn the house style into dark cinematic spectacle.
 
+Family B/C is not an animated chart-only reel format. Source charts provide proof, but a benchmark-aligned reel still needs an asset-led event: a rail hits a threshold, a gate unlocks, a logo actor travels, a stamp lands, a route pulses, or a proof object changes state.
+
 Required benchmark behavior:
 
 - Chart proof is terrain, not wallpaper.

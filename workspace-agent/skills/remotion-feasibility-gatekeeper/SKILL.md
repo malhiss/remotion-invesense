@@ -73,6 +73,15 @@ Use Remotion to its true strengths: frame-perfect React video, native SVG/chart 
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/remotion-3d-and-capability-governance.md
+- knowledge/chart-svg-animation-playbook.md
+- knowledge/lottie-asset-operating-system.md
+- knowledge/codex-handoff-and-stop-gates.md
+
+Then load deeper references as needed:
+
 - references/remotion-qa-codex-gates.md
 - references/source-chart-svg-proof-rules.md
 

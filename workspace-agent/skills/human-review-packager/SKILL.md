@@ -71,6 +71,15 @@ Make human gates real. The package must help the user approve, reject, or revise
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/review-qa-gates.md
+- knowledge/benchmark-moment-card-system.md
+- knowledge/visual-reference-search-and-copy-risk.md
+- knowledge/brandbook-manual-reel-and-label-rules.md
+
+Then load deeper references as needed:
+
 - references/remotion-qa-codex-gates.md
 - references/family-bc-benchmark-grammar.md
 

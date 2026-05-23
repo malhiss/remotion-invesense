@@ -73,6 +73,14 @@ Own source truth before metaphor. Inventory all claims, charts, tables, captions
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/source-proof-operating-system.md
+- knowledge/visual-reference-search-and-copy-risk.md
+- knowledge/brandbook-manual-reel-and-label-rules.md
+
+Then load deeper references as needed:
+
 - references/source-chart-svg-proof-rules.md
 - references/remotion-qa-codex-gates.md
 

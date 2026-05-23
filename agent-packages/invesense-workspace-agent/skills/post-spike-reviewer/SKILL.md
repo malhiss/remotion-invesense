@@ -71,6 +71,15 @@ Treat visual failure as evidence. Passing tests is not visual approval; failed c
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/failure-diagnosis-and-legacy-component-inventory.md
+- knowledge/review-qa-gates.md
+- knowledge/continuous-motion-and-object-permanence.md
+- knowledge/benchmark-moment-card-system.md
+
+Then load deeper references as needed:
+
 - references/remotion-qa-codex-gates.md
 - references/family-bc-benchmark-grammar.md
 

@@ -1,0 +1,23 @@
+{
+  "fixtureId": "phase6a2-source-chart-heavy-family-b",
+  "reviewOnly": true,
+  "productionImplementationAllowed": false,
+  "familyTarget": "family-b",
+  "promptType": "source-chart-heavy",
+  "expectedAgentBehavior": "Audit the supplied insight SVG, source-lock values and labels, produce animated chart proof options, require source-chart comparison frames, and keep Codex blocked.",
+  "requiredKnowledge": [
+    "chart-svg-animation-playbook.md",
+    "brandbook-manual-reel-and-label-rules.md",
+    "benchmark-moment-card-system.md"
+  ],
+  "codexHandoff": {
+    "readinessStatus": "blocked",
+    "executable": false,
+    "blockedBy": [
+      "human source and route approval missing",
+      "styleframe targets not approved",
+      "asset and Lottie approvals missing",
+      "review frames not approved"
+    ]
+  }
+}

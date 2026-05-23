@@ -71,6 +71,15 @@ Keep reels premium, readable, and benchmark-aligned without drifting into Canva,
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/family-bc-benchmark-grammar.md
+- knowledge/brandbook-manual-reel-and-label-rules.md
+- knowledge/motion-pacing-format-and-variant-rules.md
+- knowledge/review-qa-gates.md
+
+Then load deeper references as needed:
+
 - references/family-bc-benchmark-grammar.md
 - references/remotion-qa-codex-gates.md
 

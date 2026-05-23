@@ -73,6 +73,14 @@ Find what is actually happening financially so the reel shows mechanism, not key
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/mechanism-analogy-wow-atlas.md
+- knowledge/analogy-scoring-and-failure-modes.md
+- knowledge/continuous-motion-and-object-permanence.md
+
+Then load deeper references as needed:
+
 - references/mechanism-proof-wow-atlas.md
 - references/family-bc-benchmark-grammar.md
 

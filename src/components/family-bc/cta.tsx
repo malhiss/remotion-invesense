@@ -62,13 +62,22 @@ type CTAKeywordCloseProps = {
   prompt: string;
   keyword: string;
   residueLabel: string;
+  residueObjectId?: string;
+  productionMode?: boolean;
 };
 
 export const CTAKeywordClose = ({
   prompt,
   keyword,
   residueLabel,
+  residueObjectId,
+  productionMode = false,
 }: CTAKeywordCloseProps) => {
+  // calibration-only by default; production CTA closes must inherit a residue object from the event.
+  if (productionMode && !residueObjectId) {
+    throw new Error("CTAKeywordClose productionMode requires residueObjectId.");
+  }
+
   const frame = useCurrentFrame();
   const appear = interpolate(frame, [0, 32], [0, 1], {
     ...clamp,

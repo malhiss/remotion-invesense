@@ -2,7 +2,7 @@
   "name": "invesense-workspace-agent",
   "display_name": "Invesense Workspace Agent",
   "description": "Legacy metadata for the hardened creative-director workflow. Canonical Codex import uses .codex-plugin/plugin.json.",
-  "version": "0.6.0",
+  "version": "0.6.2",
   "type": "agent",
   "entrypoint": "instructions.md"
 }

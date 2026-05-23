@@ -1,5 +1,3 @@
-import { loadFont as loadArchivo } from "@remotion/google-fonts/Archivo";
-import { loadFont as loadSpaceGrotesk } from "@remotion/google-fonts/SpaceGrotesk";
 import { AbsoluteFill, Sequence, useCurrentFrame } from "remotion";
 import {
   ChartAsObject,
@@ -12,16 +10,6 @@ import {
   ResidueFrame,
 } from "../components/reel-primitives";
 import type { ReelHandoff } from "../contracts/reel-contract";
-
-const spaceGrotesk = loadSpaceGrotesk("normal", {
-  weights: ["400", "600", "700"],
-  subsets: ["latin"],
-});
-
-const archivo = loadArchivo("normal", {
-  weights: ["500", "700", "900"],
-  subsets: ["latin"],
-});
 
 const stageBackground =
   "radial-gradient(circle at 50% 26%, rgba(47, 255, 112, 0.18), transparent 34%), linear-gradient(180deg, #06110c 0%, #07100d 52%, #020403 100%)";
@@ -44,7 +32,7 @@ export const InvesenseReel = ({
       style={{
         background: stageBackground,
         color: "#f2fff5",
-        fontFamily: `${spaceGrotesk.fontFamily}, ${archivo.fontFamily}, sans-serif`,
+        fontFamily: "Tahoma, Aptos Display, Segoe UI, sans-serif",
         overflow: "hidden",
       }}
     >

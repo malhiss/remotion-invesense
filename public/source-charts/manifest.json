@@ -1,3 +1,642 @@
 {
-  "charts": []
+    "charts":  [
+                   {
+                       "id":  "phase6b-issuance-by-region-reference",
+                       "originalSourcePath":  "C:\\Users\\sulta\\Downloads\\chart_02_issuance_by_region.svg",
+                       "localSvgPath":  "source-charts/phase6b-issuance-by-region-reference.svg",
+                       "extractedDataPath":  "source-charts/phase6b-issuance-by-region-reference.json",
+                       "audit":  {
+                                     "packetType":  "svg-chart-intake-packet",
+                                     "sourceSvgPath":  "C:\\Users\\sulta\\Downloads\\chart_02_issuance_by_region.svg",
+                                     "supported":  true,
+                                     "chartType":  "grouped-vertical-bar",
+                                     "confidence":  "high",
+                                     "title":  "SUKUK ISSUANCE BY REGION",
+                                     "subtitle":  "GCC has overtaken Southeast Asia as the primary issuance engine",
+                                     "unit":  "USD billions",
+                                     "sourceNote":  "Invesense Research | Bloomberg LEAG | April 2026",
+                                     "axisTicks":  {
+                                                       "x":  [
+                                                                 "2016",
+                                                                 "2017",
+                                                                 "2018",
+                                                                 "2019",
+                                                                 "2020",
+                                                                 "2021",
+                                                                 "2022",
+                                                                 "2023",
+                                                                 "2024",
+                                                                 "2025"
+                                                             ],
+                                                       "y":  [
+                                                                 "$0B",
+                                                                 "$25B",
+                                                                 "$50B",
+                                                                 "$75B",
+                                                                 "$100B",
+                                                                 "$125B",
+                                                                 "$150B",
+                                                                 "$175B"
+                                                             ]
+                                                   },
+                                     "categories":  [
+
+                                                    ],
+                                     "values":  [
+
+                                                ],
+                                     "xLabels":  [
+                                                     "2016",
+                                                     "2017",
+                                                     "2018",
+                                                     "2019",
+                                                     "2020",
+                                                     "2021",
+                                                     "2022",
+                                                     "2023",
+                                                     "2024",
+                                                     "2025"
+                                                 ],
+                                     "series":  [
+                                                    {
+                                                        "name":  "GCC Bonds \u0026 Sukuk",
+                                                        "color":  "#475564"
+                                                    },
+                                                    {
+                                                        "name":  "International Sukuk",
+                                                        "color":  "#75bee9"
+                                                    },
+                                                    {
+                                                        "name":  "Malaysian Ringgit Sukuk",
+                                                        "color":  "#59aa47"
+                                                    }
+                                                ],
+                                     "bars":  [
+
+                                              ],
+                                     "groupedBars":  [
+                                                         {
+                                                             "xLabel":  "2016",
+                                                             "seriesName":  "GCC Bonds \u0026 Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  81.355,
+                                                             "y":  250.409,
+                                                             "width":  17.304000000000002,
+                                                             "height":  93.56100000000004,
+                                                             "fill":  "#475564"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2016",
+                                                             "seriesName":  "International Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  98.659,
+                                                             "y":  311.934,
+                                                             "width":  17.303999999999988,
+                                                             "height":  32.036,
+                                                             "fill":  "#75bee9"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2016",
+                                                             "seriesName":  "Malaysian Ringgit Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  115.963,
+                                                             "y":  259.202,
+                                                             "width":  17.305000000000007,
+                                                             "height":  84.76800000000003,
+                                                             "fill":  "#59aa47"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2017",
+                                                             "seriesName":  "GCC Bonds \u0026 Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  143.156,
+                                                             "y":  233.346,
+                                                             "width":  17.304000000000002,
+                                                             "height":  110.62400000000002,
+                                                             "fill":  "#475564"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2017",
+                                                             "seriesName":  "International Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  160.46,
+                                                             "y":  306.555,
+                                                             "width":  17.30499999999998,
+                                                             "height":  37.41500000000002,
+                                                             "fill":  "#75bee9"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2017",
+                                                             "seriesName":  "Malaysian Ringgit Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  177.765,
+                                                             "y":  228.936,
+                                                             "width":  17.304000000000002,
+                                                             "height":  115.03400000000002,
+                                                             "fill":  "#59aa47"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2018",
+                                                             "seriesName":  "GCC Bonds \u0026 Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  204.957,
+                                                             "y":  241.18,
+                                                             "width":  17.304000000000002,
+                                                             "height":  102.79000000000002,
+                                                             "fill":  "#475564"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2018",
+                                                             "seriesName":  "International Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  222.261,
+                                                             "y":  311.038,
+                                                             "width":  17.305000000000007,
+                                                             "height":  32.932000000000016,
+                                                             "fill":  "#75bee9"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2018",
+                                                             "seriesName":  "Malaysian Ringgit Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  239.566,
+                                                             "y":  250.591,
+                                                             "width":  17.304000000000002,
+                                                             "height":  93.37900000000002,
+                                                             "fill":  "#59aa47"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2019",
+                                                             "seriesName":  "GCC Bonds \u0026 Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  266.758,
+                                                             "y":  210.835,
+                                                             "width":  17.30400000000003,
+                                                             "height":  133.13500000000002,
+                                                             "fill":  "#475564"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2019",
+                                                             "seriesName":  "International Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  284.062,
+                                                             "y":  306.488,
+                                                             "width":  17.305000000000007,
+                                                             "height":  37.48200000000003,
+                                                             "fill":  "#75bee9"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2019",
+                                                             "seriesName":  "Malaysian Ringgit Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  301.367,
+                                                             "y":  213.839,
+                                                             "width":  17.303999999999974,
+                                                             "height":  130.13100000000003,
+                                                             "fill":  "#59aa47"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2020",
+                                                             "seriesName":  "GCC Bonds \u0026 Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  328.559,
+                                                             "y":  176.969,
+                                                             "width":  17.30499999999995,
+                                                             "height":  167.00100000000003,
+                                                             "fill":  "#475564"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2020",
+                                                             "seriesName":  "International Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  345.864,
+                                                             "y":  301.33,
+                                                             "width":  17.30400000000003,
+                                                             "height":  42.64000000000004,
+                                                             "fill":  "#75bee9"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2020",
+                                                             "seriesName":  "Malaysian Ringgit Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  363.168,
+                                                             "y":  244.468,
+                                                             "width":  17.303999999999974,
+                                                             "height":  99.50200000000004,
+                                                             "fill":  "#59aa47"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2021",
+                                                             "seriesName":  "GCC Bonds \u0026 Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  390.36,
+                                                             "y":  193.499,
+                                                             "width":  17.305000000000007,
+                                                             "height":  150.47100000000003,
+                                                             "fill":  "#475564"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2021",
+                                                             "seriesName":  "International Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  407.665,
+                                                             "y":  298.402,
+                                                             "width":  17.303999999999974,
+                                                             "height":  45.56800000000004,
+                                                             "fill":  "#75bee9"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2021",
+                                                             "seriesName":  "Malaysian Ringgit Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  424.969,
+                                                             "y":  231.7,
+                                                             "width":  17.30400000000003,
+                                                             "height":  112.27000000000004,
+                                                             "fill":  "#59aa47"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2022",
+                                                             "seriesName":  "GCC Bonds \u0026 Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  452.161,
+                                                             "y":  267.049,
+                                                             "width":  17.305000000000007,
+                                                             "height":  76.92100000000005,
+                                                             "fill":  "#475564"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2022",
+                                                             "seriesName":  "International Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  469.466,
+                                                             "y":  314.19,
+                                                             "width":  17.303999999999974,
+                                                             "height":  29.78000000000003,
+                                                             "fill":  "#75bee9"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2022",
+                                                             "seriesName":  "Malaysian Ringgit Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  486.77,
+                                                             "y":  205.643,
+                                                             "width":  17.30400000000003,
+                                                             "height":  138.32700000000003,
+                                                             "fill":  "#59aa47"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2023",
+                                                             "seriesName":  "GCC Bonds \u0026 Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  513.963,
+                                                             "y":  223.991,
+                                                             "width":  17.304000000000087,
+                                                             "height":  119.97900000000001,
+                                                             "fill":  "#475564"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2023",
+                                                             "seriesName":  "International Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  531.267,
+                                                             "y":  284.209,
+                                                             "width":  17.303999999999974,
+                                                             "height":  59.761000000000024,
+                                                             "fill":  "#75bee9"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2023",
+                                                             "seriesName":  "Malaysian Ringgit Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  548.571,
+                                                             "y":  219.583,
+                                                             "width":  17.303999999999974,
+                                                             "height":  124.38700000000003,
+                                                             "fill":  "#59aa47"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2024",
+                                                             "seriesName":  "GCC Bonds \u0026 Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  575.764,
+                                                             "y":  166.899,
+                                                             "width":  17.303999999999974,
+                                                             "height":  177.07100000000003,
+                                                             "fill":  "#475564"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2024",
+                                                             "seriesName":  "International Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  593.068,
+                                                             "y":  267.109,
+                                                             "width":  17.303999999999974,
+                                                             "height":  76.86100000000005,
+                                                             "fill":  "#75bee9"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2024",
+                                                             "seriesName":  "Malaysian Ringgit Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  610.372,
+                                                             "y":  225.102,
+                                                             "width":  17.305000000000064,
+                                                             "height":  118.86800000000002,
+                                                             "fill":  "#59aa47"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2025",
+                                                             "seriesName":  "GCC Bonds \u0026 Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  637.565,
+                                                             "y":  107.172,
+                                                             "width":  17.303999999999974,
+                                                             "height":  236.79800000000003,
+                                                             "fill":  "#475564"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2025",
+                                                             "seriesName":  "International Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  654.869,
+                                                             "y":  223.724,
+                                                             "width":  17.303999999999974,
+                                                             "height":  120.24600000000004,
+                                                             "fill":  "#75bee9"
+                                                         },
+                                                         {
+                                                             "xLabel":  "2025",
+                                                             "seriesName":  "Malaysian Ringgit Sukuk",
+                                                             "derivedValue":  null,
+                                                             "x":  672.173,
+                                                             "y":  164.666,
+                                                             "width":  17.30499999999995,
+                                                             "height":  179.30400000000003,
+                                                             "fill":  "#59aa47"
+                                                         }
+                                                     ],
+                                     "stackedBars":  [
+
+                                                     ],
+                                     "totalLabels":  [
+
+                                                     ],
+                                     "line":  null,
+                                     "benchmarkLabel":  null,
+                                     "derivedValuesFromGeometry":  true,
+                                     "extractionNotes":  [
+                                                             "Recovered grouped bar structure from bar geometry and legend comments.",
+                                                             "Exact values are not printed as comments; values should be source-locked by Workspace Agent before production use."
+                                                         ],
+                                     "unsupportedElements":  [
+
+                                                             ],
+                                     "proofAnimationPlan":  {
+                                                                "reconstruction":  "native-grouped-bars",
+                                                                "event":  "group bars by year and let selected region overtake proof marker after reveal",
+                                                                "staticSvgAsFinalChartAllowed":  false
+                                                            },
+                                     "comments":  [
+                                                      "2016",
+                                                      "2017",
+                                                      "2018",
+                                                      "2019",
+                                                      "2020",
+                                                      "2021",
+                                                      "2022",
+                                                      "2023",
+                                                      "2024",
+                                                      "2025",
+                                                      "$0B",
+                                                      "$25B",
+                                                      "$50B",
+                                                      "$75B",
+                                                      "$100B",
+                                                      "$125B",
+                                                      "$150B",
+                                                      "$175B",
+                                                      "SUKUK ISSUANCE BY REGION",
+                                                      "GCC has overtaken Southeast Asia as the primary issuance engine",
+                                                      "Invesense Research | Bloomberg LEAG | April 2026",
+                                                      "GCC Bonds \u0026 Sukuk",
+                                                      "International Sukuk",
+                                                      "Malaysian Ringgit Sukuk",
+                                                      "INVE",
+                                                      "SENSE"
+                                                  ],
+                                     "pathCount":  119,
+                                     "rectLikePathCount":  41
+                                 },
+                       "sourceContext":  "Phase 6B Sukuk insight Chart 02, supporting/reference-only scope; no full grouped-value reconstruction until manually audited.",
+                       "sourceLocks":  {
+                                           "title":  "SUKUK ISSUANCE BY REGION",
+                                           "sourceNote":  "Invesense Research | Bloomberg LEAG | April 2026",
+                                           "chartType":  "grouped-vertical-bar",
+                                           "valueCount":  0,
+                                           "categoryCount":  0,
+                                           "xLabelCount":  10,
+                                           "totalLabelCount":  0
+                                       },
+                       "humanApproval":  {
+                                             "approvedBy":  "phase-6b-human-approval",
+                                             "approvedFor":  "supporting-reference-only; no full grouped-value reconstruction until manually audited"
+                                         },
+                       "finalStaticSvgAllowed":  false,
+                       "productionReelStarted":  false,
+                       "phase6bScope":  "reference-only supporting GCC 56%+ note; exact grouped values are not approved for production use"
+                   },
+                   {
+                       "id":  "phase6b-global-sukuk-issuance",
+                       "originalSourcePath":  "C:\\Users\\sulta\\Downloads\\chart_01_global_sukuk_issuance.svg",
+                       "localSvgPath":  "source-charts/phase6b-global-sukuk-issuance.svg",
+                       "extractedDataPath":  "source-charts/phase6b-global-sukuk-issuance.json",
+                       "audit":  {
+                                     "packetType":  "svg-chart-intake-packet",
+                                     "sourceSvgPath":  "C:\\Users\\sulta\\Downloads\\chart_01_global_sukuk_issuance.svg",
+                                     "supported":  true,
+                                     "chartType":  "line-chart",
+                                     "confidence":  "medium",
+                                     "title":  "GLOBAL SUKUK ISSUANCE",
+                                     "subtitle":  "Annual syndicated issuance volume, 2001â€“2025",
+                                     "unit":  "USD billions",
+                                     "sourceNote":  "Invesense Research | Bloomberg LEAG | April 2026",
+                                     "axisTicks":  {
+                                                       "x":  [
+                                                                 "2001",
+                                                                 "2003",
+                                                                 "2005",
+                                                                 "2007",
+                                                                 "2009",
+                                                                 "2011",
+                                                                 "2013",
+                                                                 "2015",
+                                                                 "2017",
+                                                                 "2019",
+                                                                 "2021",
+                                                                 "2023",
+                                                                 "2025"
+                                                             ],
+                                                       "y":  [
+                                                                 "$0B",
+                                                                 "$20B",
+                                                                 "$40B",
+                                                                 "$60B",
+                                                                 "$80B",
+                                                                 "$100B",
+                                                                 "$120B",
+                                                                 "$140B",
+                                                                 "$150.5B"
+                                                             ]
+                                                   },
+                                     "categories":  [
+
+                                                    ],
+                                     "values":  [
+
+                                                ],
+                                     "xLabels":  [
+                                                     "2001",
+                                                     "2003",
+                                                     "2005",
+                                                     "2007",
+                                                     "2009",
+                                                     "2011",
+                                                     "2013",
+                                                     "2015",
+                                                     "2017",
+                                                     "2019",
+                                                     "2021",
+                                                     "2023",
+                                                     "2025"
+                                                 ],
+                                     "series":  [
+                                                    {
+                                                        "name":  "Global sukuk issuance",
+                                                        "color":  "#75bee9"
+                                                    }
+                                                ],
+                                     "bars":  [
+
+                                              ],
+                                     "groupedBars":  [
+
+                                                     ],
+                                     "stackedBars":  [
+
+                                                     ],
+                                     "totalLabels":  [
+
+                                                     ],
+                                     "line":  {
+                                                  "pathD":  "M 81.354886 308.129218 \nL 106.693333 306.173784 \nL 132.03178 326.040709 \nL 157.370227 323.700906 \nL 182.708674 320.005283 \nL 208.047121 306.63438 \nL 233.385568 282.819634 \nL 258.724015 310.350378 \nL 284.062462 302.107754 \nL 309.400909 304.157711 \nL 334.739356 275.513756 \nL 360.077803 255.298206 \nL 385.41625 260.398382 \nL 410.754697 258.282232 \nL 436.093144 279.429021 \nL 461.431591 265.800477 \nL 486.770038 249.401653 \nL 512.108485 262.997917 \nL 537.446932 243.542784 \nL 562.785379 228.87613 \nL 588.123826 220.990108 \nL 613.462273 229.125891 \nL 638.80072 205.609401 \nL 664.139167 175.040958 \nL 689.477614 106.633709 \n",
+                                                  "stroke":  "#75bee9",
+                                                  "headlineValue":  "$150.5B",
+                                                  "headlineLabel":  "(2025)"
+                                              },
+                                     "benchmarkLabel":  null,
+                                     "derivedValuesFromGeometry":  true,
+                                     "extractionNotes":  [
+                                                             "Recovered line shape from source SVG path geometry.",
+                                                             "Full annual data series is not printed as comments; treat this as source-locked shape unless Workspace Agent supplies a table."
+                                                         ],
+                                     "unsupportedElements":  [
+
+                                                             ],
+                                     "proofAnimationPlan":  {
+                                                                "reconstruction":  "native-line-trace-from-source-path",
+                                                                "event":  "trace line, then birth headline value from final endpoint",
+                                                                "staticSvgAsFinalChartAllowed":  false
+                                                            },
+                                     "comments":  [
+                                                      "2001",
+                                                      "2003",
+                                                      "2005",
+                                                      "2007",
+                                                      "2009",
+                                                      "2011",
+                                                      "2013",
+                                                      "2015",
+                                                      "2017",
+                                                      "2019",
+                                                      "2021",
+                                                      "2023",
+                                                      "2025",
+                                                      "$0B",
+                                                      "$20B",
+                                                      "$40B",
+                                                      "$60B",
+                                                      "$80B",
+                                                      "$100B",
+                                                      "$120B",
+                                                      "$140B",
+                                                      "$150.5B",
+                                                      "(2025)",
+                                                      "GLOBAL SUKUK ISSUANCE",
+                                                      "Annual syndicated issuance volume, 2001â€“2025",
+                                                      "Invesense Research | Bloomberg LEAG | April 2026",
+                                                      "INVE",
+                                                      "SENSE"
+                                                  ],
+                                     "pathCount":  97,
+                                     "rectLikePathCount":  8
+                                 },
+                       "sourceContext":  "Phase 6B Sukuk insight Chart 01, core proof, faithful animated reconstruction for stills/contact-sheet review.",
+                       "sourceLocks":  {
+                                           "title":  "GLOBAL SUKUK ISSUANCE",
+                                           "sourceNote":  "Invesense Research | Bloomberg LEAG | April 2026",
+                                           "chartType":  "line-chart",
+                                           "valueCount":  0,
+                                           "categoryCount":  0,
+                                           "xLabelCount":  13,
+                                           "totalLabelCount":  0
+                                       },
+                       "humanApproval":  {
+                                             "approvedBy":  "phase-6b-human-approval",
+                                             "approvedFor":  "animated-remotion-chart-reconstruction"
+                                         },
+                       "finalStaticSvgAllowed":  false,
+                       "productionReelStarted":  false,
+                       "phase6bScope":  "core proof; faithful native line/rail reconstruction for stills/contact-sheet review"
+                   },
+                   {
+                       "id":  "phase6b-sukuk-vs-global-agg-reference",
+                       "originalSourcePath":  "C:\\Users\\sulta\\Downloads\\chart_03_sukuk_vs_global_agg.svg",
+                       "localSvgPath":  "source-charts/phase6b-sukuk-vs-global-agg-reference.svg",
+                       "extractedDataPath":  null,
+                       "audit":  {
+                                     "packetType":  "svg-chart-intake-packet",
+                                     "sourceSvgPath":  "C:\\Users\\sulta\\Downloads\\chart_03_sukuk_vs_global_agg.svg",
+                                     "supported":  false,
+                                     "chartType":  "unsupported-by-current-parser",
+                                     "confidence":  "none",
+                                     "title":  "Sukuk vs Global Aggregate return comparison",
+                                     "sourceNote":  "Invesense Research | Dow Jones Indices, Bloomberg Indices | April 2026",
+                                     "unsupportedElements":  [
+                                                                 "Current SVG parser could not safely recover this chart structure; use only as reference until manual data table or parser support is approved."
+                                                             ],
+                                     "proofAnimationPlan":  {
+                                                                "reconstruction":  "blocked-until-manual-source-table-or-parser-support",
+                                                                "staticSvgAsFinalChartAllowed":  false
+                                                            }
+                                 },
+                       "sourceContext":  "Phase 6B Sukuk insight Chart 03, optional secondary proof/reference-only unless manually audited.",
+                       "sourceLocks":  {
+                                           "title":  "Sukuk vs Global Aggregate return comparison",
+                                           "sourceNote":  "Invesense Research | Dow Jones Indices, Bloomberg Indices | April 2026",
+                                           "chartType":  "reference-only-unsupported",
+                                           "valueCount":  0,
+                                           "categoryCount":  0,
+                                           "xLabelCount":  0,
+                                           "totalLabelCount":  0
+                                       },
+                       "humanApproval":  {
+                                             "approvedBy":  "phase-6b-human-approval",
+                                             "approvedFor":  "reference-only; optional secondary proof blocked until manual extraction or parser support"
+                                         },
+                       "finalStaticSvgAllowed":  false,
+                       "productionReelStarted":  false,
+                       "phase6bScope":  "optional reference-only; excluded from first stills composition to avoid unsupported proof extraction"
+                   }
+               ]
 }

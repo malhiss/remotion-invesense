@@ -73,6 +73,15 @@ Produce distinct route options that show financial mechanism through object beha
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/mechanism-analogy-wow-atlas.md
+- knowledge/benchmark-moment-card-system.md
+- knowledge/analogy-scoring-and-failure-modes.md
+- knowledge/motion-pacing-format-and-variant-rules.md
+
+Then load deeper references as needed:
+
 - references/mechanism-proof-wow-atlas.md
 - references/family-bc-benchmark-grammar.md
 

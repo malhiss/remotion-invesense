@@ -73,6 +73,15 @@ Decide how chart evidence becomes source-faithful motion: animated native chart,
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/chart-svg-animation-playbook.md
+- knowledge/source-proof-operating-system.md
+- knowledge/brandbook-manual-reel-and-label-rules.md
+- knowledge/remotion-3d-and-capability-governance.md
+
+Then load deeper references as needed:
+
 - references/source-chart-svg-proof-rules.md
 - references/family-bc-benchmark-grammar.md
 

@@ -31,25 +31,26 @@ Create asset boards that make the reel asset-led without letting Lottie, icons, 
 
 ## Outputs
 
-- Asset board: hero asset, proof object, logo/icon actors, residue object, source charts.
-- Lottie search/acquisition packet with usage role, license/source, human approval, and fallback.
+- Asset board: hero asset, proof object, logo/icon actors, residue object, source charts, and asset-led event role.
+- Lottie search/acquisition packet with candidate URL, search query, scene placement, why it improves the metaphor, license/source, human approval, and fallback.
 - Forbidden asset roles and clutter risks.
 - Codex ingestion requirements for local/direct JSON only.
 
 ## Required Outputs
 
-- Asset board: hero asset, proof object, logo/icon actors, residue object, source charts.
-- Lottie search/acquisition packet with usage role, license/source, human approval, and fallback.
+- Asset board: hero asset, proof object, logo/icon actors, residue object, source charts, and asset-led event role.
+- Lottie search/acquisition packet with candidate URL, search query, scene placement, why it improves the metaphor, license/source, human approval, and fallback.
 - Forbidden asset roles and clutter risks.
 - Codex ingestion requirements for local/direct JSON only.
 
 ## Process
 
 1. Separate hero metaphor assets from support accents.
-2. Search or request Lottie by motion role, not generic finance words.
-3. Require human approval, source URL, license note, approved usage, and native fallback.
-4. Use Lottie for route pulses, highlight sweeps, proof bursts, chart accents, or CTA pulses only.
-5. Block unapproved Lottie, decorative clutter, random confetti, and standalone proof.
+2. Avoid animated chart-only reel plans by requiring a hero asset event in addition to source chart proof.
+3. Search or request Lottie by motion role, not generic finance words.
+4. Require human approval, source URL, license note, approved usage, and native fallback.
+5. Use Lottie for route pulses, highlight sweeps, proof bursts, chart accents, or CTA pulses only.
+6. Block unapproved Lottie, decorative clutter, random confetti, and standalone proof.
 
 ## Stop Conditions
 
@@ -72,6 +73,15 @@ Create asset boards that make the reel asset-led without letting Lottie, icons, 
 - Codex remains implementation-only.
 
 ## References To Load
+
+Load canonical knowledge first:
+
+- knowledge/lottie-asset-operating-system.md
+- knowledge/visual-reference-search-and-copy-risk.md
+- knowledge/styleframe-and-asset-board-rules.md
+- knowledge/failure-diagnosis-and-legacy-component-inventory.md
+
+Then load deeper references as needed:
 
 - references/asset-lottie-styleframe-rules.md
 - references/remotion-qa-codex-gates.md

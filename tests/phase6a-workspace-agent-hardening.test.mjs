@@ -30,6 +30,25 @@ const referenceFiles = [
   "remotion-qa-codex-gates.md",
 ];
 
+const knowledgeFiles = [
+  "family-bc-benchmark-grammar.md",
+  "source-proof-operating-system.md",
+  "chart-svg-animation-playbook.md",
+  "lottie-asset-operating-system.md",
+  "mechanism-analogy-wow-atlas.md",
+  "styleframe-and-asset-board-rules.md",
+  "codex-handoff-and-stop-gates.md",
+  "review-qa-gates.md",
+  "benchmark-moment-card-system.md",
+  "continuous-motion-and-object-permanence.md",
+  "analogy-scoring-and-failure-modes.md",
+  "visual-reference-search-and-copy-risk.md",
+  "brandbook-manual-reel-and-label-rules.md",
+  "remotion-3d-and-capability-governance.md",
+  "motion-pacing-format-and-variant-rules.md",
+  "failure-diagnosis-and-legacy-component-inventory.md",
+];
+
 const hardenedTemplates = [
   "intake-evidence.md",
   "chart-proof.md",
@@ -92,7 +111,7 @@ test("Phase 6A keeps 13 consolidated skills but makes each operational", () => {
       assert.ok(exists(skillPath), `${skillPath} should exist`);
       const source = read(skillPath);
 
-      assert.match(source, /^---\nname:/m, `${skillPath} needs frontmatter name`);
+      assert.match(source, /^---\r?\nname:/m, `${skillPath} needs frontmatter name`);
       assert.match(source, /description:/, `${skillPath} needs frontmatter description`);
 
       for (const heading of [
@@ -139,6 +158,69 @@ test("Phase 6A references distill old-agent depth into the new workflow", () => 
       "CTA residue",
     ]) {
       assert.match(combinedReferences, new RegExp(requiredPhrase, "i"));
+    }
+  }
+});
+
+test("Phase 6A.1 exposes canonical operating knowledge in the importable package", () => {
+  for (const root of ["workspace-agent", "agent-packages/invesense-workspace-agent"]) {
+    const manifest = readJson(`${root}/manifest.json`);
+    assert.deepEqual(manifest.knowledge, knowledgeFiles);
+
+    for (const fileName of knowledgeFiles) {
+      const knowledgePath = `${root}/knowledge/${fileName}`;
+      assert.ok(exists(knowledgePath), `${knowledgePath} should exist`);
+
+      const source = read(knowledgePath);
+      assert.ok(
+        source.length > 1200,
+        `${knowledgePath} should be real operating knowledge, not a tiny placeholder`,
+      );
+    }
+
+    const combinedKnowledge = knowledgeFiles
+      .map((fileName) => read(`${root}/knowledge/${fileName}`))
+      .join("\n");
+
+    for (const requiredPhrase of [
+      "Family B/C is primary",
+      "Family A is secondary motion-energy",
+      "source locks",
+      "proof-critical SVG",
+      "animated Remotion chart",
+      "Lottie is an asset source",
+      "not the hero metaphor",
+      "styleframe",
+      "asset board",
+      "Codex remains implementation-only",
+      "blocked",
+      "review frames",
+      "moment card",
+      "continuous motion",
+      "copy-risk",
+      "visual causality",
+    ]) {
+      assert.match(combinedKnowledge, new RegExp(requiredPhrase, "i"));
+    }
+  }
+});
+
+test("Phase 6A.1 skills load visible knowledge before deeper references", () => {
+  for (const root of ["workspace-agent", "agent-packages/invesense-workspace-agent"]) {
+    for (const skillId of skillIds) {
+      const skillPath = `${root}/skills/${skillId}/SKILL.md`;
+      const source = read(skillPath);
+
+      assert.match(
+        source,
+        /knowledge\//,
+        `${skillPath} should point to canonical knowledge files`,
+      );
+      assert.match(
+        source,
+        /references\//,
+        `${skillPath} should still point to deeper references`,
+      );
     }
   }
 });

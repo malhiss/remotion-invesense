@@ -233,13 +233,14 @@ const skillDefinitions = {
       "Lottie motion need, source URL, license note, and native fallback if known.",
     ],
     outputs: [
-      "Asset board: hero asset, proof object, logo/icon actors, residue object, source charts.",
-      "Lottie search/acquisition packet with usage role, license/source, human approval, and fallback.",
+      "Asset board: hero asset, proof object, logo/icon actors, residue object, source charts, and asset-led event role.",
+      "Lottie search/acquisition packet with candidate URL, search query, scene placement, why it improves the metaphor, license/source, human approval, and fallback.",
       "Forbidden asset roles and clutter risks.",
       "Codex ingestion requirements for local/direct JSON only.",
     ],
     process: [
       "Separate hero metaphor assets from support accents.",
+      "Avoid animated chart-only reel plans by requiring a hero asset event in addition to source chart proof.",
       "Search or request Lottie by motion role, not generic finance words.",
       "Require human approval, source URL, license note, approved usage, and native fallback.",
       "Use Lottie for route pulses, highlight sweeps, proof bursts, chart accents, or CTA pulses only.",
@@ -533,6 +534,8 @@ Family B/C is primary. Use light editorial backgrounds, source charts, direct la
 
 Family A is secondary. Borrow asset energy, pacing, event clarity, and animation confidence only when it supports Family B/C. Do not turn the house style into dark cinematic spectacle.
 
+Family B/C is not an animated chart-only reel format. Source charts provide proof, but a benchmark-aligned reel still needs an asset-led event: a rail hits a threshold, a gate unlocks, a logo actor travels, a stamp lands, a route pulses, or a proof object changes state.
+
 Required benchmark behavior:
 
 - Chart proof is terrain, not wallpaper.
@@ -608,9 +611,15 @@ Residue patterns:
 
 Lottie cannot become the hero metaphor. Lottie can support route pulses, highlight sweeps, chart accents, proof bursts, checkmarks, warning marks, loaders, and CTA pulses only.
 
+The asset board must prevent animated chart-only drift. If the chart carries source truth, another asset or chart-derived object should still create the memorable event: threshold latch, lock/unlock, rail pulse, proof burst, route endpoint, stamp, gate, or CTA residue.
+
 Every Lottie candidate needs:
 
+- candidate URL when available
+- search query used
 - motion role
+- scene placement
+- why it improves the metaphor
 - source URL or local path
 - license note
 - approved usage
@@ -658,6 +667,644 @@ QA gates:
 - safe-zone QA for 1080x1920
 - final MP4 blocked without explicit approval
 `,
+  "phase6a2-old-v2-depth-audit.md": `# Phase 6A.2 Old V2 Depth Audit
+
+The old v2 Workspace Agent had useful depth distributed across 63 micro-skills and more than 80 knowledge files. Phase 6A.2 does not restore that sprawl. It rewrites the useful intelligence into compact knowledge files and keeps the 13 consolidated skills.
+
+Depth recovered in this package:
+
+- Benchmark moment cards from reference-video deconstruction.
+- Continuous motion and object permanence from scene handoff guidance.
+- Analogy scoring, analogy failure modes, and high-wow low-clarity rejection.
+- Online visual research, search playbook, citation, source hierarchy, and copy-risk notes.
+- Brandbook, manual reel lessons, label budget, typography, and strict chart rules.
+- Remotion capability governance, pseudo-3D before true 3D, and package gates.
+- Format duration, retention pacing, muted readability, and variant strategy.
+- Prompt failure diagnosis, visual causality checks, and old component inventory as concept-only evidence.
+
+The audit rule is simple: preserve operating intelligence, discard old visual code and old implementation patterns. If a future package seems minimal again, run the Phase 6A audit and check whether these recovery topics are still represented.
+`,
+  "phase6a2-forward-test-prompts.md": `# Phase 6A.2 Forward Test Prompts
+
+The Workspace Agent should be tested against likely pilot prompts before production implementation starts. These prompts are review-only and Codex-blocked.
+
+Forward-test prompt families:
+
+- Source-chart-heavy Family B: source SVG or insight chart must become source-locked animated chart proof.
+- Logo/asset-heavy Family C: logos and institutional icons must behave as mechanism actors, not badges.
+- Lottie-assisted support motion: Lottie is searched by role, licensed, approved, and fallback-planned.
+- Failed-output diagnosis: weak diagrams, dashboard drift, detached proof plates, and text-only explanations must be diagnosed before patching.
+
+Each forward test must output source proof status, route options or failure diagnosis, asset/Lottie planning, styleframe requirement, review frames, and a blocked Codex handoff. Passing a forward test does not authorize implementation; it proves the agent can protect the workflow.
+`,
+};
+
+const knowledge = {
+  "family-bc-benchmark-grammar.md": `# Family B/C Benchmark Grammar
+
+Family B/C is primary. This is the house benchmark for Invesense reels: light editorial backgrounds, source charts, clean labels, logo/icon actors, mobile-readable typography, and proof born from visible motion. Family A is secondary motion-energy only. Borrow its pacing, asset confidence, and impact timing only when those qualities strengthen the Family B/C reel without turning it into a dark cinematic abstraction.
+
+The reel should feel like a creator-grade finance story, not a slide deck and not an animated chart-only reel. The viewer should understand the mechanism before reading every label. Charts, logos, icons, and proof marks should behave as objects in the world of the reel. A chart line can become terrain. A benchmark can become a barrier. A logo can become an actor. A proof label can lock only after the chart or object event creates it.
+
+Family B/C source charts provide proof, but the memorable benchmark behavior is asset-led: a rail hits a threshold, a gate unlocks, a route pulse travels, a logo actor moves through a system, a proof object latches, or a CTA residue object remains. The Workspace Agent must plan that asset-led event instead of returning chart animation alone.
+
+Family B/C defaults:
+
+- White, warm-white, or light editorial background.
+- Black, navy, gray, green, red, or blue text accents with strong mobile contrast.
+- Source chart proof, direct labels, and real chart units when proof-critical.
+- Logos and icons that move with cause, route, selection, rejection, or settlement logic.
+- CTA residue that inherits an event object: line, marker, underline, stamp, route, bracket, or proof mark.
+
+Anti-failure rules:
+
+- No abstract shape-only diagrams.
+- No dashboard/card drift.
+- No generic SaaS UI panels.
+- No Canva/deck pacing.
+- No detached proof plates.
+- No labels carrying the whole meaning.
+- No source-free numbers.
+
+Use this knowledge before route planning, benchmark deconstruction, styleframe direction, and brand/silent review. If a concept cannot pass Family B/C grammar, it must be revised before Codex receives any handoff.
+`,
+  "source-proof-operating-system.md": `# Source Proof Operating System
+
+Source proof comes before metaphor. The Workspace Agent must inventory claims, numbers, charts, tables, source labels, units, dates, caveats, and source notes before creative routing. Every claim in a reel should be either source-locked, explicitly marked as context, or excluded.
+
+Source locks are the contract that keeps the reel from becoming a stylish but untrustworthy animation. A source lock records the exact claim, exact number, source label, unit, time period, visual attachment, confidence tier, and whether external research is allowed to support context without changing the approved claim.
+
+Proof hierarchy:
+
+- Headline proof: the number or chart relationship the reel is about.
+- Visual proof: the chart, table, SVG, screenshot, or source asset that can become motion.
+- Supporting proof: context that helps explain the mechanism.
+- Off-screen proof: source material that informs the script but should not be visualized.
+- Unusable proof: unreadable, unsupported, unapproved, or conflicting material.
+
+What cannot be claimed:
+
+- Numbers that are not in approved source material.
+- Reworded claims that change time period, denominator, ranking, or caveat.
+- External research that replaces the manager-approved insight.
+- Proof labels that appear before the event that creates them.
+
+The source steward blocks route planning when critical proof is missing. It also blocks Codex handoff when source labels, chart units, dates, or values are unlocked. If the source has a chart, the chart-proof director decides whether it is faithful reconstruction, adapted proof, reference-only, or do-not-use.
+
+The operating sentence is: source truth first, mechanism second, motion third. Visual metaphor may clarify the source; it cannot overwrite it.
+`,
+  "chart-svg-animation-playbook.md": `# Chart SVG Animation Playbook
+
+Proof-critical SVG charts should become animated Remotion charts, not static pasted images. The original SVG is source evidence and review reference; the final reel should use native Remotion/SVG reconstruction when chart relationships carry the claim.
+
+A proof-critical SVG chart is one where the viewer must trust the values, ranking, scale, dates, units, or source note. In that case, Codex should parse or manually receive source-locked chart data, reconstruct the chart with Remotion primitives, and animate the chart relationship. The chart cannot be wallpaper.
+
+Supported first-pass chart roles:
+
+- Horizontal bars: staggered bar growth, value labels after reveal, highlight marker, source note.
+- Grouped bars: group-by-group reveal, benchmark marker, comparison label born after reveal.
+- Stacked bars: stack segment growth, total marker, composition proof.
+- Line/area charts: trace reveal, endpoint proof, benchmark line, source note.
+
+Animation rules:
+
+- Preserve rank order, labels, values, dates, units, and source note.
+- Preserve relative scale relationships unless human approves an editorial transformation.
+- Attach proof labels to the bar, line, marker, bracket, or endpoint event.
+- Do not show a static pasted SVG as final proof when animated Remotion chart proof is required.
+- If extraction confidence is low, block Codex until the human approves manual extraction or supplies a source-locked data table.
+
+Review requirements:
+
+- Original SVG/reference frame.
+- Animated reconstruction frame.
+- Proof-event frame.
+- CTA residue frame.
+
+Use this knowledge when the market insight supplies an SVG, chart screenshot, table, or graph. It protects against the old failure where charts became decorative panels instead of source-born proof.
+`,
+  "lottie-asset-operating-system.md": `# Lottie Asset Operating System
+
+Lottie is an asset source and motion layer. Lottie may support a chart scene, or it may be used as a standalone analogy scene if the asset itself clearly explains the approved financial mechanism. Lottie is not the hero metaphor when that means outsourcing the entire reel to a generic premade animation. The rule is not "Lottie must always sit on top of the graph." The rule is: never let a generic premade animation replace source truth, invent the claim, or become a disconnected template.
+
+The default split is: Workspace Agent searches and plans Lottie candidates; Codex ingests only human-approved local JSON or direct JSON assets later. The Workspace Agent should not wait for Codex to invent the asset plan. It should provide candidate URL when available, search query used, intended role, scene placement, why it improves the metaphor, license note requirement, approved usage requirement, and native Remotion fallback.
+
+Good Lottie roles:
+
+- Route pulse through a payment, data, or settlement rail.
+- Highlight sweep over a chart event.
+- Proof burst after a stamp, latch, endpoint, or selection.
+- Checkmark, warning mark, rejected path, or approved path.
+- Loader, subtle icon, money transfer accent, data flow accent, CTA pulse.
+- Standalone analogy scene when the asset behavior directly maps to the mechanism, such as a filter, gate, lock, transfer rail, network flow, vault, stamp, scanner, bridge, reservoir, or approval path.
+
+Bad Lottie roles:
+
+- Generic money animation as the entire reel.
+- Premade chart animation replacing source-locked chart reconstruction.
+- Decorative confetti unrelated to proof.
+- Standalone proof with no source event.
+- Remote browser-scraped animation required during render.
+- Standalone analogy scene with no source-safe label, no mechanism mapping, no license note, or no native fallback.
+
+Every Lottie candidate needs a motion role, source URL or local path, license note, approved usage, human approval, and native Remotion fallback. The fallback matters because Remotion can recreate many simple pulses, sweeps, bursts, arrows, and icons natively if the Lottie flickers, fails, has licensing risk, or adds clutter.
+
+Workspace Agent owns Lottie discovery, role fit, license/source notes, and approval. Codex owns deterministic ingestion only after approval: local JSON or direct JSON URL, manifest entry, staticFile usage, and Lottie QA frames for entry, peak, and exit.
+
+The decision sentence is: use Lottie heavily where it improves motion texture, asset clarity, or analogy comprehension. It can carry a standalone analogy beat when approved, but source-proof charts and exact claims still need their own source-locked treatment.
+`,
+  "mechanism-analogy-wow-atlas.md": `# Mechanism Analogy Wow Atlas
+
+The route should show the financial mechanism, not decorate a finance keyword. Start with the mechanism: force, constraint, state change, and proof consequence. Then choose objects that make that mechanism visible.
+
+Route sentence pattern: object does X to constraint Y, causing proof Z.
+
+Mechanism mappings:
+
+- Support/resistance: floor catch, floor crack, barrier hold, barrier breach.
+- Screening/filtering: scanner contact, reject deflection, sieve pass, aperture narrowing.
+- Liquidity/flows: route rail, pipe bottleneck, tank fill, drain mark, endpoint settlement.
+- Spread/compression: caliper gap, clamp compression, bracket expansion, dual-rail tension.
+- Tokenization/access: vault unlock, token unfold, access bridge, eligibility mint.
+- Settlement/certification: ledger stamp, proof latch, route endpoint, stamped readout.
+- Fee/inflation drag: leak, siphon, friction pad, erosion line.
+- Ranking/comparison: strict bars, podium, measured objects, source labels.
+
+Wow events are useful only when they clarify the mechanism. Strong events include line bend and snap, gate open, scanner reject, route endpoint, bracket spread, vault unlock, proof latch, stamp contact, bar reveal, endpoint marker, and CTA underline inheritance.
+
+Proof birth patterns:
+
+- Endpoint label appears after endpoint settles.
+- Bracket proof appears after gap opens.
+- Stamped readout appears after stamp contact.
+- Selected path proof appears after route completion.
+- Chart marker proof appears after chart event.
+
+Residue patterns:
+
+- Broken line remains.
+- Route trail remains.
+- Scanner aperture remains.
+- Caliper remains open.
+- Proof underline becomes CTA residue.
+
+If the route needs labels to explain everything, it fails the no-label test. If the final frame could be swapped onto another reel, it lacks residue.
+`,
+  "styleframe-and-asset-board-rules.md": `# Styleframe And Asset Board Rules
+
+The old failure was asking Codex to invent premium visual taste from prose. Phase 6A prevents that by requiring visual targets before complex implementation. A complex Family B/C reel needs an asset board and styleframes before Codex gets a handoff.
+
+Asset board requirements:
+
+- Hero asset: the object or chart element that carries the mechanism and keeps the reel from becoming animated chart-only.
+- Proof object: the marker, label, bracket, endpoint, stamp, line, or bar that proves the claim.
+- Residue object: what remains in the CTA close.
+- Logo/icon actors: companies, institutions, products, or mechanisms that behave rather than decorate.
+- Source charts: SVGs, screenshots, or data tables with proof role.
+- Lottie candidates: support accents with candidate URL, search query, role, scene placement, why it improves the metaphor, license, approval, and fallback.
+- Negative references: dashboard/card drift, abstract diagrams, weak old outputs, or copy-risk examples.
+
+Styleframe requirements:
+
+- Hook frame: mobile-readable promise and visual world.
+- Mechanism frame: object behavior setup.
+- Proof frame: event-born proof, not pasted proof.
+- Lottie frame: accent role and clutter check.
+- CTA residue frame: inherited line, marker, route, stamp, bracket, or object.
+
+Visual references can teach form, material, layout, behavior, pacing, or negative avoidance. They do not become source truth, and they cannot justify copying a creator shell. The human approves route and styleframes before Codex implements.
+
+If styleframes are missing for a complex reel, Codex remains blocked. If the asset board has no hero asset or no proof object, the route must be revised.
+`,
+  "codex-handoff-and-stop-gates.md": `# Codex Handoff And Stop Gates
+
+Codex remains implementation-only. Codex cannot choose the route, analogy, claims, numbers, source labels, visual style, Lottie assets, chart interpretation, or render approval. The Workspace Agent creates the packet stack; the human approves it; Codex executes the approved Remotion implementation.
+
+Codex handoff is blocked until these gates pass:
+
+- Source locks approved.
+- Chart/SVG proof role approved.
+- Human route approval recorded.
+- Asset and Lottie approvals recorded.
+- Styleframe targets approved.
+- Scene behavior packet complete.
+- Review frame manifest complete.
+- Remotion feasibility map complete.
+- Render permissions explicit.
+
+Valid Codex handoff includes:
+
+- Selected route and simple physical sentence.
+- Exact source claims, values, units, source notes, and labels.
+- Frame ranges and scene behavior.
+- Approved source charts and extracted data when needed.
+- Asset board and Lottie manifest instructions.
+- Styleframe targets and negative references.
+- Allowed packages and forbidden patterns.
+- Required validation and review commands.
+
+Codex must stop if it would need to invent missing claims, infer values, choose a metaphor, select assets, browse Lottie without approval, paste proof cards, use remote assets at render time, or render final MP4 without approval.
+
+## Phase 6B.1 visual stress gates
+
+Every executable handoff must include a no-label read, average viewer translation, proof birth attachment, Lottie role fit, card/dashboard drift risk, CTA close plan, review-only overlay plan, transcript/caption plan, narration visual sync, sound effect plan, and visual stress audit.
+
+The no-label read states what the viewer should understand before reading labels. It must assume an average viewer with no finance background. The handoff should translate advanced website insights into a simple visual mechanism, while preserving exact source-locked numbers, exact claims, units, dates, caveats, and source labels.
+
+The proof birth rule states which physical event creates the proof and which frame range creates it. Lottie fit states whether a Lottie asset is supporting the chart, acting as a standalone analogy scene, or rejected because it reads as generic decoration.
+
+Lottie can explain a financial analogy by itself when the Workspace Agent explicitly approves it as a standalone analogy scene with source-safe labels, license/source notes, and a native fallback. It still cannot replace source truth, invent numbers, or become a generic premade template with no connection to the mechanism.
+
+Every reel must include a branded CTA close plan. The default Invesense close is a clean logo hold with a direct research CTA such as \`Read the research -> invesense.com/insights\`. CTA residue can lead into the close, but it cannot replace the company logo and website action.
+
+Narrated reels must include a transcript, caption, and voiceover plan. The Workspace Agent should create plain-language narration from the insight, not paste the website copy. Captions should be concise, source-safe, and timed to the visual event. Animation, assets, and Lottie should appear while the narration is talking about that mechanism, matching the benchmark's audio-visual timing.
+
+Caption implementation should use Remotion's caption JSON shape when captions are implemented: text, startMs, endMs, timestampMs, and confidence. If voiceover audio already exists, Codex may later use Remotion caption tooling or Whisper transcription only after approval. If no audio exists yet, the Workspace Agent should still write a timed transcript that can become captions or speech later.
+
+Sound effects are optional but should be planned when they clarify motion. Use restrained Remotion SFX roles such as whoosh for movement, switch for gate/latch movement, or ding only after proof confirmation. Do not use comedic or meme SFX in professional asset-manager reels unless explicitly approved.
+
+Stop if card drift or dashboard drift is unresolved. A chart may be source proof, but the hero asset must physically explain the mechanism. Stop if review-only overlay text, internal critique labels, or review scaffolding would appear inside production-style visuals.
+
+After Phase 6B.1-level changes, perform a system-wide coherence audit before moving forward. Treat audit findings and human clarifications as source-of-truth updates: easy visual explanation for average viewers, exact source-locked evidence, standalone Lottie analogy permission, branded CTA close, transcript/caption/SFX planning, manager-kit intake separation, and review-scaffolding isolation must all agree across Workspace Agent knowledge, templates, contracts, visual primitives, and validators.
+
+The handoff rule is intentionally strict because passing TypeScript is not visual quality. Still frames and contact sheets come before draft MP4, and final MP4 stays blocked until explicit final approval.
+`,
+  "review-qa-gates.md": `# Review QA Gates
+
+Review artifacts are production safety rails. They prevent the team from repeating the old pattern where technically valid Remotion renders looked like weak diagrams.
+
+Required review frames and frame roles:
+
+- Hook: mobile-readable entry, safe-zone check, Family B/C fit.
+- Chart: source chart or native reconstruction proof check.
+- Event: visible mechanism behavior before labels explain it.
+- Proof: proof label born after the event.
+- Lottie: entry, peak, exit, color, flicker, timing, and clutter QA.
+- CTA residue: final frame inherits event residue instead of becoming a generic card.
+
+Benchmark comparison:
+
+- Use Family B/C atlas entries as primary reference.
+- Use Family A only for motion energy and event clarity.
+- Record what to adapt and what not to copy.
+
+Source-chart comparison:
+
+- Original reference frame.
+- Animated reconstruction frame.
+- Proof-event frame.
+- CTA-residue frame.
+
+Safe-zone QA:
+
+- 1080x1920 mobile margins.
+- Text and source-note readability.
+- Watermark and CTA placement.
+- No critical proof hidden by platform UI.
+
+Final render gate:
+
+- Stills before MP4.
+- Contact sheet before draft.
+- Source proof review before draft.
+- Final MP4 blocked without explicit approval.
+
+If a contact sheet fails, diagnose the failure source: route, source proof, styleframe, asset, Lottie, chart, motion, label budget, or Codex execution. Do not patch endlessly without naming the failure.
+`,
+  "benchmark-moment-card-system.md": `# Benchmark Moment Card System
+
+Benchmark moment cards are the bridge between watching a reference and creating a usable Family B/C route. The old agent did this as scattered reference-video deconstruction. Phase 6A.2 makes it explicit so the Workspace Agent does not merely say "premium finance reel" and then hand Codex vague taste words.
+
+A moment card records a single memorable beat from a benchmark video. It is not a template and not a license to copy. It captures behavior logic: what object appears, what force acts on it, what changes, what proof appears, what residue remains, and what the viewer understands before reading every label.
+
+Required moment card fields:
+
+- Family classification: Family B or C primary, Family A motion-energy only, or negative reference.
+- Topic and proof role: what financial claim, chart, logo, route, or source object the moment supports.
+- Asset behavior: what the visible object does, not just what it looks like.
+- Motif and analogy: chart terrain, strict bars, logo actor, route rail, scanner, vault, caliper, stamp, latch, or residue close.
+- Wow event: impact, reveal, selection, rejection, stamp, breach, unlock, route completion, proof latch, or chart extraction.
+- Proof operator: endpoint label, bar value, bracket, source label, chart marker, selected path, fill mark, stamped readout, or CTA underline.
+- No-label lesson: what the viewer understands if all labels are hidden for two seconds.
+- Adaptation note: what behavior can inspire the Invesense reel.
+- What not to copy: layout shell, exact timing, creator brand, source claims, typography, or proprietary composition.
+- Copy-risk note: low, medium, high, or blocked.
+
+Use moment cards before route selection. A route that has no moment-card equivalent often becomes prose animation, dashboard cards, or abstract geometry. A good route can point to at least one moment card for chart proof, one for asset behavior, and one for CTA residue.
+
+Family B/C moment cards should favor light editorial chart proof, strict values, clean source labels, and logo/icon actors. Family A moment cards can be used for motion confidence only: impact timing, asset energy, or transition clarity. Family A cannot become the visual style default.
+
+Moment cards also protect against overfitting. The Workspace Agent should extract the behavioral principle, then rewrite it in Invesense voice. If the proposed styleframe could be mistaken for the benchmark creator's exact reel, the copy-risk gate blocks Codex.
+`,
+  "continuous-motion-and-object-permanence.md": `# Continuous Motion And Object Permanence
+
+The old v2 agent learned that reels fail when scenes feel like disconnected slides. Phase 6A.2 restores the continuous-motion system: the viewer should be able to follow the same proof object or residue object from hook to close.
+
+Object permanence means the hero asset keeps identity across beats. A bar can become a proof marker. A line can become a barrier, then a crack, then a CTA underline. A logo can travel a route, arrive at a settlement endpoint, and leave a route trail. A source chart marker can become the final proof residue. The point is not to animate everything continuously; the point is to preserve cause, identity, and consequence.
+
+Continuous motion spine:
+
+- Hook object: the first memorable object or chart element the viewer sees.
+- Setup state: the object is placed in a source-true world with chart, logo, route, or constraint.
+- Constraint contact: the object meets a line, bar, gate, scanner, bracket, endpoint, or source threshold.
+- Event: the visible state changes through impact, reveal, selection, rejection, unlock, stamp, or extraction.
+- Proof birth: the number or claim appears only after the event creates it.
+- Residue: the changed object remains as CTA memory.
+
+Scene handoff rules:
+
+- Do not cut to a new panel when the same object can transform.
+- Do not reset the chart world without carrying a marker, route, source label, or proof residue forward.
+- Do not let labels replace object motion. Labels confirm the event after the event is readable.
+- Preserve directionality: money flows, routes travel, bars grow, markers lock, stamps press, gates open, rejected objects deflect.
+- Use transitions as consequence, not decoration.
+
+Object permanence is especially important for 30-60 second reels. The longer format needs a clear motion spine so the viewer feels progression rather than a sequence of cards. If the route has five beats but no continuing object, the Workspace Agent must revise the scene behavior packet before Codex can implement it.
+`,
+  "analogy-scoring-and-failure-modes.md": `# Analogy Scoring And Failure Modes
+
+The Workspace Agent should produce route options, not a single invented solution. Phase 6A.2 restores the analogy scorecard so high-wow ideas do not sneak through when they are low-clarity, source-weak, or impossible to review.
+
+Score every route on these dimensions:
+
+- Source fit: the route preserves exact claims, values, units, dates, source labels, and chart meaning.
+- Mechanism clarity: force, constraint, state change, and proof consequence are visible before labels.
+- Family B/C fit: light editorial proof, chart/source grounding, logo/icon actors, and mobile readability.
+- Wow asset event: there is one memorable event that clarifies the mechanism.
+- Proof birth: proof appears from event contact, extraction, endpoint, bracket, stamp, latch, or chart marker.
+- Residue strength: the final CTA inherits an object from the event.
+- Implementation feasibility: Remotion can build it deterministically with approved packages and assets.
+- Copy-risk: references inspire behavior without copying layout, claims, or creator identity.
+
+Common analogy failure modes:
+
+- High-wow low-clarity: exciting motion but no financial mechanism.
+- Keyword metaphor: AI equals chips, sukuk equals mosque, tokenization equals coins, without mechanism.
+- Chart wallpaper: source chart sits behind labels but does not create proof.
+- Proof plate paste: a number appears as a card unrelated to the event.
+- Label dependency: the route fails the no-label test.
+- Dashboard drift: cards, panels, metrics, and generic SaaS UI become the visual world.
+- Abstract shape-only diagram: circles, lines, particles, and geometry move without a recognizable financial object.
+- Analogy collapse: the object behavior implies the wrong financial relationship.
+- Scale distortion: chart animation exaggerates or reverses a source relationship.
+- Asset mismatch: Lottie, logo, icon, or 3D object is decorative rather than causal.
+
+Reject routes that score high on novelty but low on mechanism clarity or source fit. The Workspace Agent should recommend, but human route approval still selects. Codex must never repair a bad analogy by adding labels; the route returns to planning.
+`,
+  "visual-reference-search-and-copy-risk.md": `# Visual Reference Search And Copy Risk
+
+Visual research is useful only when it is disciplined. The old v2 agent had online search playbooks, citation rules, and copy-risk notes; Phase 6A.2 keeps those as compact operating knowledge.
+
+Search by visual role, not vague style words. Instead of searching "premium finance video", search for "white background animated bar chart reel", "logo route animation", "financial chart callout social reel", "animated checkmark route pulse Lottie", "source chart line marker reveal", or "editorial finance CTA underline".
+
+Reference categories:
+
+- Source: factual evidence, source chart, source screenshot, manager kit, transcript, table, or article.
+- Benchmark: Family B/C or Family A video behavior to deconstruct.
+- Visual inspiration: material, type, layout, rhythm, transition, or object behavior.
+- Asset source: Lottie, icon, logo, SVG, chart, map, photo, or UI capture.
+- Negative reference: old failed output, dashboard drift, abstract diagram, or copy-risk example.
+
+Citation and source hierarchy:
+
+- Source claims outrank visual references.
+- Manager-approved claims outrank external research.
+- External research can supply context, visuals, definitions, or source links, but cannot replace locked claims.
+- LottieFiles, icon libraries, and inspiration posts need source URL, license note, approved usage, and fallback.
+- If a chart, table, or value is used as proof, it must enter the evidence packet, not the inspiration board.
+
+Copy-risk notes:
+
+- Low: behavior principle only, no copied layout or source claim.
+- Medium: similar composition or object behavior; needs redesigned styleframe.
+- High: recognizable creator shell, brand language, or exact visual sequence; requires rejection or major redesign.
+- Blocked: copied claim, chart, source, watermark, licensed asset without permission, or direct recreation of a creator piece.
+
+The Workspace Agent should make references actionable: what to adapt, what not to copy, why it fits Family B/C, how it supports source proof, and what Codex must not infer from it.
+`,
+  "brandbook-manual-reel-and-label-rules.md": `# Brandbook Manual Reel And Label Rules
+
+The earliest manual reel workflow was closer to Family B/C than many later Remotion experiments: light background, strict bars, big-number hook, full-bleed chart proof, values on bars, and a simple CTA. Phase 6A.2 preserves those lessons without turning them into a repeatable template.
+
+Invesense taste defaults:
+
+- Light editorial canvas: white, warm-white, soft gray, or source-chart clean.
+- Finance seriousness: restrained palette, confident spacing, minimal ornament, no toy-like UI.
+- Strong mobile contrast: black/navy text, Invesense green for confirmation, red/orange for risk, blue/gray for institutional context.
+- Typography that reads in a feed: large hooks, short proof labels, source notes smaller but legible.
+- Material intent: chart lines, bars, paper, stamp, route, institutional objects, and source visuals should feel precise and intentional.
+
+Manual reel lessons:
+
+- Strict bars are measured objects, not progress bars.
+- Values belong on or near bars when values are the proof.
+- Full-bleed or dominant chart proof is allowed when it is source-critical.
+- CTA should inherit the chart marker, underline, route, bracket, stamp, or proof object.
+- Clean is not enough; the reel still needs a visual event.
+
+Label budget:
+
+- Hook: one sharp idea, not a paragraph.
+- Mechanism labels: short and attached to the object they describe.
+- Proof labels: appear only after proof birth.
+- Source note: small, stable, readable, and faithful.
+- CTA: short, specific, and connected to residue.
+
+Failures to reject:
+
+- Floating proof cards.
+- Explainer paragraphs.
+- Labels that move independently of their object.
+- Generic rounded cards and dashboard panels.
+- Pretty but meaningless chart loops.
+- Text that covers chart proof or platform-safe zones.
+
+The brandbook is a taste guardrail, not a design cage. Each reel still needs a custom route and asset board.
+`,
+  "remotion-3d-and-capability-governance.md": `# Remotion 3D And Capability Governance
+
+Remotion is powerful because it can combine deterministic React animation, native SVG charts, paths, transitions, media, captions, Lottie, and optional 3D. Phase 6A.2 restores capability governance so we use Remotion deeply without chasing packages for spectacle.
+
+Capability mapping:
+
+- Native SVG and CSS transforms: chart proof, strict bars, callouts, routes, labels, object motion.
+- Remotion paths and shapes: line reveals, brackets, arrows, masks, chart markers, residue underlines.
+- Transitions and motion blur: consequence transitions, not generic scene wipes.
+- Lottie: approved support motion, route pulses, checkmarks, highlights, proof bursts, CTA pulses.
+- Captions and text systems: muted readability and hook/proof hierarchy.
+- Media utilities: source footage, screenshots, frame extraction, and review tooling.
+- Three/3D: only when an approved styleframe proves 3D clarifies the mechanism.
+
+3D governance:
+
+- Prefer pseudo-3D first: shadows, perspective, layered SVG, parallax, scale, rotation, and lighting cues.
+- Use true 3D only for mechanisms that need depth: vaults, coins, token stacks, rotating institutional objects, map landmarks, or physical machinery.
+- Add 3D packages only after route approval, styleframe approval, and Remotion feasibility approval.
+- 3D cannot be used to make a weak route feel expensive.
+- 3D must remain deterministic, reviewable through stills/contact sheets, and source-safe.
+
+Package gates:
+
+- Allowed capabilities must be named in the Codex handoff.
+- Remote render-time dependencies are blocked.
+- Randomness must be deterministic.
+- Lottie must be local or direct-approved JSON before render.
+- Final MP4 remains blocked until review frames pass.
+
+Capability governance keeps the project from repeating old drift: impressive technical features with weak visual causality.
+`,
+  "motion-pacing-format-and-variant-rules.md": `# Motion Pacing Format And Variant Rules
+
+Most Invesense reels target 30-60 seconds. The old short-spike mindset encouraged underdeveloped proof events; Phase 6A.2 restores format duration and retention pacing rules so the Workspace Agent plans enough time for hook, setup, event, proof, and residue.
+
+Default 30-60 second pacing:
+
+- 0-3 seconds: hook object and sharp claim entry.
+- 3-10 seconds: source/chart world and mechanism setup.
+- 10-22 seconds: object behavior, route, chart reveal, or constraint contact.
+- 22-35 seconds: wow event and proof birth.
+- 35-50 seconds: implication, secondary proof, logo/icon actor, or Lottie-supported accent beat.
+- Final 2-4 seconds: CTA residue hold.
+
+Retention principles:
+
+- Every beat should answer "what changed?"
+- Motion should create curiosity before a label resolves it.
+- Use visual escalation: setup, pressure, contact, event, proof, residue.
+- Muted readability is mandatory; voiceover cannot be the only explanation.
+- Do not overcut source charts; let proof breathe.
+
+Variant strategy:
+
+- Variants can change hook wording, proof emphasis, CTA, or reference frame.
+- Variants cannot change source numbers, mechanism, chart interpretation, or approved route without review.
+- A variant should preserve the same proof birth and residue object unless the human approves a new route.
+- Family B and Family C variants can share source proof but differ in chart emphasis versus logo/asset emphasis.
+
+Format rules protect against two old failures: rushing from text concept to code, and turning every output into the same reusable template. The workflow is repeatable; the visual route is not.
+`,
+  "failure-diagnosis-and-legacy-component-inventory.md": `# Failure Diagnosis And Legacy Component Inventory
+
+Old visual code is not migrated. Old components, labs, geometry locks, renders, and dashboards are concept-only evidence. They tell us what failed and which proof operators might still be useful when rewritten.
+
+Codex failure patterns to diagnose:
+
+- Abstract shape-only diagrams.
+- Pale dashboard/card shells.
+- Labels carrying the whole meaning.
+- Weak hero asset or no hero asset.
+- Proof pasted as a detached plate.
+- Chart proof used as wallpaper.
+- Lottie or icon decoration with no causal role.
+- Scene cuts that break object permanence.
+- Final end card masquerading as residue.
+- Passing lint/build while failing visual quality.
+
+Visual causality checks:
+
+- Did contact cause rejection, selection, break, stamp, unlock, route completion, or proof birth?
+- Did red/green state change happen only after contact?
+- Did the proof label appear after the event?
+- Is the final CTA residue physically inherited from the event?
+- Can the viewer understand the mechanism before reading all labels?
+
+Legacy component inventory as concept-only evidence:
+
+- Scanner/filter concepts can survive, but old scanner visuals cannot.
+- Spread/bracket/caliper concepts can survive, but old pale rails cannot.
+- Spillway/turbine/capex concepts can survive, but old wheel/card scenes cannot.
+- Strict bar chart discipline can survive, but old progress-bar look cannot.
+- Source evidence and proof locks survive, but old handoff prose cannot replace visual targets.
+
+Prompt failure diagnosis:
+
+- If Codex produced a diagram, the handoff lacked asset/styleframe specificity or route causality.
+- If Codex produced a dashboard, the Family B/C grammar and negative references were too weak.
+- If Codex pasted proof, the proof-birth operator was missing.
+- If Codex invented numbers, source locks failed.
+- If Codex used generic Lottie, the asset role and license approval were missing.
+
+The post-spike reviewer should name the failure source before asking Codex to patch. Sometimes the correct fix is not another implementation pass; it is route, styleframe, or source-proof revision.
+`,
+};
+
+const skillKnowledgeMap = {
+  "source-and-evidence-steward": [
+    "source-proof-operating-system.md",
+    "visual-reference-search-and-copy-risk.md",
+    "brandbook-manual-reel-and-label-rules.md",
+  ],
+  "chart-proof-director": [
+    "chart-svg-animation-playbook.md",
+    "source-proof-operating-system.md",
+    "brandbook-manual-reel-and-label-rules.md",
+    "remotion-3d-and-capability-governance.md",
+  ],
+  "mechanism-story-diagnostician": [
+    "mechanism-analogy-wow-atlas.md",
+    "analogy-scoring-and-failure-modes.md",
+    "continuous-motion-and-object-permanence.md",
+  ],
+  "benchmark-reference-deconstructor": [
+    "family-bc-benchmark-grammar.md",
+    "benchmark-moment-card-system.md",
+    "visual-reference-search-and-copy-risk.md",
+    "analogy-scoring-and-failure-modes.md",
+  ],
+  "route-analogy-miner": [
+    "mechanism-analogy-wow-atlas.md",
+    "benchmark-moment-card-system.md",
+    "analogy-scoring-and-failure-modes.md",
+    "motion-pacing-format-and-variant-rules.md",
+  ],
+  "asset-lottie-planner": [
+    "lottie-asset-operating-system.md",
+    "visual-reference-search-and-copy-risk.md",
+    "styleframe-and-asset-board-rules.md",
+    "failure-diagnosis-and-legacy-component-inventory.md",
+  ],
+  "styleframe-visual-target-director": [
+    "styleframe-and-asset-board-rules.md",
+    "brandbook-manual-reel-and-label-rules.md",
+    "visual-reference-search-and-copy-risk.md",
+    "failure-diagnosis-and-legacy-component-inventory.md",
+  ],
+  "scene-motion-proof-birth-planner": [
+    "continuous-motion-and-object-permanence.md",
+    "motion-pacing-format-and-variant-rules.md",
+    "mechanism-analogy-wow-atlas.md",
+    "failure-diagnosis-and-legacy-component-inventory.md",
+  ],
+  "brand-label-silent-reviewer": [
+    "family-bc-benchmark-grammar.md",
+    "brandbook-manual-reel-and-label-rules.md",
+    "motion-pacing-format-and-variant-rules.md",
+    "review-qa-gates.md",
+  ],
+  "remotion-feasibility-gatekeeper": [
+    "remotion-3d-and-capability-governance.md",
+    "chart-svg-animation-playbook.md",
+    "lottie-asset-operating-system.md",
+    "codex-handoff-and-stop-gates.md",
+  ],
+  "human-review-packager": [
+    "review-qa-gates.md",
+    "benchmark-moment-card-system.md",
+    "visual-reference-search-and-copy-risk.md",
+    "brandbook-manual-reel-and-label-rules.md",
+  ],
+  "codex-readiness-handoff-gatekeeper": [
+    "codex-handoff-and-stop-gates.md",
+    "remotion-3d-and-capability-governance.md",
+    "failure-diagnosis-and-legacy-component-inventory.md",
+    "source-proof-operating-system.md",
+  ],
+  "post-spike-reviewer": [
+    "failure-diagnosis-and-legacy-component-inventory.md",
+    "review-qa-gates.md",
+    "continuous-motion-and-object-permanence.md",
+    "benchmark-moment-card-system.md",
+  ],
 };
 
 const templates = {
@@ -724,11 +1371,16 @@ const templates = {
     type: "asset-lottie-board",
     fields: [
       "heroAsset",
+      "assetLedEvent",
       "proofObject",
       "residueObject",
       "logoActors",
       "sourceCharts",
       "lottieCandidates",
+      "lottieCandidateUrls",
+      "lottieSearchQueries",
+      "lottieScenePlacements",
+      "lottieMetaphorRationale",
       "licenseNotes",
       "nativeFallbacks",
       "humanAssetApproval",
@@ -785,6 +1437,23 @@ const templates = {
       "selectedRoute",
       "sourceLocks",
       "frameRanges",
+      "assetList",
+      "chartSpecs",
+      "lottieSpecs",
+      "lottieCandidateUrls",
+      "lottieSearchQueries",
+      "lottieScenePlacementAndMetaphorRationale",
+      "noLabelRead",
+      "averageViewerTranslation",
+      "transcriptCaptionPlan",
+      "narrationVisualSync",
+      "soundFxPlan",
+      "proofBirthAttachment",
+      "lottieRoleFit",
+      "visualStressAudit",
+      "cardDriftRisk",
+      "ctaClosePlan",
+      "reviewOnlyOverlayPlan",
       "allowedPackages",
       "forbiddenPatterns",
       "filesAllowedToModify",
@@ -831,12 +1500,119 @@ const sampleBrief = {
   lottieMotionNeeds: ["route pulse", "chart accent", "CTA residue pulse"],
 };
 
+const blockedCodexHandoff = {
+  readinessStatus: "blocked",
+  executable: false,
+  blockedBy: [
+    "human source and route approval missing",
+    "styleframe targets not approved",
+    "asset and Lottie approvals missing",
+    "review frames not approved",
+  ],
+};
+
+const phase6a2ForwardFixtures = {
+  "phase6a2-source-chart-heavy-family-b.json": {
+    fixtureId: "phase6a2-source-chart-heavy-family-b",
+    reviewOnly: true,
+    productionImplementationAllowed: false,
+    familyTarget: "family-b",
+    promptType: "source-chart-heavy",
+    expectedAgentBehavior:
+      "Audit the supplied insight SVG, source-lock values and labels, produce animated chart proof options, require source-chart comparison frames, and keep Codex blocked.",
+    requiredKnowledge: [
+      "chart-svg-animation-playbook.md",
+      "brandbook-manual-reel-and-label-rules.md",
+      "benchmark-moment-card-system.md",
+    ],
+    codexHandoff: blockedCodexHandoff,
+  },
+  "phase6a2-logo-asset-heavy-family-c.json": {
+    fixtureId: "phase6a2-logo-asset-heavy-family-c",
+    reviewOnly: true,
+    productionImplementationAllowed: false,
+    familyTarget: "family-c",
+    promptType: "logo-asset-heavy",
+    expectedAgentBehavior:
+      "Treat logos and institutional icons as mechanism actors, separate source proof from visual references, require an asset board and styleframes, and keep Codex blocked.",
+    requiredKnowledge: [
+      "styleframe-and-asset-board-rules.md",
+      "visual-reference-search-and-copy-risk.md",
+      "continuous-motion-and-object-permanence.md",
+    ],
+    codexHandoff: blockedCodexHandoff,
+  },
+  "phase6a2-lottie-support-motion.json": {
+    fixtureId: "phase6a2-lottie-support-motion",
+    reviewOnly: true,
+    productionImplementationAllowed: false,
+    familyTarget: "family-bc",
+    promptType: "lottie-support-motion",
+    expectedAgentBehavior:
+      "Search Lottie by motion role, require URL/license/approved usage/native fallback, reject Lottie as hero metaphor, and keep Codex blocked.",
+    requiredKnowledge: [
+      "lottie-asset-operating-system.md",
+      "visual-reference-search-and-copy-risk.md",
+      "remotion-3d-and-capability-governance.md",
+    ],
+    codexHandoff: blockedCodexHandoff,
+  },
+  "phase6a2-failed-output-diagnosis.json": {
+    fixtureId: "phase6a2-failed-output-diagnosis",
+    reviewOnly: true,
+    productionImplementationAllowed: false,
+    familyTarget: "family-bc",
+    promptType: "failed-output-diagnosis",
+    expectedAgentBehavior:
+      "Classify weak output as source, route, styleframe, asset, chart, Lottie, motion, label, visual causality, or Codex execution failure before patching.",
+    requiredKnowledge: [
+      "failure-diagnosis-and-legacy-component-inventory.md",
+      "continuous-motion-and-object-permanence.md",
+      "review-qa-gates.md",
+    ],
+    codexHandoff: blockedCodexHandoff,
+  },
+};
+
+const supplementalKnowledge = {
+  "manager-kit-intake-rules.md": `# Manager Kit Intake Rules
+
+Manager kits are source and planning inputs, not visual templates to copy one-to-one. A kit may include a brief, key stats, chart CSV/SVG/PNG files, mockup frames, Canva assembly notes, search terms, music/audio notes, and a voiceover script with timestamps.
+
+The Workspace Agent should deconstruct every supplied kit into:
+
+- exact source-locked claims, numbers, caveats, and source labels
+- chart/source assets that may become animated Remotion proof
+- manager-approved CTA language, logo requirements, and hold timing
+- voiceover/transcript timing that can become captions or speech later
+- negative constraints such as no clipart, no fake values, no overcrowded labels, and no style copying
+- opportunities for Remotion upgrades: animated charts, asset-led analogies, Lottie support motion, sound effects, and source-born proof
+
+Manual reels, manual stills, and previous mockups are separate reference inputs unless the manager kit explicitly includes them. Manual reels are separate benchmark or CTA references. If a manual reference reel is supplied separately, use it as benchmark or CTA evidence, not as proof that every future kit will contain those stills.
+
+The rule is not to recreate Canva one-to-one. Do not recreate Canva frames one-to-one. Preserve source truth, CTA obligations, and useful pacing, then upgrade the route into a Family B/C Remotion treatment with clear analogy, animated proof, Lottie support where useful, and review still/contact-sheet gates. The output should be a Remotion-upgraded route, not a Canva clone.
+
+Manager-kit CTA rules:
+
+- Preserve explicit closing CTA requirements such as logo hold, research URL, and minimum static hold time.
+- The default Invesense close is a clean logo lockup plus \`Read the research -> invesense.com/insights\`.
+- CTA residue from the reel mechanism may lead into the close, but it does not replace the branded logo and website action.
+
+Manager-kit Lottie rules:
+
+- If the kit forbids clipart or generic Canva vectors, do not add generic Lottie as a loophole.
+- Lottie may be used when it improves analogy comprehension, motion energy, or CTA polish.
+- Lottie can be a standalone analogy beat only when its behavior maps to the approved mechanism and remains source-safe.
+- Every candidate still needs source URL/local path, license note, role, scene placement, approval, and native fallback.
+`,
+};
+
 const manifest = {
   name: "invesense-workspace-agent",
   displayName: "Invesense Workspace Agent",
   phase: "phase-2-workspace-agent-workflow",
-  hardenedForPhase: "phase-6a-workspace-agent-hardening",
-  version: "0.6.0",
+  hardenedForPhase: "phase-6a-2-depth-audit",
+  version: "0.6.2",
   consolidationMode: "consolidated-chains",
   disclosureMode: "progressive-references",
   sourceOfTruth: "repo-native Phase 6A hardened Workspace Agent pack",
@@ -847,16 +1623,18 @@ const manifest = {
     title: skillDefinitions[id].title,
     sourceOldSystemStrategy: "consolidated rewrite with Phase 6A hardening",
   })),
+  knowledge: Object.keys(knowledge),
+  supplementalKnowledge: Object.keys(supplementalKnowledge),
   references: Object.keys(references),
   templates: Object.keys(templates),
-  examples: ["family-bc-sample-brief.json"],
+  examples: ["family-bc-sample-brief.json", ...Object.keys(phase6a2ForwardFixtures)],
 };
 
 const codexPluginJson = {
   name: "invesense-workspace-agent",
-  version: "0.6.0",
+  version: "0.6.2",
   description:
-    "Creative-director Workspace Agent for Invesense Family B/C finance reels with source proof, animated chart/SVG planning, Lottie discipline, styleframe gates, and blocked Codex handoffs.",
+    "Creative-director Workspace Agent for Invesense Family B/C finance reels with source proof, animated chart/SVG planning, Lottie discipline, old-v2 depth backfill, styleframe gates, and blocked Codex handoffs.",
   author: {
     name: "Invesense",
   },
@@ -886,7 +1664,7 @@ const legacyAgentPluginJson = {
   display_name: "Invesense Workspace Agent",
   description:
     "Legacy metadata for the hardened creative-director workflow. Canonical Codex import uses .codex-plugin/plugin.json.",
-  version: "0.6.0",
+  version: "0.6.2",
   type: "agent",
   entrypoint: "instructions.md",
 };
@@ -898,6 +1676,8 @@ Workspace Agent proposes; human approves; Codex implements.
 ## Role
 
 You are the creative director for Invesense Remotion reels. You do source intake, evidence audit, mechanism diagnosis, benchmark grounding, route ideation, asset and Lottie planning, styleframe direction, human review packaging, and Codex readiness gating.
+
+Start from \`knowledge/\` as the visible operating brain. Load \`references/\` only when deeper guidance is needed.
 
 ## House Benchmark
 
@@ -936,25 +1716,35 @@ Codex remains implementation-only. Codex receives only a human-approved handoff 
 
 No production reel implementation starts in Phase 2.
 No production reel implementation starts in Phase 6A.
+Phase 6A.2 is the final depth audit before import: use moment cards, continuous motion, analogy scoring, visual research/copy-risk, brand/manual reel rules, capability governance, pacing, and failure diagnosis before any Phase 6B pilot.
 `;
 
 const readme = `# Invesense Workspace Agent
 
-This is the Phase 6A hardened Workspace Agent package.
+This is the Phase 6A.2 hardened Workspace Agent package.
 
-It keeps the 13 consolidated workflow skills while adding progressive references, decision-ready templates, current Codex plugin metadata, Family B/C benchmark rules, animated chart/SVG proof planning, Lottie discipline, styleframe gates, review QA, and blocked Codex handoff validation.
+It keeps the 13 consolidated workflow skills while adding import-visible knowledge, final old-v2 depth backfill, progressive references, decision-ready templates, current Codex plugin metadata, Family B/C benchmark rules, animated chart/SVG proof planning, Lottie discipline, styleframe gates, review QA, and blocked Codex handoff validation.
+
+Start with \`knowledge/\` for the canonical operating brain. Use \`references/\` for deeper progressive-disclosure support.
 
 Use the package as a creative-director agent. Do not use it to implement Remotion code directly.
 `;
 
-const synthesis = `# Phase 6A Synthesis
+const synthesis = `# Phase 6A.2 Synthesis
 
 The old v2 agent had valuable depth but too many tiny skills. Phase 6A keeps the new 13-skill workflow and restores the useful operating depth as progressive references and stronger templates.
+
+Phase 6A.1 made the agent brain visible under knowledge/ so imported Workspace Agents and humans can discover the operating system immediately.
+
+Phase 6A.2 adds the final depth backfill from the old v2 audit: benchmark moment cards, continuous motion, object permanence, analogy scoring, visual search and copy-risk, brandbook/manual reel rules, 3D governance, retention pacing, variant rules, visual causality, prompt failure diagnosis, and legacy component inventory as concept-only evidence.
 
 The hardened agent is intentionally not a template generator. It is a gatekeeping creative director for source-grounded Family B/C reels.
 `;
 
-const buildSkillMarkdown = (id, definition) => `---
+const buildSkillMarkdown = (id, definition) => {
+  const knowledgeToLoad = skillKnowledgeMap[id] ?? Object.keys(knowledge);
+
+  return `---
 name: ${id}
 description: ${definition.description}
 ---
@@ -1011,6 +1801,12 @@ ${definition.stop.map((item) => `- ${item}`).join("\n")}
 
 ## References To Load
 
+Load canonical knowledge first:
+
+${knowledgeToLoad.map((item) => `- knowledge/${item}`).join("\n")}
+
+Then load deeper references as needed:
+
 ${definition.references.map((item) => `- ${item}`).join("\n")}
 
 ## Done When
@@ -1019,6 +1815,7 @@ ${definition.references.map((item) => `- ${item}`).join("\n")}
 - The next exact human decision is explicit.
 - The output blocks Codex if source proof, chart proof, route approval, assets, styleframes, scene behavior, or review frames are incomplete.
 `;
+};
 
 const buildTemplateMarkdown = (template) => `# ${template.title}
 
@@ -1042,6 +1839,14 @@ ${template.fields.map((field) => `- \`${field}\``).join("\n")}
 
 - Stop if source proof, chart fidelity, asset/Lottie approval, styleframe targets, scene behavior, review frames, or Codex readiness are missing.
 - Stop if the packet permits abstract shape-only diagrams, dashboard/card drift, static pasted charts as final proof, Lottie as hero metaphor, or Codex creative invention.
+- Stop if the no-label read is unclear, proof birth is not attached to a physical event, Lottie fit is generic, or review-only overlay / review scaffolding would appear inside production-style visuals.
+- Stop if card drift or dashboard drift is unresolved: charts may be source proof, but the hero asset must physically explain the mechanism.
+- Stop if the packet translates the website insight too literally. The handoff must include a plain-language average viewer explanation for someone with no finance background.
+- Stop if simplification changes the evidence. Use simple language and visual analogy, but preserve exact source-locked numbers, exact claims, units, dates, caveats, and source labels.
+- Stop if no transcript, caption, or voiceover plan exists for a narrated reel. Captions may become on-screen text only when they are short, source-safe, and timed to the visual event.
+- Stop if animation and narration are not synchronized. Assets and Lottie should appear as the voiceover is talking about the mechanism, not before or after the idea has passed.
+- Stop if SFX is missing for an audio-approved draft. Sound effect choices should be restrained and event-linked: soft whoosh for movement, switch or ding for confirmation, never meme sounds unless explicitly approved.
+- Stop if the branded CTA close is missing. Every reel needs a logo hold and direct website action such as \`Read the research -> invesense.com/insights\`.
 
 ## Codex boundary
 
@@ -1053,6 +1858,9 @@ const ensureDir = (dirPath) => fs.mkdirSync(dirPath, { recursive: true });
 const writeText = (relativePath, content) => {
   const fullPath = path.join(projectRoot, relativePath);
   ensureDir(path.dirname(fullPath));
+  if (fs.existsSync(fullPath) && fs.readFileSync(fullPath, "utf8") === content) {
+    return;
+  }
   fs.writeFileSync(fullPath, content);
 };
 
@@ -1069,7 +1877,16 @@ const writePack = (root) => {
     `${root}/knowledge/old-system-audit-register.json`,
     JSON.parse(fs.readFileSync(path.join(projectRoot, "workspace-agent/knowledge/old-system-audit-register.json"), "utf8")),
   );
+  for (const [fileName, content] of Object.entries(knowledge)) {
+    writeText(`${root}/knowledge/${fileName}`, content);
+  }
+  for (const [fileName, content] of Object.entries(supplementalKnowledge)) {
+    writeText(`${root}/knowledge/${fileName}`, content);
+  }
   writeJson(`${root}/examples/family-bc-sample-brief.json`, sampleBrief);
+  for (const [fileName, fixture] of Object.entries(phase6a2ForwardFixtures)) {
+    writeJson(`${root}/examples/${fileName}`, fixture);
+  }
 
   for (const [fileName, content] of Object.entries(references)) {
     writeText(`${root}/references/${fileName}`, content);
@@ -1090,5 +1907,5 @@ writeJson(`${packageRoot}/.codex-plugin/plugin.json`, codexPluginJson);
 writeJson(`${packageRoot}/.agent-plugin/plugin.json`, legacyAgentPluginJson);
 
 console.log(
-  `Generated Phase 6A hardened Workspace Agent pack with ${skillIds.length} skills, ${Object.keys(references).length} references, and ${Object.keys(templates).length} templates.`,
+  `Generated Phase 6A.2 hardened Workspace Agent pack with ${skillIds.length} skills, ${Object.keys(knowledge).length} knowledge files, ${Object.keys(references).length} references, and ${Object.keys(templates).length} templates.`,
 );

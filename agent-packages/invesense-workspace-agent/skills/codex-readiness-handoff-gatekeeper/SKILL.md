@@ -71,6 +71,15 @@ Protect against the old fatal mistake: Codex receives prose too early and invent
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/codex-handoff-and-stop-gates.md
+- knowledge/remotion-3d-and-capability-governance.md
+- knowledge/failure-diagnosis-and-legacy-component-inventory.md
+- knowledge/source-proof-operating-system.md
+
+Then load deeper references as needed:
+
 - references/remotion-qa-codex-gates.md
 - references/source-chart-svg-proof-rules.md
 

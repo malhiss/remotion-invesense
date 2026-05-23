@@ -73,6 +73,15 @@ Ground creative direction in the benchmark atlas: Family B/C primary for light e
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/family-bc-benchmark-grammar.md
+- knowledge/benchmark-moment-card-system.md
+- knowledge/visual-reference-search-and-copy-risk.md
+- knowledge/analogy-scoring-and-failure-modes.md
+
+Then load deeper references as needed:
+
 - references/family-bc-benchmark-grammar.md
 - references/remotion-qa-codex-gates.md
 

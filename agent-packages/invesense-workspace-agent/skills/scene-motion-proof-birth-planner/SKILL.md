@@ -73,6 +73,15 @@ Make motion carry meaning: event first, proof born from event, labels after caus
 
 ## References To Load
 
+Load canonical knowledge first:
+
+- knowledge/continuous-motion-and-object-permanence.md
+- knowledge/motion-pacing-format-and-variant-rules.md
+- knowledge/mechanism-analogy-wow-atlas.md
+- knowledge/failure-diagnosis-and-legacy-component-inventory.md
+
+Then load deeper references as needed:
+
 - references/mechanism-proof-wow-atlas.md
 - references/remotion-qa-codex-gates.md
 
